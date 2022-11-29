@@ -1,0 +1,17 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "indentation": 2,
+    "declaration-empty-line-before": ["always", {
+      "except": ["first-nested"],
+      "ignore": ["after-comment", "after-declaration"]
+    }],
+    "custom-property-empty-line-before": ["always", {
+      "except": ["first-nested", "after-comment", "after-custom-property"],
+      "ignore": ["after-comment"]
+    }]
+  },
+  "ignoreFiles": [
+    "vendor/normalize.css"
+  ]
+}
