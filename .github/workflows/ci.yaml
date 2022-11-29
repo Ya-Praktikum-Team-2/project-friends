@@ -33,6 +33,7 @@ jobs:
           root: '.'
           # Can't recognize aspect-ratio rule
           css: false
+          extra: --show-warnings
   bem_validator:
     needs: w3c_validator
     runs-on: ubuntu-latest
