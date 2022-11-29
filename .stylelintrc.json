@@ -9,7 +9,8 @@
     "custom-property-empty-line-before": ["always", {
       "except": ["first-nested", "after-comment", "after-custom-property"],
       "ignore": ["after-comment"]
-    }]
+    }],
+    "max-empty-lines": 2
   },
   "ignoreFiles": [
     "vendor/normalize.css"
