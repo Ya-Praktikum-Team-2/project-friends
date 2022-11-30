@@ -15,8 +15,16 @@
 
 
 /* activities block */
-
-
+@import url(../blocks/main/activities/activities.css);
+@import url(../blocks/main/activities/__container/activities__container.css);
+@import url(../blocks/main/activitie/activitie.css);
+@import url(../blocks/main/activitie/__bulb/activitie__bulb.css);
+@import url(../blocks/main/activitie/__development/activitie__development.css);
+@import url(../blocks/main/activitie/__learning/activitie__learning.css);
+@import url(../blocks/main/activitie/__responsibility/activitie__responsibility.css);
+@import url(../blocks/main/activitie/__text/activitie__text.css);
+@import url(../blocks/main/section/__title/section__title.css);
+@import url(../blocks/main/section/__text/section__text.css);
 /* programs block */
 
 
