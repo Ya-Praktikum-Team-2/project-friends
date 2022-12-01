@@ -1,0 +1,13 @@
+.useful-links__title {
+font: var(--title-3);
+text-align: center;
+margin: 0 auto 56px;
+}
+
+@media (max-width: 520px) {
+  .useful-links__title {
+    font-size: 32px;
+    line-height: 44px;
+    margin: 0 auto 24px;
+  }
+}

@@ -1,0 +1,13 @@
+.useful-card__image_icon_books {
+  top: 53px;
+  right: 41px;
+}
+
+@media (max-width: 520px) {
+  .useful-card__image_icon_books {
+    width: 112px;
+    height: 77px;
+    top: 108px;
+    right: 34px;
+  }
+}

@@ -1,0 +1,13 @@
+.useful-card__image_icon_magnifyingGlass {
+  top: 34px;
+  right: 18px;
+}
+
+@media (max-width: 520px) {
+  .useful-card__image_icon_magnifyingGlass {
+    width: 114px;
+    height: 114px;
+    top: 93px;
+    right: 30px;
+  }
+}

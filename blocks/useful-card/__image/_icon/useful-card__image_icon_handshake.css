@@ -1,0 +1,13 @@
+.useful-card__image_icon_handshake {
+  top: 15px;
+  right: 13px;
+}
+
+@media (max-width: 520px) {
+  .useful-card__image_icon_handshake {
+    width: 136px;
+    height: 137px;
+    top: 72px;
+    right: 28px;
+  }
+}
