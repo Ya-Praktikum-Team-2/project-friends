@@ -3,7 +3,7 @@
   right: 68px;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 576px) {
   .useful-card__image_icon_checklist {
     width: 94px;
     height: 94px;
