@@ -1,0 +1,9 @@
+.programs-Moscow-School__button {
+  margin: 56px 0 0 124px;
+  height: 56px;
+  width: 201px;
+  border-radius: 56px;
+  color: white;
+  background-color: var(--turquoise-80);
+  border: 0ch;
+}
