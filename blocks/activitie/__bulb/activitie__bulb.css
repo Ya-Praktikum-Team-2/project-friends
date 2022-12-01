@@ -1,0 +1,7 @@
+/* .activitie__bulb{
+  background-color: var(--turquoise-70);
+} */
+
+.activitie__bulb{
+  background: url("../../../images/icons/bulb.svg") var(--turquoise-70) no-repeat;
+}
