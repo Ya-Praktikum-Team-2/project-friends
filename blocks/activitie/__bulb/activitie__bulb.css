@@ -1,7 +1,4 @@
-/* .activitie__bulb{
-  background-color: var(--turquoise-70);
-} */
-
-.activitie__bulb{
+/* stylelint-disable no-missing-end-of-source-newline */
+.activitie__bulb {
   background: url("../../../images/icons/bulb.svg") var(--turquoise-70) no-repeat;
 }

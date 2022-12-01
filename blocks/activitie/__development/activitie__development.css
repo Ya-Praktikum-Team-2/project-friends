@@ -1,4 +1,5 @@
-.activitie__development{
+/* stylelint-disable no-missing-end-of-source-newline */
+.activitie__development {
   background: url("../../../images/icons/development.svg") var(--pink-70) no-repeat;
   margin-top: 232px;
   margin-left: -214px;
