@@ -13,10 +13,10 @@ export default class Carousel {
    * @param {number} config.timeInterval - Time in ms before automatic slide rotation.
    * @param {bool} config.alwaysSlide - Change default fade animation into sliding one.
    * @param {bool} config.ignoreTouch - Change how touch and keyboard events are handled.
-   * @param {number} config.touchMinDistance - Min distance of a swipe
+   * @param {number} config.touchMinDistance - Min distance in pixels of a swipe
    * to register it as a slide change.
-   * @param {number} config.touchDebounce - Min time between touch events to register them
-   * as a slide change
+   * @param {number} config.touchDebounce - Min time in ms between touch events to
+   * register them as a slide change
    */
   constructor(
     carouselEl,
