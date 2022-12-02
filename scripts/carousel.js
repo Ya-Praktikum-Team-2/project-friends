@@ -10,7 +10,7 @@ export default class Carousel {
    * Create a carousel helper.
    * @param {HTMLElement} carouselEl - The carousel element.
    * @param {object} config - Carousel configuration.
-   * @param {number} config.timeInterval - Time in ms before automatic slide rotation.
+   * @param {number} config.timeInterval - Time in ms between automatic slides rotations.
    * @param {bool} config.alwaysSlide - Change default fade animation into sliding one.
    * @param {bool} config.ignoreTouch - Change how touch and keyboard events are handled.
    * @param {number} config.touchMinDistance - Min distance in pixels of a swipe
@@ -30,7 +30,11 @@ export default class Carousel {
   ) {
     /** @private */
     this.isPlayingEnabled = false;
-    /** @private */
+    /**
+     * Changes time in ms between automatic slides rotations.
+     * New value takes effect at the next rotation.
+     * @type {number}
+     */
     this.timeInterval = timeInterval;
     /** @private */
     this.currentIdx = 0;
