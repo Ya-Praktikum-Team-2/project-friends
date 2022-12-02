@@ -96,14 +96,15 @@
 
 /* our-friends-slide block */
 @import url("../blocks/our-friends-slide/our-friends-slide.css");
+@import url("../blocks/our-friends-slide/__author/our-friends-slide__author.css");
 @import url("../blocks/our-friends-slide/__background/our-friends-slide__background.css");
 @import url("../blocks/our-friends-slide/__background/_align/our-friends-slide__background_align_left.css");
 @import url("../blocks/our-friends-slide/__background/_align/our-friends-slide__background_align_right.css");
 @import url("../blocks/our-friends-slide/__caption/our-friends-slide__caption.css");
 @import url("../blocks/our-friends-slide/__caption/_align/our-friends-slide__caption_align_left.css");
 @import url("../blocks/our-friends-slide/__caption/_align/our-friends-slide__caption_align_right.css");
-@import url("../blocks/our-friends-slide/__subtitle/our-friends-slide__subtitle.css");
-@import url("../blocks/our-friends-slide/__subtitle-bold/our-friends-slide__subtitle-bold.css");
+@import url("../blocks/our-friends-slide/__description/our-friends-slide__description.css");
+@import url("../blocks/our-friends-slide/__name/our-friends-slide__name.css");
 @import url("../blocks/our-friends-slide/__title/our-friends-slide__title.css");
 @import url("../blocks/our-friends-slide/__title-emphasis/our-friends-slide__title-emphasis.css");
 
