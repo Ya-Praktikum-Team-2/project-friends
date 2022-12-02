@@ -31,7 +31,7 @@ export default class Carousel {
     /** @private */
     this.isPlayingEnabled = false;
     /**
-     * Changes time in ms between automatic slides rotations.
+     * Time in ms between automatic slides rotations.
      * New value takes effect at the next rotation.
      * @type {number}
      */
