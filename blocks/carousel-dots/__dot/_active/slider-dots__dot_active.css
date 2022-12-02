@@ -1,0 +1,5 @@
+.carousel-dots__dot_active {
+  width: 29px;
+  background-color: var(--turquoise-60);
+  opacity: 1;
+}

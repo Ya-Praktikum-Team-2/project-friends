@@ -1,0 +1,16 @@
+.hero-slide__caption_add-contrast {
+  position: relative;
+  z-index: 0;
+}
+
+.hero-slide__caption_add-contrast::before {
+  content: "";
+  background-color: var(--black-10);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  z-index: -1;
+}

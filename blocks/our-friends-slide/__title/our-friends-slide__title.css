@@ -1,0 +1,10 @@
+.our-friends-slide__title {
+  margin: 0;
+  font: 700 44px/58px var(--font-normal);
+}
+
+@media (max-width: 576px) {
+  .our-friends-slide__title {
+    font: 700 27px/38px var(--font-normal);
+  }
+}

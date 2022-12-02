@@ -1,0 +1,9 @@
+.carousel__dots_type_friends {
+  margin: 18px 0 32px;
+}
+
+@media (max-width: 576px) {
+  .carousel__dots_type_friends {
+    margin: 24px 0 0;
+  }
+}

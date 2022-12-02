@@ -1,0 +1,4 @@
+.arrow-button_dir_right {
+  background-image: url("../../../images/icons/arrow-button-left.svg");
+  transform: scaleX(-1);
+}

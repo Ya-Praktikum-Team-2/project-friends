@@ -1,0 +1,15 @@
+.our-friends-slide__caption_align_right {
+  margin: 0 80px 0 510px;
+}
+
+@media (max-width: 1080px) {
+  .our-friends-slide__caption_align_right {
+    margin: 0 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .our-friends-slide__caption_align_right {
+    margin: 40px 32px;
+  }
+}

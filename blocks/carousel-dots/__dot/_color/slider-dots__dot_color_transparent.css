@@ -1,0 +1,4 @@
+.carousel-dots__dot_color_transparent {
+  background-color: var(--black-100);
+  opacity: 0.4;
+}

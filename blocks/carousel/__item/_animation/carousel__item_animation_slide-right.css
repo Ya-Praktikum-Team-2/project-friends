@@ -1,0 +1,5 @@
+.carousel__item_animation_slide-right {
+  visibility: visible;
+  z-index: 1;
+  animation-name: slide-right;
+}

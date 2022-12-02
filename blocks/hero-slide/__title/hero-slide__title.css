@@ -1,0 +1,17 @@
+.hero-slide__title {
+  padding: 0;
+  margin: 0;
+  font: 700 62px/66px var(--font-normal);
+}
+
+@media (max-width: 900px) {
+  .hero-slide__title {
+    font: 700 50px/55px var(--font-normal);
+  }
+}
+
+@media (max-width: 800px) {
+  .hero-slide__title {
+    font: 700 42px/47px var(--font-normal);
+  }
+}
