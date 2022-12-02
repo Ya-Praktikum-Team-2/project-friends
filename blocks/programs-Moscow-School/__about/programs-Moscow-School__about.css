@@ -3,6 +3,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 26px;
-  color: white;
+  color: var(--black-100);
   max-width: 465px;
 }

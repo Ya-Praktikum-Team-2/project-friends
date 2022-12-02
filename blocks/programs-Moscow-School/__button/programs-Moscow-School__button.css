@@ -3,7 +3,7 @@
   height: 56px;
   width: 201px;
   border-radius: 56px;
-  color: white;
+  color: var(--black-100);
   background-color: var(--blue-80);
   border: 0ch;
 }
