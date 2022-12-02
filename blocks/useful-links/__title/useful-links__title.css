@@ -6,7 +6,6 @@
 
 @media (max-width: 576px) {
   .useful-links__title {
-    font: var(--title-3);
     margin: 0 auto 24px;
   }
 }

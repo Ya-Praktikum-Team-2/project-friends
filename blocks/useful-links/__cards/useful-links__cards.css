@@ -12,7 +12,6 @@
   .useful-links__cards {
     margin: 0 16px;
     grid-template-columns: repeat(auto-fit, minmax(343px, 504px));
-    grid-auto-rows: 208px;
     gap: 16px;
   }
 }
