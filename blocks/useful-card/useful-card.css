@@ -1,0 +1,30 @@
+.useful-card {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--black-10);
+  background-color: var(--black-90);
+  transition: box-shadow 0.4s ease-out;
+}
+
+.useful-card:hover {
+  box-shadow: 0 4px 84px rgba(0 0 0 / 15%);
+}
+
+.useful-card > :is(.useful-card__image_icon_handshake, .useful-card__image_icon_checklist) {
+  transition: transform 0.4s ease-out, translateX 0.4s ease-out;
+}
+
+.useful-card:hover > :is(.useful-card__image_icon_handshake, .useful-card__image_icon_checklist) {
+  transform: scale(1.1) translateX(5px);
+}
+
+.useful-card > :is(.useful-card__image_icon_books, .useful-card__image_icon_magnifying-glass) {
+  transition: transform 0.4s ease-out, translateY 0.4s ease-out;
+}
+
+.useful-card:hover > :is(.useful-card__image_icon_books, .useful-card__image_icon_magnifying-glass) {
+  transform: scale(1.1) translateY(-5px);
+}
