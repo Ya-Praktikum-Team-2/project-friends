@@ -1,4 +1,6 @@
 import Carousel from './carousel.js';
+import checkScreenSize from './utils/checkScreenSize.js';
+import toggleSubmenu from './toggleSubmenu.js';
 
 const heroEl = document.querySelector('.hero-banner');
 // eslint-disable-next-line no-unused-vars
@@ -13,10 +15,6 @@ const friendsCarousel = new Carousel(friendsEl);
 const footerSubmenuButton = document.querySelector('.footer__menu-button');
 const programSubmenu = document.querySelector('.submenu_type_program');
 
-function toggleSubmenu(element, submenu) {
-  element.addEventListener('click', () => {
-    submenu.classList.toggle('submenu_active');
-  });
-}
+window.addEventListener('resize', () => checkScreenSize(), { passive: true });
 
 toggleSubmenu(footerSubmenuButton, programSubmenu);
