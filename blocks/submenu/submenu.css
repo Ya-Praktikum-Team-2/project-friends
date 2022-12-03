@@ -1,0 +1,12 @@
+.submenu {
+  visibility: hidden;
+  opacity: 0;
+  list-style: none;
+  display: flex;
+}
+
+@media (max-width: 576px) {
+  .submenu {
+    display: none;
+  }
+}

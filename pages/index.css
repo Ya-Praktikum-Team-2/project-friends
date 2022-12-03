@@ -125,4 +125,38 @@
 
 
 /* footer block */
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/_main/footer_main.css");
+@import url("../blocks/footer/__nav/footer__nav.css");
+@import url("../blocks/footer/__menu/footer__menu.css");
+@import url("../blocks/footer/__menu-item/footer__menu-item.css");
+@import url("../blocks/footer/__menu-link/footer__menu-link.css");
+@import url("../blocks/footer/__menu-link/_donate/footer__menu-link_donate.css");
+@import url("../blocks/footer/__menu-button/footer__menu-button.css");
+@import url("../blocks/footer/__submenu/footer__submenu.css");
+@import url("../blocks/footer/__submenu-item/footer__submenu-item.css");
+@import url("../blocks/footer/__submenu-link/footer__submenu-link.css");
+@import url("../blocks/footer/__contacts-container/footer__contacts-container.css");
+@import url("../blocks/footer/__contacts/footer__contacts.css");
+@import url("../blocks/footer/__contact/footer__contact.css");
+@import url("../blocks/footer/__contact-title/footer__contact-title.css");
+@import url("../blocks/footer/__contact-value/footer__contact-value.css");
+@import url("../blocks/footer/__socials/footer__socials.css");
+@import url("../blocks/footer/__social-link/footer__social-link.css");
+@import url("../blocks/footer/__social/footer__social.css");
+@import url("../blocks/footer/__law/footer__law.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
+@import url("../blocks/footer/__copyright-age/footer__copyright-age.css");
+@import url("../blocks/footer/__terms-of-use/footer__terms-of-use.css");
+@import url("../blocks/footer/__duns-logo/footer__duns-logo.css");
 
+/* logo block */
+@import url("../blocks/logo/logo.css");
+@import url("../blocks/logo/__image-container/logo__image-container.css");
+@import url("../blocks/logo/__title/logo__title.css");
+@import url("../blocks/logo/__title-foundation/logo__title-foundation.css");
+
+/* submenu block */
+@import url("../blocks/submenu/submenu.css");
+@import url("../blocks/submenu/_active/submenu_active.css");
+@import url("../blocks/submenu/_type/submenu_type_program.css");

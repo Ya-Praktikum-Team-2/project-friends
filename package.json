@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "lint": "eslint --no-error-on-unmatched-pattern \"scripts/**/*.js\" && stylelint --config \"./.stylelintrc.json\" \"**/*.css\""
+    "lint": "eslint --no-error-on-unmatched-pattern \"scripts/**/*.js\" && stylelint --config \"./.stylelintrc.json\" \"**/*.css\"",
+    "lint-fix": "eslint --no-error-on-unmatched-pattern \"scripts/**/*.js\" --fix && stylelint --config \"./.stylelintrc.json\" \"**/*.css\" --fix"
   },
   "license": "Apache-2.0",
   "devDependencies": {

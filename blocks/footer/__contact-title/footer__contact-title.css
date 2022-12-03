@@ -1,0 +1,7 @@
+.footer__contact-title {
+  margin: 0;
+  color: var(--black-50);
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: 400;
+}

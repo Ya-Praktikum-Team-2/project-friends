@@ -1,0 +1,4 @@
+.logo__image-container {
+  padding-right: 18px;
+  border-right: 0.5px solid var(--black-100-20p);
+}
