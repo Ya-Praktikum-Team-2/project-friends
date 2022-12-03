@@ -1,8 +1,9 @@
 .footer__menu {
   padding: 0;
+  padding-top: 8px;
   margin: 0;
   list-style: none;
-  max-width: 730px;
+  max-width: 740px;
   width: 100%;
   display: flex;
   gap: 28px;
@@ -11,6 +12,7 @@
 
 @media (max-width: 576px) {
   .footer__menu {
+    padding-top: 0;
     gap: 25px;
   }
 }

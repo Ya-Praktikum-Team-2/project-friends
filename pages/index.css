@@ -130,6 +130,7 @@
 @import url("../blocks/footer/__menu/footer__menu.css");
 @import url("../blocks/footer/__menu-item/footer__menu-item.css");
 @import url("../blocks/footer/__menu-link/footer__menu-link.css");
+@import url("../blocks/footer/__menu-button/footer__menu-button.css");
 @import url("../blocks/footer/__menu-item/_active/footer__menu-item_active.css");
 @import url("../blocks/footer/__contacts-container/footer__contacts-container.css");
 @import url("../blocks/footer/__contacts/footer__contacts.css");
@@ -147,3 +148,8 @@
 @import url("../blocks/logo/__image-container/logo__image-container.css");
 @import url("../blocks/logo/__title/logo__title.css");
 @import url("../blocks/logo/__title-foundation/logo__title-foundation.css");
+
+/* submenu block */
+@import url("../blocks/submenu/submenu.css");
+@import url("../blocks/submenu/_active/submenu_active.css");
+@import url("../blocks/submenu/_type/submenu_type_program.css");
