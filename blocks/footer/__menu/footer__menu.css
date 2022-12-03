@@ -2,8 +2,15 @@
   padding: 0;
   margin: 0;
   list-style: none;
-  max-width: 680px;
+  max-width: 730px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+  .footer__menu {
+    gap: 25px;
+  }
 }

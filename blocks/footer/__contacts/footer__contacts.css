@@ -3,4 +3,11 @@
   margin-left: auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 576px) {
+  .footer__contacts {
+    gap: 16px;
+  }
 }
