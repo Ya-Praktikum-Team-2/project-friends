@@ -1,0 +1,25 @@
+.programs-moscow-school__logo-title {
+  display: flex;
+  margin: 0 0 0 652px;
+  padding-top: 75px;
+}
+
+@media (max-width: 1279px) {
+  .programs-moscow-school__logo-title {
+    margin: 0 0 0 550px;
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .programs-moscow-school__logo-title {
+    margin: 0 0 0 425px;
+  }
+}
+
+@media (max-width: 767px) {
+  .programs-moscow-school__logo-title {
+    margin: 0 0 0 25px;
+    padding-top: 32px;
+  }
+}
