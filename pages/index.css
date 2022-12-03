@@ -71,7 +71,7 @@
 @import url("../blocks/footer/__contact-value/footer__contact-value.css");
 @import url("../blocks/footer/__law/footer__law.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
-@import url("../blocks/footer/__copyright/_type/footer__copyright_type_age.css");
+@import url("../blocks/footer/__copyright-age/footer__copyright-age.css");
 @import url("../blocks/footer/__terms-of-use/footer__terms-of-use.css");
 @import url("../blocks/footer/__duns-logo/footer__duns-logo.css");
 
