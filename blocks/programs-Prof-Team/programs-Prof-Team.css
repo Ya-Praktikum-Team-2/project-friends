@@ -1,9 +1,8 @@
 .programs-Prof-Team {
   background-color: var(--pink-70);
-  margin-top: 0px;
   height: 490px;
   position: relative;
-  background-image: url(../../images/ProfTeam-image-profi.png);
+  background-image: url("../../images/ProfTeam-image-profi.png");
   background-size: 790px;
   background-repeat: no-repeat;
   background-position: right 0 bottom 0;

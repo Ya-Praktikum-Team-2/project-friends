@@ -18,31 +18,30 @@
 
 
 /* programs block */
-@import url(../blocks/programs/programs.css);
-@import url(../blocks/programs/__title/programs__title.css);
-@import url(../blocks/programs-blocks/programs-blocks.css);
-@import url(../blocks/programs-ProCharity/programs-ProCharity.css);
-@import url(../blocks/programs-ProCharity/__about/programs-ProCharity__about.css);
-@import url(../blocks/programs-ProCharity/__button/programs-ProCharity__button.css);
-@import url(../blocks/programs-ProCharity/__logo-title/programs-ProCharity__logo-title.css);
-@import url(../blocks/programs-ProCharity/__logo-title/_image/programs-ProCharity__logo-title_image.css);
-@import url(../blocks/programs-ProCharity/__logo-title/_name/programs-ProCharity__logo-title_name.css);
-@import url(../blocks/programs-ProCharity/__title/programs-ProCharity__title.css);
-@import url(../blocks/programs-Moscow-School/programs-Moscow-School.css);
-@import url(../blocks/programs-Moscow-School/__about/programs-Moscow-School__about.css);
-@import url(../blocks/programs-Moscow-School/__button/programs-Moscow-School__button.css);
-@import url(../blocks/programs-Moscow-School/__logo-title/programs-Moscow-School__logo-title.css);
-@import url(../blocks/programs-Moscow-School/__logo-title/_image/programs-Moscow-School__logo-title_image.css);
-@import url(../blocks/programs-Moscow-School/__logo-title/_name/programs-Moscow-School__logo-title_name.css);
-@import url(../blocks/programs-Moscow-School/__title/programs-Moscow-School__title.css);
-@import url(../blocks/programs/);
-@import url(../blocks/programs-Prof-Team/programs-Prof-Team.css);
-@import url(../blocks/programs-Prof-Team/__about/programs-Prof-Team__about.css);
-@import url(../blocks/programs-Prof-Team/__button/programs-Prof-Team__button.css);
-@import url(../blocks/programs-Prof-Team/__logo-title/_name/programs-Prof-Team__logo-title_name.css);
-@import url(../blocks/programs-Prof-Team/__logo-title/programs-Prof-Team__logo-title.css);
-@import url(../blocks/programs-Prof-Team/__title/programs-Prof-Team__title.css);
-@import url(../blocks/programs-blocks/programs-blocks.css);
+@import url("../blocks/programs/programs.css");
+@import url("../blocks/programs/__title/programs__title.css");
+@import url("../blocks/programs-blocks/programs-blocks.css");
+@import url("../blocks/programs-ProCharity/programs-ProCharity.css");
+@import url("../blocks/programs-ProCharity/__about/programs-ProCharity__about.css");
+@import url("../blocks/programs-ProCharity/__button/programs-ProCharity__button.css");
+@import url("../blocks/programs-ProCharity/__logo-title/programs-ProCharity__logo-title.css");
+@import url("../blocks/programs-ProCharity/__logo-title/_image/programs-ProCharity__logo-title_image.css");
+@import url("../blocks/programs-ProCharity/__logo-title/_name/programs-ProCharity__logo-title_name.css");
+@import url("../blocks/programs-ProCharity/__title/programs-ProCharity__title.css");
+@import url("../blocks/programs-Moscow-School/programs-Moscow-School.css");
+@import url("../blocks/programs-Moscow-School/__about/programs-Moscow-School__about.css");
+@import url("../blocks/programs-Moscow-School/__button/programs-Moscow-School__button.css");
+@import url("../blocks/programs-Moscow-School/__logo-title/programs-Moscow-School__logo-title.css");
+@import url("../blocks/programs-Moscow-School/__logo-title/_image/programs-Moscow-School__logo-title_image.css");
+@import url("../blocks/programs-Moscow-School/__logo-title/_name/programs-Moscow-School__logo-title_name.css");
+@import url("../blocks/programs-Moscow-School/__title/programs-Moscow-School__title.css");
+@import url("../blocks/programs-Prof-Team/programs-Prof-Team.css");
+@import url("../blocks/programs-Prof-Team/__about/programs-Prof-Team__about.css");
+@import url("../blocks/programs-Prof-Team/__button/programs-Prof-Team__button.css");
+@import url("../blocks/programs-Prof-Team/__logo-title/_name/programs-Prof-Team__logo-title_name.css");
+@import url("../blocks/programs-Prof-Team/__logo-title/programs-Prof-Team__logo-title.css");
+@import url("../blocks/programs-Prof-Team/__title/programs-Prof-Team__title.css");
+@import url("../blocks/programs-blocks/programs-blocks.css");
 
 /* values block */
 

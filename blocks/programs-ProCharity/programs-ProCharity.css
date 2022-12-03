@@ -3,7 +3,7 @@
   margin-top: 56px;
   height: 490px;
   position: relative;
-  background-image: url(../../images/ProCharity-image-laptop.png);
+  background-image: url("../../images/ProCharity-image-laptop.png");
   background-size: 1011px;
   background-repeat: no-repeat;
   background-position: right 0 top 0;
@@ -25,11 +25,8 @@
 
 @media screen and (max-width: 767px) {
   .programs-ProCharity {
+    margin-top: 24px;
     height: 292px;
     background-image: none;
   }
 }
-
-
-
-
