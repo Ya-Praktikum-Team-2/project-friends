@@ -1,0 +1,18 @@
+{
+  "name": "project-linters",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "lint": "eslint --no-error-on-unmatched-pattern \"scripts/**/*.js\" && stylelint --config \"./.stylelintrc.json\" \"**/*.css\""
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "stylelint": "^14.15.0",
+    "stylelint-config-standard": "^29.0.0"
+  }
+}

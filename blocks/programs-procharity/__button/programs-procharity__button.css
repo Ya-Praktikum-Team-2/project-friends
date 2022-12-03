@@ -1,0 +1,28 @@
+.programs-procharity__button {
+  margin: 56px 0 0 124px;
+  height: 56px;
+  width: 201px;
+  border-radius: 56px;
+  color: var(--black-100);
+  background-color: var(--turquoise-80);
+  border: none;
+  font-weight: bold;
+  transition: 0.2s linear;
+}
+
+.programs-procharity__button:hover {
+  background-color: var(--black-100);
+  color: var(--black-10);
+}
+
+@media (max-width: 1279px) {
+  .programs-procharity__button {
+    margin: 46px 0 0 90px;
+  }
+}
+
+@media (max-width: 767px) {
+  .programs-procharity__button {
+    margin: 24px 0 0 24px;
+  }
+}

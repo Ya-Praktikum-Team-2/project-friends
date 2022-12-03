@@ -1,0 +1,19 @@
+.programs-prof-team__logo-title {
+  display: flex;
+  margin: 0 0 0 124px;
+  padding-top: 88px;
+}
+
+@media (max-width: 1279px) {
+  .programs-prof-team__logo-title {
+    margin: 0 0 0 90px;
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .programs-prof-team__logo-title {
+    margin: 0 0 0 25px;
+    padding-top: 32px;
+  }
+}

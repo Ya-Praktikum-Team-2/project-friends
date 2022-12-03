@@ -1,0 +1,71 @@
+@import url("../vendor/fonts.css");
+@import url("../vendor/normalize.css");
+@import url("../vendor/variables.css");
+
+/* page block */
+@import url("../blocks/page/page.css");
+
+/* header block */
+
+
+/* main block */
+@import url("../blocks/main/main.css");
+
+/* about-us block */
+
+
+/* activities block */
+
+
+/* programs block */
+@import url("../blocks/programs/programs.css");
+@import url("../blocks/programs/__title/programs__title.css");
+@import url("../blocks/programs/__blocks/programs__blocks.css");
+@import url("../blocks/programs-procharity/programs-procharity.css");
+@import url("../blocks/programs-procharity/__about/programs-procharity__about.css");
+@import url("../blocks/programs-procharity/__button/programs-procharity__button.css");
+@import url("../blocks/programs-procharity/__logo-title/programs-procharity__logo-title.css");
+@import url("../blocks/programs-procharity/__name/programs-procharity__name.css");
+@import url("../blocks/programs-procharity/__title/programs-procharity__title.css");
+@import url("../blocks/programs-moscow-school/programs-moscow-school.css");
+@import url("../blocks/programs-moscow-school/__about/programs-moscow-school__about.css");
+@import url("../blocks/programs-moscow-school/__button/programs-moscow-school__button.css");
+@import url("../blocks/programs-moscow-school/__logo-title/programs-moscow-school__logo-title.css");
+@import url("../blocks/programs-moscow-school/__name/programs-moscow-school__name.css");
+@import url("../blocks/programs-moscow-school/__title/programs-moscow-school__title.css");
+@import url("../blocks/programs-prof-team/programs-prof-team.css");
+@import url("../blocks/programs-prof-team/__about/programs-prof-team__about.css");
+@import url("../blocks/programs-prof-team/__button/programs-prof-team__button.css");
+@import url("../blocks/programs-prof-team/__name/programs-prof-team__name.css");
+@import url("../blocks/programs-prof-team/__logo-title/programs-prof-team__logo-title.css");
+@import url("../blocks/programs-prof-team/__title/programs-prof-team__title.css");
+
+/* values block */
+
+
+/* statistics block */
+
+
+/* useful-links block */
+
+
+/* our-friends block */
+
+
+/* blog block */
+
+
+/* subscribe block */
+
+
+/* partners block */
+
+
+/* feedback block */
+
+
+/* support block */
+
+
+/* footer block */
+

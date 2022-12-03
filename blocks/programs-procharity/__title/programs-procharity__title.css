@@ -1,0 +1,27 @@
+.programs-procharity__title {
+  margin: 13px 0 0 124px;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 40px;
+  color: var(--black-100);
+}
+
+@media (max-width: 1279px) {
+  .programs-procharity__title {
+    margin: 13px 0 0 90px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .programs-procharity__title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .programs-procharity__title {
+    font-size: 32px;
+    margin: 16px 0 0 24px;
+  }
+}
