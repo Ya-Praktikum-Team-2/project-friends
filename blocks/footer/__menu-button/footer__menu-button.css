@@ -1,0 +1,11 @@
+.footer__menu-button {
+  padding: 0;
+  position: relative;
+  background-color: transparent;
+  border: none;
+  color: var(--black-100);
+}
+
+.footer__menu-button:hover {
+  cursor: pointer;
+}
