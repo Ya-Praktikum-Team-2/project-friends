@@ -1,0 +1,7 @@
+.hero-slide__link {
+  margin-top: 56px;
+
+  /* FIXME: remove */
+  display: block;
+  color: inherit;
+}

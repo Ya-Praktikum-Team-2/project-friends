@@ -1,0 +1,22 @@
+.hero-slide {
+  margin: 0;
+  display: grid;
+
+  color: var(--black-100);
+
+  grid-template:
+    [line-start] ". . ." 125px
+    ". content ." auto
+    ". . ." minmax(84px, 1fr) [line-end]
+    / [col-start] 84px auto minmax(84px, 1fr) [col-end];
+}
+
+@media (max-width: 576px) {
+  .hero-slide {
+    grid-template:
+      [line-start] ". . ." 8px
+      ". content ." auto
+      ". . ." 52px [line-end]
+      / [col-start] 8px auto 8px [col-end];
+  }
+}

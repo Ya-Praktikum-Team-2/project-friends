@@ -1,0 +1,5 @@
+.hero-slide__subtitle {
+  padding: 0;
+  margin: 16px 0 0;
+  font: 400 18px/26px var(--font-normal);
+}

@@ -1,0 +1,11 @@
+.hero-slide__caption {
+  grid-area: content;
+
+  padding: 40px 56px 48px 40px;
+}
+
+@media (max-width: 576px) {
+  .hero-slide__caption {
+    padding: 24px 16px 0;
+  }
+}
