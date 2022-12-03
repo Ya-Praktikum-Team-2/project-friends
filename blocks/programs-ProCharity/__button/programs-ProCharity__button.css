@@ -3,7 +3,19 @@
   height: 56px;
   width: 201px;
   border-radius: 56px;
-  color: white;
+  color: var(--black-100);
   background-color: var(--turquoise-80);
   border: 0ch;
+}
+
+@media screen and (max-width: 1279px) {
+  .programs-ProCharity__button {
+    margin: 46px 0 0 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .programs-ProCharity__button {
+    margin: 24px 0 0 24px;
+  }
 }

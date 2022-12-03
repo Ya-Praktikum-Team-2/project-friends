@@ -6,3 +6,24 @@
   color: var(--black-100);
   max-width: 465px;
 }
+
+@media screen and (max-width: 1279px) {
+  .programs-Moscow-School__about {
+    margin: 20px 0 0 550px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .programs-Moscow-School__about {
+    margin: 15px 0 0 425px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .programs-Moscow-School__about {
+    font-size: 18px;
+    margin: 15px 0 0 24px;
+    line-height: 24px;
+  }
+}

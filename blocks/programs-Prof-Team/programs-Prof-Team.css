@@ -3,4 +3,28 @@
   margin-top: 0px;
   height: 490px;
   position: relative;
+  background-image: url(../../images/ProfTeam-image-profi.png);
+  background-size: 790px;
+  background-repeat: no-repeat;
+  background-position: right 0 bottom 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .programs-Prof-Team {
+    background-size: 635px;
+    height: 390px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .programs-Prof-Team {
+    background-size: 450px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .programs-Prof-Team {
+    height: 320px;
+    background-image: none;
+  }
 }

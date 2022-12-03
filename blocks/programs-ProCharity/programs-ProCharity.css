@@ -3,4 +3,33 @@
   margin-top: 56px;
   height: 490px;
   position: relative;
+  background-image: url(../../images/ProCharity-image-laptop.png);
+  background-size: 1011px;
+  background-repeat: no-repeat;
+  background-position: right 0 top 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .programs-ProCharity {
+    background-size: 800px;
+    background-position: right 0 bottom 0;
+    height: 390px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .programs-ProCharity {
+    background-size: 600px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .programs-ProCharity {
+    height: 292px;
+    background-image: none;
+  }
+}
+
+
+
+
