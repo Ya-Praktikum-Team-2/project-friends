@@ -21,7 +21,12 @@
 
 
 /* values block */
-
+@import url("../blocks/values/values.css");
+@import url("../blocks/values/__title/values__title.css");
+@import url("../blocks/values/__cells/values__cells.css");
+@import url("../blocks/value-cell/value-cell.css");
+@import url("../blocks/value-cell/__image/value-cell__image.css");
+@import url("../blocks/value-cell/__paragraph/value-cell__paragraph.css");
 
 /* statistics block */
 

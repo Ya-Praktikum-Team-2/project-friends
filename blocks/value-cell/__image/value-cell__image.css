@@ -1,0 +1,15 @@
+.value-cell__image {
+  margin: 0 0 16px;
+  padding: 0;
+  display: block;
+  width: 96px;
+  height: 96px;
+}
+
+@media (max-width: 576px) {
+  .value-cell__image {
+    width: 88px;
+    height: 88px;
+    margin: 0 0 8px;
+  }
+}

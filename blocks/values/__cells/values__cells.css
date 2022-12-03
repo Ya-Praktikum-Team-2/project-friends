@@ -1,0 +1,18 @@
+.values__cells {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-auto-rows: 156px;
+  gap: 8px;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .values__cells {
+    margin: 0 40px;
+    grid-template-columns: repeat(auto-fit, minmax(295px, 200px));
+    grid-auto-rows: 121px;
+    gap: 40px;
+  }
+}
