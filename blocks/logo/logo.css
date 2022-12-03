@@ -1,4 +1,5 @@
 .logo {
   display: flex;
   gap: 19px;
+  text-decoration: none;
 }
