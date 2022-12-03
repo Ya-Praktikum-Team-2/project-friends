@@ -59,25 +59,24 @@
 
 
 /* footer block */
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__nav/footer__nav.css);
-@import url(../blocks/footer/__logo/footer__logo.css);
-@import url(../blocks/footer/__menu/footer__menu.css);
-@import url(../blocks/footer/__menu-item/footer__menu-item.css);
-@import url(../blocks/footer/__menu-item/_active/footer__menu-item_active.css);
-@import url(../blocks/footer/__contacts-container/footer__contacts-container.css);
-@import url(../blocks/footer/__contacts/footer__contacts.css);
-@import url(../blocks/footer/__contact/footer__contact.css);
-@import url(../blocks/footer/__contact-title/footer__contact-title.css);
-@import url(../blocks/footer/__contact-value/footer__contact-value.css);
-@import url(../blocks/footer/__law/footer__law.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/footer/__copyright/_type/footer__copyright_type_age.css);
-@import url(../blocks/footer/__terms-of-use/footer__terms-of-use.css);
-@import url(../blocks/footer/__duns-logo/footer__duns-logo.css);
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__nav/footer__nav.css");
+@import url("../blocks/footer/__menu/footer__menu.css");
+@import url("../blocks/footer/__menu-item/footer__menu-item.css");
+@import url("../blocks/footer/__menu-item/_active/footer__menu-item_active.css");
+@import url("../blocks/footer/__contacts-container/footer__contacts-container.css");
+@import url("../blocks/footer/__contacts/footer__contacts.css");
+@import url("../blocks/footer/__contact/footer__contact.css");
+@import url("../blocks/footer/__contact-title/footer__contact-title.css");
+@import url("../blocks/footer/__contact-value/footer__contact-value.css");
+@import url("../blocks/footer/__law/footer__law.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
+@import url("../blocks/footer/__copyright/_type/footer__copyright_type_age.css");
+@import url("../blocks/footer/__terms-of-use/footer__terms-of-use.css");
+@import url("../blocks/footer/__duns-logo/footer__duns-logo.css");
 
 /* logo block */
-@import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/__image-container/logo__image-container.css);
-@import url(../blocks/logo/__title/logo__title.css);
-@import url(../blocks/logo/__title-foundation/logo__title-foundation.css);
+@import url("../blocks/logo/logo.css");
+@import url("../blocks/logo/__image-container/logo__image-container.css");
+@import url("../blocks/logo/__title/logo__title.css");
+@import url("../blocks/logo/__title-foundation/logo__title-foundation.css");
