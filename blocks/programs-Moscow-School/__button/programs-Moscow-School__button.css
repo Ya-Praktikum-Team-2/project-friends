@@ -5,7 +5,7 @@
   border-radius: 56px;
   color: var(--black-100);
   background-color: var(--blue-80);
-  border: 0ch;
+  border: none;
 }
 
 @media screen and (max-width: 1279px) {
