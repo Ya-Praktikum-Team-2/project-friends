@@ -1,4 +1,4 @@
-.programs-Prof-Team {
+.programs-prof-team {
   background-color: var(--pink-70);
   height: 490px;
   position: relative;
@@ -9,20 +9,20 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .programs-Prof-Team {
+  .programs-prof-team {
     background-size: 635px;
     height: 390px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .programs-Prof-Team {
+  .programs-prof-team {
     background-size: 450px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .programs-Prof-Team {
+  .programs-prof-team {
     height: 320px;
     background-image: none;
   }
