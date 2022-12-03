@@ -1,0 +1,11 @@
+.footer__copyright_type_age {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 34px;
+  width: 100%;
+  max-height: 34px;
+  height: 100%;
+  border: 1px solid #999999;
+  border-radius: 50%;
+}

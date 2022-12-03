@@ -1,0 +1,4 @@
+.footer__menu-item_active {
+  color: var(--yellow-70);
+  font-weight: 700;
+}

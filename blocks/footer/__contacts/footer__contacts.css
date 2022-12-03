@@ -1,0 +1,6 @@
+.footer__contacts {
+  max-width: 806px;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+}
