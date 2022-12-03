@@ -1,4 +1,4 @@
-.programs-ProCharity__about {
+.programs-procharity__about {
   margin: 20px 0 0 124px;
   font-weight: 400;
   font-size: 18px;
@@ -8,19 +8,19 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .programs-ProCharity__about {
+  .programs-procharity__about {
     margin: 20px 0 0 90px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .programs-ProCharity__about {
+  .programs-procharity__about {
     font-size: 15px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .programs-ProCharity__about {
+  .programs-procharity__about {
     font-size: 18px;
     margin: 15px 0 0 24px;
   }

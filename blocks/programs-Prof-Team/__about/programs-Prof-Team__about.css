@@ -1,4 +1,4 @@
-.programs-Prof-Team__about {
+.programs-prof-team__about {
   margin: 24px 0 0 124px;
   font-weight: 400;
   font-size: 18px;
@@ -8,21 +8,21 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .programs-Prof-Team__about {
+  .programs-prof-team__about {
     margin: 24px 0 0 90px;
     max-width: 405px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .programs-Prof-Team__about {
+  .programs-prof-team__about {
     font-size: 15px;
     max-width: 310px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .programs-Prof-Team__about {
+  .programs-prof-team__about {
     font-size: 18px;
     margin: 15px 0 0 24px;
     line-height: 24px;

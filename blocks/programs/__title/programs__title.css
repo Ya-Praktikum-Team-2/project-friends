@@ -1,5 +1,6 @@
 .programs__title {
-  font-size: 44px; /* Вопрос! */
+  font-size: 44px;
+  font-weight: 700;
   margin: 0px;
   display: flex;
   justify-content: center;

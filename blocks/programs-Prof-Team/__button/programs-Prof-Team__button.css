@@ -1,4 +1,4 @@
-.programs-Prof-Team__button {
+.programs-prof-team__button {
   margin: 56px 0 0 124px;
   height: 56px;
   width: 201px;
@@ -6,16 +6,23 @@
   color: var(--black-100);
   background-color: var(--pink-80);
   border: none;
+  font-weight: bold;
+  transition: 0.2s linear;
+}
+
+.programs-prof-team__button:hover {
+  background-color: var(--black-100);
+  color: var(--black-10);
 }
 
 @media screen and (max-width: 1279px) {
-  .programs-Prof-Team__button {
+  .programs-prof-team__button {
     margin: 36px 0 0 90px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .programs-Prof-Team__button {
+  .programs-prof-team__button {
     margin: 24px 0 0 24px;
   }
 }

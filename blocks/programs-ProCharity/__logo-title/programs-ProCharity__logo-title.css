@@ -1,18 +1,18 @@
-.programs-ProCharity__logo-title {
+.programs-procharity__logo-title {
   display: flex;
   margin: 0 0 0 124px;
   padding-top: 80px;
 }
 
 @media screen and (max-width: 1279px) {
-  .programs-ProCharity__logo-title {
+  .programs-procharity__logo-title {
     margin: 0 0 0 90px;
     padding-top: 60px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .programs-ProCharity__logo-title {
+  .programs-procharity__logo-title {
     margin: 0 0 0 25px;
     padding-top: 32px;
   }

@@ -1,4 +1,4 @@
-.programs-ProCharity {
+.programs-procharity {
   background-color: var(--turquoise-70);
   margin-top: 56px;
   height: 490px;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .programs-ProCharity {
+  .programs-procharity {
     background-size: 800px;
     background-position: right 0 bottom 0;
     height: 390px;
@@ -18,13 +18,13 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .programs-ProCharity {
+  .programs-procharity {
     background-size: 600px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .programs-ProCharity {
+  .programs-procharity {
     margin-top: 24px;
     height: 292px;
     background-image: none;

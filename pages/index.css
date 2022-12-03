@@ -20,7 +20,7 @@
 /* programs block */
 @import url("../blocks/programs/programs.css");
 @import url("../blocks/programs/__title/programs__title.css");
-@import url("../blocks/programs-blocks/programs-blocks.css");
+@import url("../blocks/programs/__blocks/programs__blocks.css");
 @import url("../blocks/programs-procharity/programs-procharity.css");
 @import url("../blocks/programs-procharity/__about/programs-procharity__about.css");
 @import url("../blocks/programs-procharity/__button/programs-procharity__button.css");

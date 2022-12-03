@@ -1,4 +1,4 @@
-.programs-Moscow-School__title {
+.programs-moscow-school__title {
   margin: 10px 0 0 652px;
   font-weight: 700;
   font-size: 34px;
@@ -7,14 +7,14 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .programs-Moscow-School__title {
+  .programs-moscow-school__title {
     margin: 10px 0 0 550px;
     font-size: 30px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .programs-Moscow-School__title {
+  .programs-moscow-school__title {
     margin: 10px 0 0 425px;
     font-size: 25px;
     line-height: 30px;
@@ -22,7 +22,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .programs-Moscow-School__title {
+  .programs-moscow-school__title {
     font-size: 32px;
     margin: 16px 0 0 24px;
     line-height: 36px;
