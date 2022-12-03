@@ -4,3 +4,9 @@
   list-style: none;
   display: flex;
 }
+
+@media (max-width: 576px) {
+  .submenu {
+    display: none;
+  }
+}

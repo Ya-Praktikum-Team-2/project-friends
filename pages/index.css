@@ -132,6 +132,9 @@
 @import url("../blocks/footer/__menu-link/footer__menu-link.css");
 @import url("../blocks/footer/__menu-link/_donate/footer__menu-link_donate.css");
 @import url("../blocks/footer/__menu-button/footer__menu-button.css");
+@import url("../blocks/footer/__submenu/footer__submenu.css");
+@import url("../blocks/footer/__submenu-item/footer__submenu-item.css");
+@import url("../blocks/footer/__submenu-link/footer__submenu-link.css");
 @import url("../blocks/footer/__contacts-container/footer__contacts-container.css");
 @import url("../blocks/footer/__contacts/footer__contacts.css");
 @import url("../blocks/footer/__contact/footer__contact.css");
