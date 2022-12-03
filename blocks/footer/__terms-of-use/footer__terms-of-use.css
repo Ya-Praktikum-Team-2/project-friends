@@ -1,7 +1,7 @@
 .footer__terms-of-use {
   margin: 0;
   max-width: 475px;
-  color: #999;
+  color: var(--black-50);
   line-height: 13px;
   font-size: 10px;
   font-weight: 400;

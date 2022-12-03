@@ -1,6 +1,6 @@
 .footer__contact-value {
   text-decoration: none;
-  color: #77c5d5;
+  color: var(--turquoise-70);
   line-height: 18px;
   font-size: 14px;
   font-weight: 400;
