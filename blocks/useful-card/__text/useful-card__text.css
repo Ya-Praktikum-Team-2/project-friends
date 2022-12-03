@@ -1,0 +1,12 @@
+.useful-card__text {
+  max-width: 300px;
+  margin: 44px 0 0 44px;
+  text-align: start;
+  z-index: 1;
+}
+
+@media (max-width: 576px) {
+  .useful-card__text {
+    margin: 32px 0 0 24px;
+  }
+}

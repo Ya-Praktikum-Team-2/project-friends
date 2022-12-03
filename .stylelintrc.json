@@ -10,7 +10,11 @@
       "except": ["first-nested", "after-comment", "after-custom-property"],
       "ignore": ["after-comment"]
     }],
-    "max-empty-lines": 2
+    "max-empty-lines": 2,
+    "selector-class-pattern": null,
+    "value-keyword-case": ["lower", {
+      "ignoreProperties": ["transition"]
+    }]
   },
   "ignoreFiles": [
     "vendor/normalize.css"
