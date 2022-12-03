@@ -1,0 +1,31 @@
+.programs-prof-team__about {
+  margin: 24px 24px 0 124px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--black-100);
+  max-width: 465px;
+}
+
+@media (max-width: 1279px) {
+  .programs-prof-team__about {
+    margin: 24px 24px 0 90px;
+    max-width: 405px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .programs-prof-team__about {
+    font-size: 15px;
+    max-width: 310px;
+  }
+}
+
+@media (max-width: 767px) {
+  .programs-prof-team__about {
+    font-size: 18px;
+    margin: 15px 24px 0;
+    line-height: 24px;
+    max-width: 340px;
+  }
+}
