@@ -15,19 +15,19 @@
   color: var(--black-10);
 }
 
-@media screen and (max-width: 1279px) {
+@media (max-width: 1279px) {
   .programs-moscow-school__button {
     margin: 25px 0 0 550px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .programs-moscow-school__button {
     margin: 25px 0 0 425px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .programs-moscow-school__button {
     margin: 24px 0 0 24px;
   }

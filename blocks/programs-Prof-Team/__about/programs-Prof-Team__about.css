@@ -7,21 +7,21 @@
   max-width: 465px;
 }
 
-@media screen and (max-width: 1279px) {
+@media (max-width: 1279px) {
   .programs-prof-team__about {
     margin: 24px 0 0 90px;
     max-width: 405px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .programs-prof-team__about {
     font-size: 15px;
     max-width: 310px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .programs-prof-team__about {
     font-size: 18px;
     margin: 15px 0 0 24px;

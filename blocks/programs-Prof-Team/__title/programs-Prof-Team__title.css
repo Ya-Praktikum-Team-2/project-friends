@@ -6,19 +6,19 @@
   color: var(--black-100);
 }
 
-@media screen and (max-width: 1279px) {
+@media (max-width: 1279px) {
   .programs-prof-team__title {
     margin: 8px 0 0 90px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .programs-prof-team__title {
     font-size: 25px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .programs-prof-team__title {
     font-size: 32px;
     margin: 13px 0 0 24px;

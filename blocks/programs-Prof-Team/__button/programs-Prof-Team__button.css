@@ -15,13 +15,13 @@
   color: var(--black-10);
 }
 
-@media screen and (max-width: 1279px) {
+@media (max-width: 1279px) {
   .programs-prof-team__button {
     margin: 36px 0 0 90px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .programs-prof-team__button {
     margin: 24px 0 0 24px;
   }
