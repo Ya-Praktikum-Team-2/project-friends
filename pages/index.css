@@ -126,6 +126,7 @@
 
 /* footer block */
 @import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/_main/footer_main.css");
 @import url("../blocks/footer/__nav/footer__nav.css");
 @import url("../blocks/footer/__menu/footer__menu.css");
 @import url("../blocks/footer/__menu-item/footer__menu-item.css");
