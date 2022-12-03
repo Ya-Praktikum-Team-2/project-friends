@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+  .utils-break_md::before {
+    white-space: normal;
+  }
+}

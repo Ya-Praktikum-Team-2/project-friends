@@ -1,0 +1,22 @@
+.our-friends-slide__background {
+  height: 0;
+  min-height: 100%;
+  max-height: 100%;
+  align-self: end;
+  grid-area: content;
+  width: auto;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+@media (max-width: 1080px) {
+  .our-friends-slide__background {
+    opacity: 0.3;
+  }
+}
+
+@media (max-width: 576px) {
+  .our-friends-slide__background {
+    display: none;
+  }
+}

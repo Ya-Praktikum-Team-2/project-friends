@@ -1,0 +1,6 @@
+.carousel-dots__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 6px;
+  transition: all 0.7s ease;
+}

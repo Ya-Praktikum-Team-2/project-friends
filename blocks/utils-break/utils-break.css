@@ -1,0 +1,4 @@
+.utils-break::before {
+  content: "\A";
+  white-space: pre-line;
+}

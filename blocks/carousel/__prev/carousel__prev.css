@@ -1,0 +1,11 @@
+.carousel__prev {
+  grid-area: prev;
+  align-self: center;
+  z-index: 2;
+}
+
+@media (max-width: 576px) {
+  .carousel__prev {
+    display: none;
+  }
+}
