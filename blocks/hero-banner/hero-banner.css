@@ -1,0 +1,9 @@
+.hero-banner {
+  min-height: 626px;
+}
+
+@media (max-width: 576px) {
+  .hero-banner {
+    min-height: 486px;
+  }
+}

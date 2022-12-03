@@ -1,0 +1,9 @@
+.our-friends-slide__title-emphasis {
+  font: italic 400 44px/44px var(--font-italic);
+}
+
+@media (max-width: 576px) {
+  .our-friends-slide__title-emphasis {
+    font: italic 400 27px/27px var(--font-italic);
+  }
+}

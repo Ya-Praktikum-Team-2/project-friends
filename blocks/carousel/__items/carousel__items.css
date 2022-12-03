@@ -1,0 +1,12 @@
+.carousel__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  grid-area: line-start / col-start / line-end / col-end;
+
+  display: grid;
+  grid-template: "item" 1fr / 1fr;
+
+  touch-action: pan-y;
+}

@@ -1,0 +1,10 @@
+.our-friends-slide__caption {
+  grid-area: content;
+  align-self: center;
+}
+
+@media (max-width: 576px) {
+  .our-friends-slide__caption {
+    align-self: stretch;
+  }
+}

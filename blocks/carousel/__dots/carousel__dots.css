@@ -1,0 +1,6 @@
+.carousel__dots {
+  grid-area: dots;
+  z-index: 2;
+
+  justify-self: center;
+}

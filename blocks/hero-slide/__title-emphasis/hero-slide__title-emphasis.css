@@ -1,0 +1,15 @@
+.hero-slide__title-emphasis {
+  font: italic 400 62px/62px var(--font-italic);
+}
+
+@media (max-width: 900px) {
+  .hero-slide__title-emphasis {
+    font: italic 400 50px/50px var(--font-italic);
+  }
+}
+
+@media (max-width: 800px) {
+  .hero-slide__title-emphasis {
+    font: italic 400 42px/42px var(--font-italic);
+  }
+}

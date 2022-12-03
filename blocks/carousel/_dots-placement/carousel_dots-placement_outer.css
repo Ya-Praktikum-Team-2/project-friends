@@ -1,0 +1,6 @@
+.carousel_dots-placement_outer {
+  grid-template:
+    [line-start] ". prev . next ." 1fr [line-end]
+    ". . dots . ." auto
+    / [col-start] 24px auto 1fr auto 24px [col-end];
+}
