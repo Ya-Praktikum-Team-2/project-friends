@@ -10,7 +10,7 @@
   font-weight: 400;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1155px) {
   .footer__copyright {
     flex-basis: 100%;
   }
