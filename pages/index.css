@@ -129,6 +129,7 @@
 @import url("../blocks/footer/__nav/footer__nav.css");
 @import url("../blocks/footer/__menu/footer__menu.css");
 @import url("../blocks/footer/__menu-item/footer__menu-item.css");
+@import url("../blocks/footer/__menu-link/footer__menu-link.css");
 @import url("../blocks/footer/__menu-item/_active/footer__menu-item_active.css");
 @import url("../blocks/footer/__contacts-container/footer__contacts-container.css");
 @import url("../blocks/footer/__contacts/footer__contacts.css");
