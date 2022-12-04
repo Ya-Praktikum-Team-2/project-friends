@@ -13,8 +13,61 @@
 
   </header>
   <main class="main">
-    <section class="hero-banner" aria-label="удали меня">
-
+    <section class="hero-banner carousel carousel_dots-placement_inner whole-width" tabindex="0"
+      aria-label="о программах фонда">
+      <button type="button" class="arrow-button arrow-button_dir_left carousel__prev"
+        aria-label="предыдущий слайд"></button>
+      <button type="button" class="arrow-button arrow-button_dir_right carousel__next"
+        aria-label="следующий слайд"></button>
+      <ul class="carousel__items">
+        <li class="carousel__item carousel__item_active">
+          <article class="hero-slide">
+            <img src="images/slides-hero/1.jpg" alt="групповое фото друзей" class="hero-slide__background">
+            <div class="hero-slide__caption hero-slide__caption_add-contrast">
+              <h2 class="hero-slide__title">Мы <em class="hero-slide__title-emphasis">помогаем</em> фондам,<span
+                  class="utils-break utils-break_md"></span>чтобы они <em
+                  class="hero-slide__title-emphasis">помогали</em> другим</h2>
+              <p class="hero-slide__subtitle" style="max-width: 550px;"><span class="hero-slide__subtitle-bold">Фонд
+                  «Друзья»</span> — это фонд для тех, кто хочет приносить пользу другим людям ничего за это не беря.</p>
+              <!-- FIXME: исправить на нормальную кнопку -->
+              <a href="#" class="hero-slide__link">Наши программы</a>
+            </div>
+          </article>
+        </li>
+        <li class="carousel__item">
+          <article class="hero-slide">
+            <img src="images/slides-hero/2.jpg" alt="фото выпускников школы" class="hero-slide__background">
+            <div class="hero-slide__caption">
+              <h2 class="hero-slide__title">Создаем настоящую <em class="hero-slide__title-emphasis">школу</em>, <em
+                  class="hero-slide__title-emphasis">институт</em>
+                благотвори&shy;тельности</h2>
+              <p class="hero-slide__subtitle" style="max-width: 650px;"><span
+                  class="hero-slide__subtitle-bold">Московская школа профессиональной филантропии</span> — это
+                фактически акселератор НКО&#8209;проектов, который создает сообщество профессионалов.</p>
+            </div>
+          </article>
+        </li>
+        <li class="carousel__item">
+          <article class="hero-slide">
+            <img src="images/slides-hero/3.jpg" alt="изображение работы с сервисом ProCharity"
+              class="hero-slide__background">
+            <div class="hero-slide__caption">
+              <h2 class="hero-slide__title">Профессиона&shy;лизм<span class="utils-break utils-break_sm"></span>и опыт
+                <em class="hero-slide__title-emphasis">в дар</em>
+              </h2>
+              <p class="hero-slide__subtitle" style="max-width: 550px;"><span
+                  class="hero-slide__subtitle-bold">Платформа интеллектуального волонтерства ProCharity</span><span
+                  class="utils-break utils-break_md"></span> — cкорая интеллектуальная помощь для благотворительных
+                фондов.</p>
+            </div>
+          </article>
+        </li>
+      </ul>
+      <div class="carousel-dots carousel__dots carousel__dots_type_hero">
+        <div class="carousel-dots__dot carousel-dots__dot_color_transparent carousel-dots__dot_active"></div>
+        <div class="carousel-dots__dot carousel-dots__dot_color_transparent"></div>
+        <div class="carousel-dots__dot carousel-dots__dot_color_transparent"></div>
+      </div>
     </section>
     <section class="activities" aria-label="удали меня">
       
@@ -62,8 +115,37 @@
       </div>
 
     </section>
-    <section class="programs" aria-label="удали меня">
-
+    <section class="programs">
+      <h2 id="programs" class="programs__title">Наши программы</h2>
+      <ul class="programs__blocks">
+        <li class="programs-procharity">
+          <div class="programs-procharity__logo-title">
+            <img class="programs-procharity__image" src="./images/programs/ProCharity-mini-logo.svg" alt="procharity">
+            <h4 class="programs-procharity__name">ПРОГРАММА</h4>
+          </div>
+          <h3 class="programs-procharity__title">ProCharity</h3>
+          <p class="programs-procharity__about">Скорая интеллектуальная помощь для благотворительных фондов</p>
+          <button class="programs-procharity__button" type="button" title="О программе" id="procharity-button">О программе</button>
+        </li>
+        <li class="programs-moscow-school">
+          <div class="programs-moscow-school__logo-title">
+            <img class="programs-moscow-school__image" src="./images/programs/MoscowSchool-mini-logo.svg" alt="moscow-school">
+            <h4 class="programs-moscow-school__name">ПРОГРАММА</h4>
+          </div>
+          <h3 class="programs-moscow-school__title">Московская школа<br>профессиональной филантропии</h3>
+          <p class="programs-moscow-school__about">Повышение квалификации и профессионализма сотрудников НКО</p>
+          <button class="programs-moscow-school__button" type="button" title="О программе" id="moscow-school-button">О программе</button>
+        </li>
+        <li class="programs-prof-team">
+          <div class="programs-prof-team__logo-title">
+            <img class="programs-prof-team__image" src="./images/programs/ProfTeam-mini-logo.svg" alt="prof-team">
+            <h4 class="programs-prof-team__name">ПРОГРАММА</h4>
+          </div>
+          <h3 class="programs-prof-team__title">Команда профессионалов</h3>
+          <p class="programs-prof-team__about">Стратегическое развитие и менторская поддержка социальных проектов и НКО</p>
+          <button class="programs-prof-team__button" type="button" title="О программе" id="prof-team-button">О программе</button>
+        </li>
+      </ul>
     </section>
     <section class="values" aria-label="удали меня">
 
@@ -71,11 +153,182 @@
     <section class="statistics" aria-label="удали меня">
 
     </section>
-    <section class="useful-links" aria-label="удали меня">
-
+    <section class="useful-links">
+      <h2 class="useful-links__title">Полезно</h2>
+      <div class="useful-links__cards">
+        <a href="#" target="_blank" class="useful-card">
+          <div class="useful-card__text">
+            <h3 class="useful-card__title">Как&nbsp;научиться&nbsp;быть настоящим&nbsp;филантропом?</h3>
+            <p class="useful-card__paragraph">Читать</p>
+          </div>
+          <img class="useful-card__image useful-card__image_icon_handshake" src="./images/useful-card/handshake.svg"
+            alt="Рукопожатие">
+        </a>
+        <a href="#" target="_blank" class="useful-card">
+          <div class="useful-card__text">
+            <h3 class="useful-card__title">Лучшие&nbsp;книги о&nbsp;благотворительности</h3>
+            <p class="useful-card__paragraph">Читать</p>
+          </div>
+          <img class="useful-card__image useful-card__image_icon_books" src="./images/useful-card/books.svg"
+            alt="Стопка книг">
+        </a>
+        <a href="#" target="_blank" class="useful-card">
+          <div class="useful-card__text">
+            <h3 class="useful-card__title">Как&nbsp;проверить благотворительный&nbsp;фонд?</h3>
+            <p class="useful-card__paragraph">Читать</p>
+          </div>
+          <img class="useful-card__image useful-card__image_icon_magnifying-glass"
+            src="./images/useful-card/magnifyingGlass.svg" alt="Вопросительный знак">
+        </a>
+        <a href="#" target="_blank" class="useful-card">
+          <div class="useful-card__text">
+            <h3 class="useful-card__title">Отчетность<span class="utils-break"></span>фонда</h3>
+            <p class="useful-card__paragraph">Смотреть</p>
+          </div>
+          <img class="useful-card__image useful-card__image_icon_checklist" src="./images/useful-card/checklist.svg"
+            alt="Чек-лист">
+        </a>
+      </div>
     </section>
-    <section class="our-friends" aria-label="удали меня">
-
+    <section class="our-friends whole-width">
+      <h2 id="our-friends-title" class="our-friends__title">Наши друзья</h2>
+      <div class="carousel carousel_dots-placement_outer" tabindex="0" role="region" aria-label="слайды с друзьями">
+        <button type="button" class="arrow-button arrow-button_dir_left carousel__prev"
+          aria-label="предыдущий слайд"></button>
+        <button type="button" class="arrow-button arrow-button_dir_right carousel__next"
+          aria-label="следующий слайд"></button>
+        <ul class="carousel__items">
+          <li class="carousel__item carousel__item_active">
+            <article class="our-friends-slide">
+              <img src="images/slides-friends/1.jpg" alt="фото константина хабенского"
+                class="our-friends-slide__background our-friends-slide__background_align_right">
+              <div class="our-friends-slide__caption our-friends-slide__caption_align_left" style="max-width: 510px;">
+                <blockquote class="our-friends-slide__title">Благотвори&shy;тельность —&nbsp;это <em
+                    class="our-friends-slide__title-emphasis">состояние души</em></blockquote>
+                <div class="our-friends-slide__author">
+                  <h3 class="our-friends-slide__name">Константин Хабенский</h3>
+                  <p class="our-friends-slide__description">, актер, режиссер, основатель Фонда Константина Хабенского
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="carousel__item">
+            <article class="our-friends-slide">
+              <img src="images/slides-friends/2.jpg" alt="фото чулпан хаматовой"
+                class="our-friends-slide__background our-friends-slide__background_align_left">
+              <div class="our-friends-slide__caption our-friends-slide__caption_align_right">
+                <blockquote class="our-friends-slide__title">Мы пытаемся изменить «ландшафт», чтобы проблемы в сфере
+                  детской онкологии <em class="our-friends-slide__title-emphasis">решались системно</em></blockquote>
+                <div class="our-friends-slide__author">
+                  <h3 class="our-friends-slide__name">Чулпан Хаматова</h3>
+                  <p class="our-friends-slide__description">, актриса, учредитель фонда «Подари жизнь»</p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="carousel__item">
+            <article class="our-friends-slide">
+              <img src="images/slides-friends/3.jpg" alt="фото ингеборге дапкунайте"
+                class="our-friends-slide__background our-friends-slide__background_align_left">
+              <div class="our-friends-slide__caption our-friends-slide__caption_align_right">
+                <blockquote class="our-friends-slide__title">Смысл нашей работы в том, чтобы человеку в конце жизни
+                  было не больно, не стыдно и не одиноко <em class="our-friends-slide__title-emphasis">— а значит, не
+                    страшно</em></blockquote>
+                <div class="our-friends-slide__author">
+                  <h3 class="our-friends-slide__name">Ингеборга Дапкунайте</h3>
+                  <p class="our-friends-slide__description">, актриса, сопредседатель попечительского совета Фонда
+                    помощи хосписам «Вера»</p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="carousel__item">
+            <article class="our-friends-slide">
+              <img src="images/slides-friends/4.jpg" alt="фото александра петрова"
+                class="our-friends-slide__background our-friends-slide__background_align_right">
+              <div class="our-friends-slide__caption our-friends-slide__caption_align_left" style="max-width: 610px;">
+                <blockquote class="our-friends-slide__title">Я фанат своего дела, но главным предназ&shy;начением считаю
+                  помощь <em class="our-friends-slide__title-emphasis">людям</em></blockquote>
+                <div class="our-friends-slide__author">
+                  <h3 class="our-friends-slide__name">Александр Петров</h3>
+                  <p class="our-friends-slide__description">, актер, попечитель фонда «Дом с маяком»</p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="carousel__item">
+            <article class="our-friends-slide">
+              <img src="images/slides-friends/5.jpg" alt="фото данилы козловского"
+                class="our-friends-slide__background our-friends-slide__background_align_left">
+              <div class="our-friends-slide__caption our-friends-slide__caption_align_right">
+                <blockquote class="our-friends-slide__title">Даже самые небольшие пожертвования делают очень большое
+                  дело и оказывают действительно <em class="our-friends-slide__title-emphasis">огромную помощь</em>
+                </blockquote>
+                <div class="our-friends-slide__author">
+                  <h3 class="our-friends-slide__name">Данила Козловский</h3>
+                  <p class="our-friends-slide__description">, актер, попечитель фонда «Дети-бабочки»</p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="carousel__item">
+            <article class="our-friends-slide">
+              <img src="images/slides-friends/6.jpg" alt="фото лизы арзамасовой"
+                class="our-friends-slide__background our-friends-slide__background_align_right">
+              <div class="our-friends-slide__caption our-friends-slide__caption_align_left" style="max-width: 610px;">
+                <blockquote class="our-friends-slide__title">Меняя отношение к пожилым сейчас, мы создаем будущее, где
+                  будет <em class="our-friends-slide__title-emphasis">комфортно всем</em></blockquote>
+                <div class="our-friends-slide__author">
+                  <h3 class="our-friends-slide__name">Лиза Арзамасова</h3>
+                  <p class="our-friends-slide__description">, актриса, член попечительского
+                    совета<span class="utils-break utils-break_md"></span>фонда «Старость в радость»</p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="carousel__item">
+            <article class="our-friends-slide">
+              <img src="images/slides-friends/7.jpg" alt="фото саши бортич"
+                class="our-friends-slide__background our-friends-slide__background_align_left">
+              <div class="our-friends-slide__caption our-friends-slide__caption_align_right">
+                <blockquote class="our-friends-slide__title">Трудные подростки — это не трудные дети,это дети, <em
+                    class="our-friends-slide__title-emphasis">которым трудно</em></blockquote>
+                <div class="our-friends-slide__author">
+                  <h3 class="our-friends-slide__name">Саша Бортич</h3>
+                  <p class="our-friends-slide__description">, Актриса, попечительница фонда «Шалаш»</p>
+                </div>
+              </div>
+            </article>
+          </li>
+          <li class="carousel__item">
+            <article class="our-friends-slide">
+              <img src="images/slides-friends/8.jpg" alt="фото юрия шевчука"
+                class="our-friends-slide__background our-friends-slide__background_align_right">
+              <div class="our-friends-slide__caption our-friends-slide__caption_align_left" style="max-width: 700px;">
+                <blockquote class="our-friends-slide__title">Причин оказаться без крыши над головой — сотни. Если
+                  кто-то думает, что он застрахован от&nbsp;этого, <em
+                    class="our-friends-slide__title-emphasis">то ошибается</em></blockquote>
+                <div class="our-friends-slide__author">
+                  <h3 class="our-friends-slide__name">Юрий Шевчук</h3>
+                  <p class="our-friends-slide__description">, музыкант, друг благотворительной организации «Ночлежка»
+                  </p>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ul>
+        <div class="carousel-dots carousel__dots carousel__dots_type_friends">
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray carousel-dots__dot_active"></div>
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
+        </div>
+      </div>
     </section>
     <section class="blog" aria-label="удали меня">
 
@@ -93,9 +346,74 @@
 
     </section>
   </main>
-  <footer class="footer">
-
+  <footer class="footer footer_main">
+    <nav class="footer__nav">
+      <a href="#" class="logo footer__logo">
+        <div class="logo__image-container">
+          <img src="/images/logos/logo_friends.svg" alt="Friend Logo">
+        </div>
+        <p class="logo__title"><span class="logo__title-foundation">Фонд</span>Друзья</p>
+      </a>
+      <ul class="footer__menu">
+        <li class="footer__menu-item">
+          <a href="#" class="footer__menu-link">Фонд</a>
+        </li>
+        <li class="footer__menu-item">
+          <button type="button" class="footer__menu-button">Программы</button>
+          <ul class="submenu footer__submenu submenu_type_program">
+            <li class="footer__submenu-item">
+              <a href="#" class="footer__submenu-link">Команда профессионалов</a>
+            </li>
+            <li class="footer__submenu-item">
+              <a href="#" class="footer__submenu-link">МШПФ</a>
+            </li>
+            <li class="footer__submenu-item">
+              <a href="#" class="footer__submenu-link">ProCharity</a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Для НКО</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Для бизнеса</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Блог</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Партнёры</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Контакты</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link footer__menu-link_donate">Помочь фонду</a></li>
+      </ul>
+    </nav>
+    <div class="footer__contacts-container">
+      <div class="footer__contacts">
+        <div class="footer__contact">
+          <p class="footer__contact-title">Написать нам:</p>
+          <a href="mailto:friends@friends-foundation.com" class="footer__contact-value">friends@friends-foundation.com</a>
+        </div>
+        <div class="footer__contact">
+          <p class="footer__contact-title">Позвонить нам:</p>
+          <a href="tel:+79772770717" class="footer__contact-value">+7 977 277-07-17</a>
+        </div>
+        <div class="footer__contact">
+          <p class="footer__contact-title">Мы в соцсетях:</p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social-link">
+              <img src="./images/logos/logo_vk.svg" alt="VK" class="footer__social">
+            </a>
+            <a href="#" class="footer__social-link">
+              <img src="./images/logos/logo_telegram.svg" alt="Telegram" class="footer__social">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__law">
+      <p class="footer__copyright">
+        <span class="footer__copyright-age">18+</span>
+        &copy;&nbsp;2021 Фонд «Друзья» Все права защищены.
+      </p>
+      <p class="footer__terms-of-use">Исключительные права на фото- и иные материалы принадлежат авторам. Любое размещение материалов на сторонних
+        &nbsp;ресурсах необходимо согласовывать с правообладателями.</p>
+      <img src="./images/logos/logo_duns.svg" alt="DUN & BRADSTREET" class="footer__duns-logo">
+    </div>
   </footer>
+  <script type="module" src="scripts/main.js"></script>
 </body>
 
 </html>

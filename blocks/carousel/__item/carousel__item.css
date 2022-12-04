@@ -1,0 +1,15 @@
+.carousel__item {
+  padding: 0;
+  margin: 0;
+  grid-area: item;
+
+  visibility: hidden;
+
+  display: grid;
+
+  grid-template: "." 1fr / 1fr;
+
+  animation-duration: 0.7s;
+  animation-fill-mode: none;
+  animation-timing-function: ease;
+}

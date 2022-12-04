@@ -3,7 +3,9 @@
 
   /* black */
   --black-100: #fff;
+  --black-100-20p: rgba(255 255 255 / 20%);
   --black-90: #f8f8f8;
+  --black-90-40p: rgba(248 248 248 / 40%);
   --black-80: #f1f5f9;
   --black-70: #e3e7eb;
   --black-60: #c5c9cd;
@@ -44,7 +46,11 @@
   --font-italic: "Playfair Display", sans-serif;
 
   /* fonts */
-  --title-1: 700 62px/66px var(--font-normal);
-  --title-2: italic 400 62px/66px var(--font-italic);
   --title-3: 700 44px/50px var(--font-normal);
+}
+
+@media (max-width: 576px) {
+  :root {
+    --title-3: 700 32px/44px var(--font-normal);
+  }
 }

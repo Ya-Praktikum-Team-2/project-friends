@@ -1,0 +1,5 @@
+.footer__socials {
+  height: 24px;
+  display: flex;
+  gap: 16px;
+}

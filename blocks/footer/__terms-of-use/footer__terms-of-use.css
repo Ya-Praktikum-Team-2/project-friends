@@ -1,0 +1,14 @@
+.footer__terms-of-use {
+  margin: 0;
+  max-width: 475px;
+  color: var(--black-50);
+  line-height: 13px;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+@media (max-width: 576px) {
+  .footer__terms-of-use {
+    max-width: 260px;
+  }
+}

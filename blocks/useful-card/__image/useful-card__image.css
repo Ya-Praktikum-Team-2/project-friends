@@ -1,0 +1,8 @@
+.useful-card__image {
+  margin: 0;
+  padding: 0;
+  display: block;
+  align-self: center;
+  position: absolute;
+  right: 0;
+}
