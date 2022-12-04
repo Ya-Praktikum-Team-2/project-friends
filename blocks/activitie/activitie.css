@@ -1,9 +1,14 @@
 /* stylelint-disable no-missing-end-of-source-newline */
 .activitie {
   display: flex;
+  flex-direction: column;
   list-style-type: none;
-  background: url("../../images/Чем\ мы\ занимаемся.svg") no-repeat;
+  background: url("../../images/Чем\ мы\ занимаемся.svg") 64px 40px no-repeat;
   padding: 0;
-  background-position: center;
-  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .activitie {
+    background: url("../../images/Чем\ мы\ занимаемся\ mobil.svg") no-repeat;
+  }
 }

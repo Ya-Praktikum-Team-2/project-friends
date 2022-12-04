@@ -1,6 +1,10 @@
 /* stylelint-disable no-missing-end-of-source-newline */
 .activitie__development {
-  background: url("../../../images/icons/development.svg") var(--pink-70) no-repeat;
-  margin-top: 232px;
-  margin-left: -214px;
+  background: url("../../../images/icons/development.svg") 0% 50% var(--pink-70) no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .activitie__development {
+    background-size: 80px;
+  }
 }
