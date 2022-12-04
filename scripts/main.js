@@ -1,5 +1,5 @@
 import Carousel from './utils/carousel.js';
-import ScreenSizeEvents from './utils/ScreenSizeEvents.js';
+import ScreenSizeTracker from './utils/ScreenSizeTracker.js';
 import toggleSubmenu from './toggleSubmenu.js';
 import Blog from './blog.js';
 
@@ -17,7 +17,7 @@ const friendsCarousel = new Carousel(friendsEl);
 
 const blog = new Blog(document.querySelector('.blog'));
 
-ScreenSizeEvents.addListener(768, (isBigger) => {
+ScreenSizeTracker.addListener(768, (isBigger) => {
   if (isBigger) {
     blog.setNormal();
   } else {
