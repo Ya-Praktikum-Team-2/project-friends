@@ -24,8 +24,8 @@
 /* carousel block */
 @import url("../blocks/carousel/carousel.css");
 @import url("../blocks/carousel/__dots/carousel__dots.css");
-@import url("../blocks/carousel/__dots/_type/carousel__dots_type_friends.css");
-@import url("../blocks/carousel/__dots/_type/carousel__dots_type_hero.css");
+@import url("../blocks/carousel/__dots/_type/carousel__dots_type_inner.css");
+@import url("../blocks/carousel/__dots/_type/carousel__dots_type_outer.css");
 @import url("../blocks/carousel/_dots-placement/carousel_dots-placement_inner.css");
 @import url("../blocks/carousel/_dots-placement/carousel_dots-placement_outer.css");
 @import url("../blocks/carousel/__item/carousel__item.css");
@@ -129,9 +129,29 @@
 @import url("../blocks/our-friends-slide/__title/our-friends-slide__title.css");
 @import url("../blocks/our-friends-slide/__title-emphasis/our-friends-slide__title-emphasis.css");
 
-
 /* blog block */
+@import url("../blocks/blog/blog.css");
+@import url("../blocks/blog/__dots/blog__dots.css");
+@import url("../blocks/blog/__item/blog__item.css");
+@import url("../blocks/blog/__item/_type/blog__item_type_big.css");
+@import url("../blocks/blog/__item/_type/blog__item_type_right.css");
+@import url("../blocks/blog/__link/blog__link.css");
+@import url("../blocks/blog/__list/blog__list.css");
+@import url("../blocks/blog/__next/blog__next.css");
+@import url("../blocks/blog/__prev/blog__prev.css");
+@import url("../blocks/blog/__title/blog__title.css");
 
+/* blog-item block */
+@import url("../blocks/blog-item/blog-item.css");
+@import url("../blocks/blog-item/_big/blog-item_big.css");
+@import url("../blocks/blog-item/__content/blog-item__content.css");
+@import url("../blocks/blog-item/__date/blog-item__date.css");
+@import url("../blocks/blog-item/__image/blog-item__image.css");
+@import url("../blocks/blog-item/__sticker/blog-item__sticker.css");
+@import url("../blocks/blog-item/__sticker/_type/blog-item__sticker_type_analysis.css");
+@import url("../blocks/blog-item/__sticker/_type/blog-item__sticker_type_stats.css");
+@import url("../blocks/blog-item/__text/blog-item__text.css");
+@import url("../blocks/blog-item/__title/blog-item__title.css");
 
 /* subscribe block */
 

@@ -1,0 +1,14 @@
+.blog-item__image {
+  grid-area: image;
+  width: 100%;
+  aspect-ratio: 328 / 216;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .blog-item_big .blog-item__image {
+    aspect-ratio: unset;
+    height: 100%;
+    grid-area: row-start / col-start / row-end / col-end;
+  }
+}

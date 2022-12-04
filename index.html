@@ -63,7 +63,7 @@
           </article>
         </li>
       </ul>
-      <div class="carousel-dots carousel__dots carousel__dots_type_hero">
+      <div class="carousel-dots carousel__dots carousel__dots_type_inner">
         <div class="carousel-dots__dot carousel-dots__dot_color_transparent carousel-dots__dot_active"></div>
         <div class="carousel-dots__dot carousel-dots__dot_color_transparent"></div>
         <div class="carousel-dots__dot carousel-dots__dot_color_transparent"></div>
@@ -111,7 +111,7 @@
 
     </section>
     <section class="useful-links">
-      <h2 class="useful-links__title">Полезно</h2>
+      <h2 id="useful" class="useful-links__title">Полезно</h2>
       <div class="useful-links__cards">
         <a href="#" target="_blank" class="useful-card">
           <div class="useful-card__text">
@@ -148,7 +148,7 @@
       </div>
     </section>
     <section class="our-friends whole-width">
-      <h2 id="our-friends-title" class="our-friends__title">Наши друзья</h2>
+      <h2 id="our-friends" class="our-friends__title">Наши друзья</h2>
       <div class="carousel carousel_dots-placement_outer" tabindex="0" role="region" aria-label="слайды с друзьями">
         <button type="button" class="arrow-button arrow-button_dir_left carousel__prev"
           aria-label="предыдущий слайд"></button>
@@ -275,7 +275,7 @@
             </article>
           </li>
         </ul>
-        <div class="carousel-dots carousel__dots carousel__dots_type_friends">
+        <div class="carousel-dots carousel__dots carousel__dots_type_outer">
           <div class="carousel-dots__dot carousel-dots__dot_color_gray carousel-dots__dot_active"></div>
           <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
           <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
@@ -287,8 +287,78 @@
         </div>
       </div>
     </section>
-    <section class="blog" aria-label="удали меня">
-
+    <section class="blog">
+      <h2 id="blog" class="blog__title">Блог</h2>
+      <div class="blog__content">
+        <button type="button" class="blog__prev"
+          aria-label="предыдущий блог-пост"></button>
+        <button type="button" class="blog__next"
+          aria-label="следующий блог-пост"></button>
+        <ul class="blog__list">
+          <li class="blog__item blog__item_type_big">
+            <a class="blog-item blog-item_big" href="#">
+              <article class="blog-item__content">
+                <p class="blog-item__sticker blog-item__sticker_type_stats" aria-roledescription="тип блогпоста">
+                  Статистика</p>
+                <img class="blog-item__image" src="images/blogs/1.jpg" alt="изображение с гуманитарной помощью">
+                <time class="blog-item__date" datetime="2021-07-07">7 Июля 2021</time>
+                <h3 class="blog-item__title">Россияне и благотворительность</h3>
+                <p class="blog-item__text">Что статистика знает о добрых делах</p>
+              </article>
+            </a>
+          </li>
+          <li class="blog__item blog__item_type_right">
+            <a class="blog-item" href="#">
+              <article class="blog-item__content">
+                <img class="blog-item__image" src="images/blogs/2.jpg" alt="изображение выпускников МШПФ">
+                <time class="blog-item__date" datetime="2021-07-07">7 Июля 2021</time>
+                <h3 class="blog-item__title">Выпускной МШПФ 3.0</h3>
+                <p class="blog-item__text">Выпуск уже третьего набора Московской Школы Профессиональной Филантропии</p>
+              </article>
+            </a>
+          </li>
+          <li class="blog__item">
+            <a class="blog-item" href="#">
+              <article class="blog-item__content">
+                <p class="blog-item__sticker blog-item__sticker_type_analysis" aria-roledescription="тип блогпоста">
+                  Разбор</p>
+                <img class="blog-item__image" src="images/blogs/3.jpg" alt="изображение вывески с надписью для бедных">
+                <time class="blog-item__date" datetime="2021-07-07">7 Июля 2021</time>
+                <h3 class="blog-item__title">Благотворительность в России</h3>
+                <p class="blog-item__text">Как работает благотворительность в России: кто, как, почему и сколько жертвует другим</p>
+              </article>
+            </a>
+          </li>
+          <li class="blog__item">
+            <a class="blog-item" href="#">
+              <article class="blog-item__content">
+                <img class="blog-item__image" src="images/blogs/4.jpg" alt="изображение с доставкой гуманитарной помощи">
+                <time class="blog-item__date" datetime="2021-07-07">7 Июля 2021</time>
+                <h3 class="blog-item__title">Кому жертвуют в России?</h3>
+                <p class="blog-item__text">Самые частые случаи благотворительности — поддержка детей, религиозных ..</p>
+              </article>
+            </a>
+          </li>
+          <li class="blog__item">
+            <a class="blog-item" href="#">
+              <article class="blog-item__content">
+                <img class="blog-item__image" src="images/blogs/5.jpg" alt="изображение с членами фонда друзья">
+                <time class="blog-item__date" datetime="2021-07-07">7 Июля 2021</time>
+                <h3 class="blog-item__title">День рождения фонда «Друзья»</h3>
+                <p class="blog-item__text">День, в который собрались все друзья фонда.</p>
+              </article>
+            </a>
+          </li>
+        </ul>
+        <div class="blog__dots">
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray carousel-dots__dot_active"></div>
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
+        </div>
+      </div>
+      <a href="#" class="blog__link">Перейти в блог</a>
     </section>
     <section class="subscribe" aria-label="удали меня">
 
@@ -334,14 +404,16 @@
         <li class="footer__menu-item"><a href="#" class="footer__menu-link">Блог</a></li>
         <li class="footer__menu-item"><a href="#" class="footer__menu-link">Партнёры</a></li>
         <li class="footer__menu-item"><a href="#" class="footer__menu-link">Контакты</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link footer__menu-link_donate">Помочь фонду</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link footer__menu-link_donate">Помочь фонду</a>
+        </li>
       </ul>
     </nav>
     <div class="footer__contacts-container">
       <div class="footer__contacts">
         <div class="footer__contact">
           <p class="footer__contact-title">Написать нам:</p>
-          <a href="mailto:friends@friends-foundation.com" class="footer__contact-value">friends@friends-foundation.com</a>
+          <a href="mailto:friends@friends-foundation.com"
+            class="footer__contact-value">friends@friends-foundation.com</a>
         </div>
         <div class="footer__contact">
           <p class="footer__contact-title">Позвонить нам:</p>
@@ -365,7 +437,8 @@
         <span class="footer__copyright-age">18+</span>
         &copy;&nbsp;2021 Фонд «Друзья» Все права защищены.
       </p>
-      <p class="footer__terms-of-use">Исключительные права на фото- и иные материалы принадлежат авторам. Любое размещение материалов на сторонних
+      <p class="footer__terms-of-use">Исключительные права на фото- и иные материалы принадлежат авторам. Любое
+        размещение материалов на сторонних
         &nbsp;ресурсах необходимо согласовывать с правообладателями.</p>
       <img src="./images/logos/logo_duns.svg" alt="DUN & BRADSTREET" class="footer__duns-logo">
     </div>

@@ -1,0 +1,18 @@
+.blog-item__title {
+  margin: 0;
+  padding: 0;
+
+  grid-area: title;
+
+  font: 700 18px/26px var(--font-normal);
+}
+
+.blog-item:hover .blog-item__title {
+  color: var(--turquoise-40);
+}
+
+@media (min-width: 769px) {
+  .blog-item_big:hover .blog-item__title {
+    color: var(--turquoise-80);
+  }
+}
