@@ -16,15 +16,24 @@ export default class Blog {
    * @param {HTMLElement} blogEl Blog section element
    */
   constructor(blogEl) {
+    /** @private */
     this.blogEl = blogEl;
+    /** @private */
     this.carousel = null;
+    /** @private */
     this.classesData = null;
+    /** @private */
+    this.isCarousel = false;
   }
 
   /**
    * Change blog to normal non-carousel view
    */
   setNormal() {
+    if (!this.isCarousel) {
+      return;
+    }
+    this.isCarousel = false;
     if (this.carousel) {
       this.carousel.stop();
       this.carousel.ignoreEvents = true;
@@ -43,6 +52,10 @@ export default class Blog {
    * @param {bool} startCarousel Start automatic carousel rotation
    */
   setCarousel(startCarousel = true) {
+    if (this.isCarousel) {
+      return;
+    }
+    this.isCarousel = true;
     this.classesData = Object.entries(BLOG_CLASSES).flatMap(([k, newClassName]) => {
       const els = [...this.blogEl.querySelectorAll(`.${k}`)];
       return els.map((el) => {

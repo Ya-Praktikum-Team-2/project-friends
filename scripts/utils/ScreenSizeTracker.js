@@ -15,8 +15,15 @@
 /** Sreen size tracker */
 class ScreenSizeTracker {
   constructor() {
-    this.data = [];
+    /** @private */
+    this.sizes = [];
+    /** @private */
+    this.cbs = [];
+    /** @private */
+    this.prevBigger = [];
+    /** @private */
     this.eventInited = false;
+    /** @private */
     this.lastCheckedSize = 0;
   }
 
@@ -28,11 +35,15 @@ class ScreenSizeTracker {
     const newSize = window.innerWidth;
     const minSize = Math.min(this.lastCheckedSize, newSize);
     const maxSize = Math.max(this.lastCheckedSize, newSize);
-    this.data.forEach(([size, cbs]) => {
-      if (size > minSize && size <= maxSize) {
-        cbs.forEach((cb) => {
-          cb(newSize > size);
-        });
+    this.sizes.forEach((size, idx) => {
+      if (size >= minSize && size <= maxSize) {
+        const isBigger = newSize > size;
+        if (isBigger !== this.prevBigger[idx]) {
+          this.cbs[idx].forEach((cb) => {
+            cb(isBigger);
+          });
+          this.prevBigger[idx] = isBigger;
+        }
       }
     });
     this.lastCheckedSize = newSize;
@@ -46,12 +57,14 @@ class ScreenSizeTracker {
    * @param {bool} callNow Do the first call immideatly
    */
   addListener(size, cb, callNow = true) {
-    const data = this.data.find((el) => el[0] === size);
-    if (data) {
-      data[1].push(cb);
+    const isBigger = window.innerWidth > size;
+    const idx = this.sizes.indexOf(size);
+    if (idx !== -1) {
+      this.cbs[idx].push(cb);
     } else {
-      this.data.push([size, [cb]]);
-      this.data.sort((a, b) => a[0] - b[0]);
+      this.sizes.push(size);
+      this.cbs.push([cb]);
+      this.prevBigger.push(isBigger);
     }
     if (!this.eventInited) {
       this.eventInited = true;
@@ -59,7 +72,7 @@ class ScreenSizeTracker {
       window.addEventListener('resize', this, { passive: true });
     }
     if (callNow) {
-      cb(window.innerWidth > size);
+      cb(isBigger);
     }
   }
 }
