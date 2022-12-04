@@ -1,4 +1,12 @@
 /* stylelint-disable no-missing-end-of-source-newline */
 .activities__container {
   margin: 92px 124px 0;
+  display: flex;
+  flex-flow: wrap row;
+}
+
+@media screen and (max-width: 767px) {
+  .activities__container {
+    margin: 56px 24px 0;
+  }
 }

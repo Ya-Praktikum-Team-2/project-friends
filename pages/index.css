@@ -18,6 +18,7 @@
 @import url("../blocks/activities/activities.css");
 @import url("../blocks/activities/__container/activities__container.css");
 @import url("../blocks/activities/__text/activities__text.css");
+@import url("../blocks/activities/__description/activities__description.css");
 @import url("../blocks/activitie/activitie.css");
 @import url("../blocks/activitie/__bulb/activitie__bulb.css");
 @import url("../blocks/activitie/__development/activitie__development.css");
