@@ -12,7 +12,7 @@ export default class Carousel {
    * @param {object} config - Carousel configuration.
    * @param {number} config.timeInterval - Time in ms between automatic slides rotations.
    * @param {bool} config.alwaysSlide - Change default fade animation into sliding one.
-   * @param {bool} config.ignoreTouch - Change how touch and keyboard events are handled.
+   * @param {bool} config.ignoreEvents - Change how touch and keyboard events are handled.
    * @param {number} config.touchMinDistance - Min distance in pixels of a swipe
    * to register it as a slide change.
    * @param {number} config.touchDebounce - Min time in ms between touch events to
@@ -277,6 +277,21 @@ export default class Carousel {
       nextIdx = 0;
     }
     this.showSliderAt(nextIdx, doSliding ? 1 : 0);
+  }
+
+  /**
+   * Resets current slide index without any slides changing.
+   */
+  reset() {
+    const active = this.itemWrapEl.querySelector('.carousel__item_active');
+    const idx = this.itemEls.indexOf(active);
+    this.currentIdx = idx;
+
+    const currentDot = this.dotsWrapEl.querySelector('.carousel-dots__dot_active');
+    if (currentDot) {
+      currentDot.classList.remove('carousel-dots__dot_active');
+    }
+    this.dotEls[idx].classList.add('carousel-dots__dot_active');
   }
 
   /**

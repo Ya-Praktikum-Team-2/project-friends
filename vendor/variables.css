@@ -41,6 +41,10 @@
   --yellow-70: #eeb250;
   --yellow-60: #e8ad4d;
 
+  /* other colors */
+  --aqua: #00fffa;
+  --orange: #ffa923;
+
   /* font-families */
   --font-normal: "Berlin Type", "Inter", sans-serif;
   --font-italic: "Playfair Display", sans-serif;

@@ -1,0 +1,15 @@
+.blog__item {
+  margin: 0;
+  padding: 0;
+}
+
+/* fallback in case of disabled js - show only first blog post */
+@media (max-width: 768px) {
+  .blog__item {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .blog__item:first-child {
+    z-index: 1;
+  }
+}

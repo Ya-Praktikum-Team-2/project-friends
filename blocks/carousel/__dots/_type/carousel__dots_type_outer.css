@@ -1,0 +1,9 @@
+.carousel__dots_type_outer {
+  margin: 18px 0 0;
+}
+
+@media (max-width: 576px) {
+  .carousel__dots_type_outer {
+    margin: 24px 0 0;
+  }
+}
