@@ -1,0 +1,27 @@
+.program__name {
+  margin: 0;
+  padding: 0;
+  font: 700 12px/120% var(--font-normal);
+  color: var(--black-100-60p);
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+
+  grid-area: name;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.program__name::before {
+  content: "";
+  display: inline-block;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .program__name {
+    gap: 7.76px;
+    font-size: 8px;
+  }
+}

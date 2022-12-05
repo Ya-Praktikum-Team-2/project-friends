@@ -1,0 +1,5 @@
+.program__name_type_procharity::before {
+  height: 32px;
+  width: 32px;
+  background-image: url("../../../../images/programs/ProCharity-mini-logo.svg");
+}

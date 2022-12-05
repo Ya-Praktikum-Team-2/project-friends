@@ -1,0 +1,12 @@
+.program__name_type_school::before {
+  height: 31px;
+  width: 35px;
+  background-image: url("../../../../images/programs/MoscowSchool-mini-logo.svg");
+}
+
+@media (max-width: 768px) {
+  .program__name_type_school::before {
+    height: 20px;
+    width: 22.5px;
+  }
+}

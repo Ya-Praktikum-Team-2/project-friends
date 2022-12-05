@@ -1,0 +1,34 @@
+.program_type_school {
+  background-image: url("../../../images/programs/moscow-school-team.jpg");
+  background-position: left 0 bottom 0;
+  background-color: var(--blue-70);
+  padding: 80px 80px 16px 652px;
+}
+
+@media (max-width: 1200px) {
+  .program_type_school {
+    padding-left: 550px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .program_type_school {
+    padding-left: 425px;
+  }
+}
+
+@media (max-width: 768px) {
+  .program_type_school {
+    min-height: 354px;
+    padding: 32px 22px 40px 24px;
+    background-image: none;
+    grid-template:
+      "name" min-content
+      "." 9px
+      "title" min-content
+      "." 15px
+      "about" min-content
+      "." 24px
+      "button" min-content;
+  }
+}

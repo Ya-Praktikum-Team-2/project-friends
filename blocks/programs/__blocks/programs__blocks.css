@@ -1,5 +1,12 @@
 .programs__blocks {
   list-style: none;
-  margin: 0;
+  margin: 56px 0 0;
   padding: 0;
+}
+
+
+@media (max-width: 768px) {
+  .programs-procharity {
+    margin: 24px 0 0;
+  }
 }
