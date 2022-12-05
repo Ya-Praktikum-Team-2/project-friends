@@ -1,6 +1,7 @@
 .values__cells {
   margin: 0;
   padding: 0;
+  list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, 200px);
   grid-auto-rows: 156px;
@@ -8,7 +9,7 @@
   justify-content: center;
 }
 
-@media (max-width: 1031px) and (min-width: 620px) {
+@media (max-width: 1024px) and (min-width: 768px) {
   .values__cells {
     grid-template-columns: repeat(3, 200px);
   }
@@ -17,7 +18,7 @@
 @media (max-width: 576px) {
   .values__cells {
     margin: 0 40px;
-    grid-template-columns: repeat(auto-fit, minmax(295px, 200px));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 295px));
     grid-auto-rows: 121px;
     gap: 40px;
   }

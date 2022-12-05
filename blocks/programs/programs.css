@@ -1,9 +1,3 @@
 .programs {
-  margin-top: 96px;
-}
-
-@media (max-width: 576px) {
-  .programs {
-    margin-top: 56px;
-  }
+  padding: 0;
 }
