@@ -1,0 +1,11 @@
+.values__title {
+  font: var(--title-3);
+  text-align: center;
+  margin: 0 auto 56px;
+}
+
+@media (max-width: 576px) {
+  .values__title {
+    margin: 0 auto 24px;
+  }
+}

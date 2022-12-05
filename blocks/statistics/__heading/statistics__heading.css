@@ -1,0 +1,12 @@
+.statistics__heading {
+  margin: 0 0 16px;
+  padding: 0;
+  font: 700 90px/96px var(--font-normal);
+}
+
+@media (max-width: 576px) {
+  .statistics__heading {
+    margin: 0 0 4px;
+    font: 700 56px/78px var(--font-normal);
+  }
+}
