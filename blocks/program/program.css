@@ -1,7 +1,6 @@
 .program {
   color: var(--black-100);
   min-height: 490px;
-  position: relative;
   background-size: auto 100%;
   background-repeat: no-repeat;
 
