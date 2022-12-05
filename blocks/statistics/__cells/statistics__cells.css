@@ -1,0 +1,22 @@
+.statistics__cells {
+  margin: 39px 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 240px);
+  grid-auto-rows: min-content;
+  gap: 24px;
+  justify-content: center;
+}
+
+@media (max-width: 1031px) {
+  .statistics__cells {
+    grid-template-columns: repeat(2, 240px);
+  }
+}
+
+@media (max-width: 576px) {
+  .statistics__cells {
+    margin: 56px 24px;
+    grid-template-columns: repeat(auto-fit, minmax(326px, 240px));
+  }
+}
