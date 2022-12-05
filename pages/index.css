@@ -106,6 +106,7 @@
 /* useful-links block */
 @import url("../blocks/useful-links/useful-links.css");
 @import url("../blocks/useful-links/__title/useful-links__title.css");
+@import url("../blocks/useful-links/__card/useful-links__card.css");
 @import url("../blocks/useful-links/__cards/useful-links__cards.css");
 @import url("../blocks/useful-card/useful-card.css");
 @import url("../blocks/useful-card/__title/useful-card__title.css");
