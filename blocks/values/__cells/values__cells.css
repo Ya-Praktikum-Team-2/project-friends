@@ -8,6 +8,12 @@
   justify-content: center;
 }
 
+@media (max-width: 1031px) and (min-width: 620px) {
+  .values__cells {
+    grid-template-columns: repeat(3, 200px);
+  }
+}
+
 @media (max-width: 576px) {
   .values__cells {
     margin: 0 40px;

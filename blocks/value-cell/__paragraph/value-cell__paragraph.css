@@ -1,7 +1,11 @@
 .value-cell__paragraph {
   margin: 0;
   padding: 0;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 21px;
+  font: 400 16px/22px var(--font-normal);
+}
+
+@media (max-width: 576px) {
+  .value-cell__paragraph {
+    font: 400 18px/25px var(--font-normal);
+  }
 }

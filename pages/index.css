@@ -79,7 +79,12 @@
 @import url("../blocks/value-cell/__paragraph/value-cell__paragraph.css");
 
 /* statistics block */
-
+@import url("../blocks/statistics/statistics.css");
+@import url("../blocks/statistics/__cells/statistics__cells.css");
+@import url("../blocks/statistics/__cell/statistics__cell.css");
+@import url("../blocks/statistics/__heading/statistics__heading.css");
+@import url("../blocks/statistics/__paragraph/statistics__paragraph.css");
+@import url("../blocks/statistics/__font-bold/statistics__font-bold.css");
 
 /* useful-links block */
 @import url("../blocks/useful-links/useful-links.css");
