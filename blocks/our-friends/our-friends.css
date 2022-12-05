@@ -1,5 +1,4 @@
 .our-friends {
-  margin-top: 96px;
   margin-bottom: 32px;
   display: flex;
   flex-flow: column nowrap;
@@ -8,7 +7,6 @@
 
 @media (max-width: 576px) {
   .our-friends {
-    margin-top: 56px;
     margin-bottom: 0;
     gap: 24px;
   }

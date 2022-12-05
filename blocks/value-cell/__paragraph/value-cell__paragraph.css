@@ -1,6 +1,6 @@
 .value-cell__paragraph {
   margin: 0;
-  padding: 0;
+  padding: 0 16px;
   font: 400 16px/22px var(--font-normal);
 }
 

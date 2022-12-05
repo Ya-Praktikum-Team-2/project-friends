@@ -1,6 +1,7 @@
 .statistics__cells {
   margin: 39px 0;
   padding: 0;
+  list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, 240px);
   grid-auto-rows: min-content;
@@ -8,7 +9,7 @@
   justify-content: center;
 }
 
-@media (max-width: 1031px) {
+@media (max-width: 1024px) {
   .statistics__cells {
     grid-template-columns: repeat(2, 240px);
   }
@@ -17,6 +18,6 @@
 @media (max-width: 576px) {
   .statistics__cells {
     margin: 56px 24px;
-    grid-template-columns: repeat(auto-fit, minmax(326px, 240px));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 326px));
   }
 }
