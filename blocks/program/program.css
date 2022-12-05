@@ -1,0 +1,32 @@
+.program {
+  color: var(--black-100);
+  min-height: 490px;
+  position: relative;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+
+  box-sizing: border-box;
+
+  display: grid;
+  grid-template:
+    "name" min-content
+    "." 16px
+    "title" min-content
+    "." 24px
+    "about" min-content
+    "." 56px
+    "button" min-content;
+}
+
+@media (max-width: 1200px) {
+  .program {
+    min-height: 390px;
+    background-size: auto 80%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .program {
+    background-size: auto 65%;
+  }
+}

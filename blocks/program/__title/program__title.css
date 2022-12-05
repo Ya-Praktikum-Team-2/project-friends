@@ -1,0 +1,27 @@
+.program__title {
+  margin: 0;
+  padding: 0;
+  font: 700 34px/40px var(--font-normal);
+
+  grid-area: title;
+}
+
+@media (max-width: 1200px) {
+  .program__title {
+    font-size: 30px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .program__title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .program__title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}

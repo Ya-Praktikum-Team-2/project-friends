@@ -3,7 +3,9 @@
 
   /* black */
   --black-100: #fff;
+  --black-100-10p: rgba(255 255 255 / 10%);
   --black-100-20p: rgba(255 255 255 / 20%);
+  --black-100-60p: rgba(255 255 255 / 60%);
   --black-90: #f8f8f8;
   --black-90-40p: rgba(248 248 248 / 40%);
   --black-80: #f1f5f9;

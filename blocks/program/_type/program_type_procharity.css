@@ -1,0 +1,35 @@
+.program_type_procharity {
+  background-image: url("../../../images/programs/procharity-image-laptop.jpg");
+  background-position: right 0 bottom 0;
+  background-color: var(--turquoise-70);
+  padding: 88px 800px 16px 124px;
+}
+
+@media (max-width: 1200px) {
+  .program_type_procharity {
+    padding-right: 650px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .program_type_procharity {
+    padding-left: 90px;
+    padding-right: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .program_type_procharity {
+    min-height: 292px;
+    padding: 32px 22px 40px 24px;
+    background-image: none;
+    grid-template:
+      "name" min-content
+      "." 11px
+      "title" min-content
+      "." 12px
+      "about" min-content
+      "." 23px
+      "button" min-content;
+  }
+}
