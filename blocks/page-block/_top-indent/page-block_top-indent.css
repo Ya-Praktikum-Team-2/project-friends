@@ -1,0 +1,10 @@
+.page-block_top-indent {
+  margin-top: 96px;
+}
+
+@media (max-width: 576px) {
+  .page-block_top-indent {
+    margin-top: 56px;
+  }
+}
+

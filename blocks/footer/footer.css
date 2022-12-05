@@ -1,6 +1,7 @@
 .footer {
   background-color: var(--black-20);
   padding: 40px 124px 25px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 576px) {

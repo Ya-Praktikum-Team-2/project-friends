@@ -37,8 +37,10 @@
 @import url("../blocks/carousel/__next/carousel__next.css");
 @import url("../blocks/carousel/__prev/carousel__prev.css");
 
-/* whole-width block */
-@import url("../blocks/whole-width/whole-width.css");
+/* page-block block */
+@import url("../blocks/page-block/page-block.css");
+@import url("../blocks/page-block/_partial/page-block_partial.css");
+@import url("../blocks/page-block/_top-indent/page-block_top-indent.css");
 
 /* page block */
 @import url("../blocks/page/page.css");
