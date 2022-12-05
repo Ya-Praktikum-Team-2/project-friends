@@ -1,0 +1,35 @@
+.program_type_profteam {
+  background-image: url("../../../images/programs/profteam-image-profi.jpg");
+  background-position: right 0 bottom 0;
+  background-color: var(--pink-70);
+  padding: 96px 700px 16px 124px;
+}
+
+@media (max-width: 1200px) {
+  .program_type_profteam {
+    padding-right: 650px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .program_type_profteam {
+    padding-left: 90px;
+    padding-right: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .program_type_profteam {
+    min-height: 320px;
+    padding: 32px 22px 40px 24px;
+    background-image: none;
+    grid-template:
+      "name" min-content
+      "." 9px
+      "title" min-content
+      "." 20px
+      "about" min-content
+      "." 24px
+      "button" min-content;
+  }
+}

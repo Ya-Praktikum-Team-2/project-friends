@@ -71,25 +71,19 @@
 @import url("../blocks/programs/programs.css");
 @import url("../blocks/programs/__title/programs__title.css");
 @import url("../blocks/programs/__blocks/programs__blocks.css");
-@import url("../blocks/programs-procharity/programs-procharity.css");
-@import url("../blocks/programs-procharity/__about/programs-procharity__about.css");
-@import url("../blocks/programs-procharity/__button/programs-procharity__button.css");
-@import url("../blocks/programs-procharity/__logo-title/programs-procharity__logo-title.css");
-@import url("../blocks/programs-procharity/__name/programs-procharity__name.css");
-@import url("../blocks/programs-procharity/__title/programs-procharity__title.css");
-@import url("../blocks/programs-moscow-school/programs-moscow-school.css");
-@import url("../blocks/programs-moscow-school/__about/programs-moscow-school__about.css");
-@import url("../blocks/programs-moscow-school/__button/programs-moscow-school__button.css");
-@import url("../blocks/programs-moscow-school/__logo-title/programs-moscow-school__logo-title.css");
-@import url("../blocks/programs-moscow-school/__name/programs-moscow-school__name.css");
-@import url("../blocks/programs-moscow-school/__title/programs-moscow-school__title.css");
-@import url("../blocks/programs-prof-team/programs-prof-team.css");
-@import url("../blocks/programs-prof-team/__about/programs-prof-team__about.css");
-@import url("../blocks/programs-prof-team/__button/programs-prof-team__button.css");
-@import url("../blocks/programs-prof-team/__name/programs-prof-team__name.css");
-@import url("../blocks/programs-prof-team/__logo-title/programs-prof-team__logo-title.css");
-@import url("../blocks/programs-prof-team/__title/programs-prof-team__title.css");
 
+/* program block */
+@import url("../blocks/program/program.css");
+@import url("../blocks/program/_type/program_type_school.css");
+@import url("../blocks/program/_type/program_type_procharity.css");
+@import url("../blocks/program/_type/program_type_profteam.css");
+@import url("../blocks/program/__about/program__about.css");
+@import url("../blocks/program/__button/program__button.css");
+@import url("../blocks/program/__name/program__name.css");
+@import url("../blocks/program/__name/_type/program__name_type_school.css");
+@import url("../blocks/program/__name/_type/program__name_type_procharity.css");
+@import url("../blocks/program/__name/_type/program__name_type_profteam.css");
+@import url("../blocks/program/__title/program__title.css");
 
 /* values block */
 

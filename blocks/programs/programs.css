@@ -1,5 +1,9 @@
 .programs {
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
+  margin-top: 96px;
+}
+
+@media (max-width: 576px) {
+  .programs {
+    margin-top: 56px;
+  }
 }
