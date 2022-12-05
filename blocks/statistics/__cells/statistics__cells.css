@@ -10,7 +10,7 @@
 
 @media (max-width: 1031px) {
   .statistics__cells {
-  grid-template-columns: repeat(2, 240px);
+    grid-template-columns: repeat(2, 240px);
   }
 }
 
