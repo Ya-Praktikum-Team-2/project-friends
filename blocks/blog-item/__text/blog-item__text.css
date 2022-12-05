@@ -1,0 +1,8 @@
+.blog-item__text {
+  margin: 0;
+  padding: 0;
+
+  grid-area: text;
+
+  font: 400 18px/26px var(--font-normal);
+}

@@ -1,0 +1,18 @@
+.blog-item__sticker {
+  margin: 16px auto auto 16px;
+  padding: 2px 8px;
+
+  grid-area: image;
+  z-index: 1;
+
+  font: 700 10px/20px var(--font-normal);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--black-10);
+}
+
+@media (min-width: 768px) {
+  .blog-item_big .blog-item__sticker {
+    grid-area: 1 / 1 / 7 / 5;
+  }
+}

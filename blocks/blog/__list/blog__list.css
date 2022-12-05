@@ -1,0 +1,32 @@
+.blog__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: grid;
+  grid-template:
+    "big-post big-post right-post" 1fr
+    ".        .        ." minmax(432px, 1fr)
+    / 328px   328px    328px;
+  gap: 24px;
+}
+
+@media (max-width: 1080px) {
+  .blog__list {
+    grid-template:
+      "big-post   big-post" 1fr
+      "right-post ." 1fr
+      ".          ." 1fr
+      / 328px     328px;
+  }
+}
+
+/* fallback in case of disabled js - show only first blog post */
+@media (max-width: 768px) {
+  .blog__list {
+    grid-template:
+      "."
+      / 100%;
+    justify-items: center;
+  }
+}
