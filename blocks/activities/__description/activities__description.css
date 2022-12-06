@@ -5,7 +5,7 @@
   max-width: 1032px;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .activities__description {
     flex-direction: column;
     max-width: 100%;

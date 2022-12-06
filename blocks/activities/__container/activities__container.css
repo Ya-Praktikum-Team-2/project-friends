@@ -4,7 +4,7 @@
   flex-flow: wrap row;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .activities__container {
     margin: 56px 24px 0;
   }

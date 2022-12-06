@@ -1,9 +1,18 @@
 .activitie__item_type_learning {
   background: url("../../../../images/icons/book.svg") var(--blue-70) 0% 100% no-repeat;
+  margin-left: 212px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1278px) {
+  .activitie__item_type_learning {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 768px) {
   .activitie__item_type_learning {
     background-size: 80px;
+    margin-left: 16px;
+    z-index: 3;
   }
 }

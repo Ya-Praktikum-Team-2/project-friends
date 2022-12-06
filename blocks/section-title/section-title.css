@@ -1,9 +1,8 @@
-/* stylelint-disable no-missing-end-of-source-newline */
 .section-title {
   font: var(--title-3);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .section-title {
     font-size: 32px;
     line-height: 44px;
