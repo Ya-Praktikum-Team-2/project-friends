@@ -1,0 +1,13 @@
+.activities__description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1032px;
+}
+
+@media (max-width: 1023px) {
+  .activities__description {
+    flex-direction: column;
+    max-width: 100%;
+  }
+}

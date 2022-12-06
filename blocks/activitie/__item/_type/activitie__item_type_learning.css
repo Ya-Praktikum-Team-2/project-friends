@@ -1,0 +1,9 @@
+.activitie__item_type_learning {
+  background: url("../../../../images/icons/book.svg") var(--blue-70) 0% 100% no-repeat;
+}
+
+@media (max-width: 767px) {
+  .activitie__item_type_learning {
+    background-size: 80px;
+  }
+}

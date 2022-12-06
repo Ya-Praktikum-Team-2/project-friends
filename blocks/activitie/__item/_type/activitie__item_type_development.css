@@ -1,0 +1,9 @@
+.activitie__item_type_development {
+  background: url("../../../../images/icons/development.svg") 0% 50% var(--pink-70) no-repeat;
+}
+
+@media (max-width: 767px) {
+  .activitie__item_type_development {
+    background-size: 80px;
+  }
+}

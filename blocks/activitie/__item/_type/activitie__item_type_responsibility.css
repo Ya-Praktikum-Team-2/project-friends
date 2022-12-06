@@ -1,0 +1,9 @@
+.activitie__item_type_responsibility {
+  background: url("../../../../images/icons/briefcase.svg") 0% 50% var(--yellow-70) no-repeat;
+}
+
+@media (max-width: 767px) {
+  .activitie__item_type_responsibility {
+    background-size: 80px;
+  }
+}
