@@ -68,15 +68,17 @@
 @import url("../blocks/activities/activities.css");
 @import url("../blocks/activities/__container/activities__container.css");
 @import url("../blocks/activities/__text/activities__text.css");
+@import url("../blocks/activities/__text/_bold/activities__text_bold.css");
 @import url("../blocks/activities/__description/activities__description.css");
 @import url("../blocks/activitie/activitie.css");
-@import url("../blocks/activitie/__bulb/activitie__bulb.css");
-@import url("../blocks/activitie/__development/activitie__development.css");
-@import url("../blocks/activitie/__learning/activitie__learning.css");
-@import url("../blocks/activitie/__responsibility/activitie__responsibility.css");
+@import url("../blocks/activitie/__item/activitie__item.css");
+@import url("../blocks/activitie/__item/_type/activitie__item_type_bulb.css");
+@import url("../blocks/activitie/__item/_type/activitie__item_type_development.css");
+@import url("../blocks/activitie/__item/_type/activitie__item_type_learning.css");
+@import url("../blocks/activitie/__item/_type/activitie__item_type_responsibility.css");
 @import url("../blocks/activitie/__text/activitie__text.css");
 @import url("../blocks/section-title/section-title.css");
-@import url("../blocks/activitie/__reactangle/activitie__rectangle.css");
+
 
 /* programs block */
 @import url("../blocks/programs/programs.css");

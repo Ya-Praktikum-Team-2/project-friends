@@ -1,4 +1,3 @@
-/* stylelint-disable no-missing-end-of-source-newline */
 .activitie {
   display: flex;
   flex-direction: column;
@@ -7,7 +6,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .activitie {
     background: url("../../images/Чем\ мы\ занимаемся\ mobil.svg") no-repeat;
   }
