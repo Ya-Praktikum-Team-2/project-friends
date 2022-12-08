@@ -1,12 +1,12 @@
 // При выборе типа пожертвования "Ежемесячное"
 // 1 - выпадает блок сописанием donation__describe-monthlypay_opened
 
+// const btnOtherAmount = document.querySelector('#other-amount');
 const buttonPayMonthly = document.querySelector('#radio-2_option');
 const textMonthlyDetails = document.querySelector('.donation__describe-monthlypay');
 const buttonSupport = document.querySelector('.donation__support-btn');
 const buttonGooglepay = document.querySelector('.donation__button.donation__button_googlepay_default');
 const buttonApplepay = document.querySelector('.donation__button.donation__button_applepay_default');
-const btnOtherAmount = document.querySelector('#other-amount');
 
 buttonPayMonthly.addEventListener('click', () => {
   textMonthlyDetails.classList.add('donation__describe-monthlypay_opened');
