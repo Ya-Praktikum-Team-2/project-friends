@@ -6,6 +6,7 @@ const textMonthlyDetails = document.querySelector('.donation__describe-monthlypa
 const buttonSupport = document.querySelector('.donation__support-btn');
 const buttonGooglepay = document.querySelector('.donation__button.donation__button_googlepay_default');
 const buttonApplepay = document.querySelector('.donation__button.donation__button_applepay_default');
+const btnOtherAmount = document.querySelector('#other-amount');
 
 buttonPayMonthly.addEventListener('click', () => {
   textMonthlyDetails.classList.add('donation__describe-monthlypay_opened');
@@ -83,7 +84,6 @@ buttonApplepay.addEventListener('click', () => {
 const btnFirstAmount = document.querySelector('#radio-1_amount');
 const btnSecondAmount = document.querySelector('#radio-2_amount');
 const btnThirdAmount = document.querySelector('#radio-3_amount');
-const btnOtherAmount = document.querySelector('#other-amount');
 const amountTotal = document.querySelector('.card__total-amount');
 const labelFirstAmount = document.querySelector('label[for="radio-1_amount"]');
 const labelSecondAmount = document.querySelector('label[for="radio-2_amount"]');
@@ -102,7 +102,7 @@ const inputOtherAmount = document.querySelector('input[id="other-amount"]');
 
 inputOtherAmount.addEventListener('input', () => {
   amountTotal.textContent = inputOtherAmount.value;
-})
+});
 
 // Снять флажок cheked у всех кнопок (5 тыс/ 10 тыс/ 50 тыс) когда активно поле "Другая сумма"
 /* const allRadios = document.getElementsByName('radio_type_amount');
