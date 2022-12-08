@@ -3,7 +3,7 @@
 }
 
 /* Checked */
-.donation__amount-input:checked+.donation__amount-label {
-  color: #FFFFFF;
-  background-color: #82607D;
+.donation__amount-input:checked +.donation__amount-label {
+  color: var(--black-100);
+  background-color: var(--purple-70);
 }

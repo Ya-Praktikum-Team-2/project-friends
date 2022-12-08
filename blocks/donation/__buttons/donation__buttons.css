@@ -4,7 +4,7 @@
   gap: 16px;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .donation__buttons {
     flex-direction: column;
   }

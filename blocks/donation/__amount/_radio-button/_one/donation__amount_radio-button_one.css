@@ -5,7 +5,7 @@
   grid-row-end: 2;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .donation__amount_radio-button_one {
     grid-column-start: 1;
     grid-column-end: 2;

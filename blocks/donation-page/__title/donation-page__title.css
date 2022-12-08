@@ -1,4 +1,4 @@
-.donation__title {
+.donation-page__title {
   font-size: 44px;
   line-height: 58px;
   text-align: center;
@@ -7,21 +7,19 @@
   margin-right: auto;
   margin-top: 56px;
   margin-bottom: 55px;
-
 }
 
 
-@media screen and (max-width: 925px) {
-  .donation__title {
+@media (max-width: 925px) {
+  .donation-page__title {
     width: 85%;
     margin-top: 41px;
     margin-bottom: 41px;
   }
 }
 
-
-@media screen and (max-width: 768px) {
-  .donation__title {
+@media (max-width: 768px) {
+  .donation-page__title {
     font-size: 40px;
     line-height: 44px;
     font-weight: 400px;
@@ -30,17 +28,16 @@
   }
 }
 
-
-@media screen and (max-width: 575px) {
-  .donation__title {
+@media (max-width: 575px) {
+  .donation-page__title {
     width: 90%;
     margin-left: 24px;
     margin-right: 24px;
   }
 }
 
-@media screen and (max-width: 425px) {
-  .title {
+@media (max-width: 425px) {
+  .donation-page__title {
     padding-left: 24px;
     padding-right: 24px;
   }

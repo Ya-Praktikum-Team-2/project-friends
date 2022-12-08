@@ -11,7 +11,7 @@
   border: none;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .donation__section {
     margin-bottom: 32px;
   }

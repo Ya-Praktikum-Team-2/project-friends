@@ -5,12 +5,13 @@
   padding-left: 18px;
   margin-left: 205px;
   margin-right: 100px;
-  margin-top: 4px;
+  margin-top: -17px;
   border: none;
-  background-color: #FFFFFF;
+  background-color: var(--black-100);
+  z-index: 2;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .card-cvv__input {
     height: 56px;
     grid-column-start: 2;
@@ -21,5 +22,6 @@
     margin-left: 0;
     margin-right: 0;
     width: 104px;
+    z-index: 0;
   }
 }

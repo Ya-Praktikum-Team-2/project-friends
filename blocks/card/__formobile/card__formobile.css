@@ -11,7 +11,7 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .card__formobile {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (max-width: 525px) {
+@media (max-width: 525px) {
   .card__formobile {
     padding-top: 16px;
     padding-left: 16px;

@@ -6,14 +6,15 @@
   min-height: 244px;
   top: 29px;
   right: 0;
-  background-color: #E5E5E5;
+  background-color: var(--black-75);
   border-radius: 8px;
   box-sizing: border-box;
   overflow: hidden;
+  z-index: 0;
 }
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .card-cvv {
     display: none
   }

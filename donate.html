@@ -13,50 +13,39 @@
     <header class="header">
     </header>
     <main>
-      <section class="donation">
-        <h1 class="donation__title donation__title_normal">Поддерживая «Друзей»
-          вы&nbsp;помогаете <span class="donation__title donation__title_italics">развитию&nbsp;всей индустрии</span>
+      <section class="donation-page">
+        <h1 class="donation-page__title donation-page__title_normal">Поддерживая «Друзей»
+          вы&nbsp;помогаете <span class="donation-page__title donation-page__title_italics">развитию&nbsp;всей индустрии</span>
         </h1>
-
-        <form class="donation__form">
-
-
+        <form class="donation">
           <fieldset class="donation__section">
             <legend class="donation__subtitle">Выберите тип и сумму пожертвования</legend>
-
             <div class="donation__frequency-wrapper">
               <input class="input donation__frequency donation__frequency_input" id="radio-1_option" type="radio"
                 name="radio_type_option" value="1" checked>
               <label class="input donation__frequency donation__frequency_label" for="radio-1_option">Разовое</label>
-
               <input class="input donation__frequency donation__frequency_input" id="radio-2_option" type="radio"
                 name="radio_type_option" value="2">
               <label class="input donation__frequency donation__frequency_label"
                 for="radio-2_option">Ежемесячное</label>
             </div>
-
             <p class="donation__describe-monthlypay">Ежемесячное пожертвование раз в месяц
               списывается с банковской карты, Google Pay или Apple Pay. В любой момент вы
               сможете отключить его.</p>
           </fieldset>
-
-
           <fieldset class="donation__section">
             <legend class="donation__subtitle">Сумма поддержки</legend>
-
             <div class="donation__amount-wrapper">
               <div class="input donation__amount donation__amount_radio-button_one">
                 <input class="donation__amount-input" id="radio-1_amount" type="radio" name="radio_type_amount"
                   value="1">
                 <label data-amount="5000" class="donation__amount-label" for="radio-1_amount">5 000</label>
               </div>
-
               <div class="input donation__amount donation__amount_radio-button_two">
                 <input class="donation__amount-input" id="radio-2_amount" type="radio" name="radio_type_amount"
                   value="2">
                 <label data-amount="10000" class="donation__amount-label" for="radio-2_amount">10 000</label>
               </div>
-
               <div class="input donation__amount donation__amount_radio-button_three">
                 <input class="donation__amount-input" id="radio-3_amount" type="radio" name="radio_type_amount"
                   value="3">
@@ -69,11 +58,8 @@
               <span class="donation__ruble">&#8381;</span>
             </div>
           </fieldset>
-
-
           <fieldset class="donation__section">
             <legend class="donation__subtitle">Способ оплаты</legend>
-
             <div class="donation__buttons">
               <button class="button donation__button donation__button_visa-maestro-mir_default" type="button"
                 aria-label="Visa Maestro МИР"></button>
@@ -83,8 +69,7 @@
                 aria-label="Apple Pay"></button>
             </div>
           </fieldset>
-
-          <div class="card__box">
+          <div class="card-box">
             <div class="card">
               <p class="donation__subtitle">Банковская карта</p>
               <div class="card__container">
@@ -94,16 +79,13 @@
                   <input class="card__input card__input_holder" type="text" name="cardholder"
                     placeholder="Держатель карты" value="" tabindex="2" required>
                   <div class="card__wrapper">
-
                     <p class="card__text">Действует до</p>
                     <input class="card__input card__input_expiration-data" type="text" placeholder="ММ/ГГ" tabindex="3"
                       required>
-
                     <p class="card__text-total">Итого к оплате</p>
                     <p class="card__total-amount"></p>
                   </div>
                 </div>
-
                 <div class="card-cvv">
                   <div class="card-cvv__gray-stripe"></div>
                   <p class="card-cvv__title">CVV / CVC</p>
@@ -118,7 +100,6 @@
                   name="cardnumber" placeholder="Номер карты" value="" tabindex="1" required>
                 <input class="card__input card__input_holder" type="text" name="cardholder"
                   placeholder="Держатель карты" value="" tabindex="2" required>
-
                 <div class="card__wrapper">
                   <p class="card__text">Действует до</p>
                   <input class="card__input card__input_expiration-data" type="text" placeholder="ММ/ГГ" tabindex="3"
@@ -145,7 +126,7 @@
             </div>
           </div>
           <div class="agreement">
-            <div class="agreement__checkboxes">
+            <div class="agreement__checkboxes agreement__checkboxes_gap">
               <input class="agreement__checkbox" id="check-1" type="checkbox" name="approval" value="" required>
               <label class="agreement__label" for="check-1"><span class="agreement__text">
                   Согласен с
@@ -162,10 +143,7 @@
           </div>
           <button type="submit" class="donation__support-btn">Поддержать фонд</button>
         </form>
-
       </section>
-
-
 
 
     <section class="feedback" aria-label="удали меня">

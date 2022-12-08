@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 .card__wrapper {
   grid-template-columns: 112px 104px;
   grid-template-rows: 24px 56px;

@@ -3,7 +3,8 @@
   font-size: 14px;
   line-height: 19px;
   font-weight: 400px;
-  color: black;
+  color: var(--black-10);
   margin-left: 205px;
   margin-top: 11px;
+  margin-bottom: 0;
 }

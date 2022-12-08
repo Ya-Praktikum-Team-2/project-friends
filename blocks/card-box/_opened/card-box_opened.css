@@ -1,4 +1,4 @@
-.card__box_opened {
+.card-box_opened {
   display: flex;
   visibility: visible;
   transition: 0.5s;

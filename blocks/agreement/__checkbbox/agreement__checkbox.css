@@ -4,17 +4,13 @@
 
 /* Checked */
 .agreement__checkbox:checked+.agreement__label::before {
-  border-color: #54A8B6;
-  background-color: #54A8B6;
-  background-image: url(../../../images/сheck.svg);
+  border-color: var(--turquoise-40);
+  background-color: var(--turquoise-40);
+  background-image: url("../../../images/donation/сheck.svg");
 }
 
-/*Fokus*/
-.agreement__checkbox:focus+.agreement__label::before {
-  border-color: #54A8B6;
-}
-
-/*  Hover */
-.agreement__checkbox:hover+.agreement__checkbox::before {
-  border-color: #54A8B6;
+/* Fokus ,Hover */
+.agreement__checkbox:focus+.agreement__label::before,
+.agreement__checkbox:hover+.agreement__label::before {
+  border-color: var(--turquoise-40);
 }

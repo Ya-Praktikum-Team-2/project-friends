@@ -1,7 +1,0 @@
-.agreement__checkboxes {
-  position: relative;
-}
-
-.agreement__checkboxes:not(:nth-child(2)) {
-  margin-bottom: 14px;
-}

@@ -1,5 +1,5 @@
 .button {
-  background-color: #F8F8F8;
+  background-color: var(--black-90);
   cursor: pointer;
   box-sizing: border-box;
   padding: 0;
@@ -7,11 +7,11 @@
 }
 
 .button:hover {
-  background-color: #82607D;
-  color: #FFFFFF;
+  background-color: var(--purple-70);
+  color: var(--black-100);
 }
 
 .button:checked {
-  background-color: #82607D;
-  color: #FFFFFF;
+  background-color: var(--purple-70);
+  color: var(--black-100);
 }

@@ -2,7 +2,8 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
-  color: rgba(0, 0, 0, 1);
+  color: var(--black-10);
   width: 100%;
   margin-bottom: 16px;
+  margin-top: 0;
 }

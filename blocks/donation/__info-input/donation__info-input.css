@@ -12,13 +12,13 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .donation__info-input {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .donation__info-input:not(:last-child) {
     margin-bottom: 16px;
   }
