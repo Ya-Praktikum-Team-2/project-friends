@@ -1,0 +1,25 @@
+.donation__info-input {
+  display: flex;
+  width: 268px;
+  height: 56px;
+  background-color: #F8F8F8;
+  border: none;
+  text-align: left;
+  padding-left: 18px;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .donation__info-input {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .donation__info-input:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}

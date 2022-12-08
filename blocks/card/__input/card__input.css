@@ -1,0 +1,10 @@
+.card__input {
+  min-height: 56px;
+  border: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  padding-left: 18px;
+}

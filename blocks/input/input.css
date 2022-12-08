@@ -1,0 +1,18 @@
+.input {
+  display: block;
+  background-color: #F8F8F8;
+  color: #999999;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  height: 56px;
+}
+
+.input:checked {
+  background: #82607D;
+  color: #FFFFFF;
+}

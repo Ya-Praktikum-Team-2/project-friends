@@ -1,0 +1,12 @@
+.donation__info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .donation__info {
+    margin-top: 24px;
+  }
+}

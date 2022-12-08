@@ -1,0 +1,21 @@
+.card__text-total {
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #8E8E8E;
+  margin-top: 0;
+  margin-bottom: auto;
+  padding: 0;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .card__text-total {
+    margin-left: 0;
+    margin-top: 24px;
+  }
+}

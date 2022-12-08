@@ -1,0 +1,10 @@
+.donation__frequency {
+  width: 288px;
+  height: 32px;
+  color: #999999;
+  border-radius: 56px;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}

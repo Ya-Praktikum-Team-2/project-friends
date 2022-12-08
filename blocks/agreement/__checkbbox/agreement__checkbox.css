@@ -1,0 +1,20 @@
+.agreement__checkbox {
+  display: none;
+}
+
+/* Checked */
+.agreement__checkbox:checked+.agreement__label::before {
+  border-color: #54A8B6;
+  background-color: #54A8B6;
+  background-image: url(../../../images/сheck.svg);
+}
+
+/*Fokus*/
+.agreement__checkbox:focus+.agreement__label::before {
+  border-color: #54A8B6;
+}
+
+/*  Hover */
+.agreement__checkbox:hover+.agreement__checkbox::before {
+  border-color: #54A8B6;
+}

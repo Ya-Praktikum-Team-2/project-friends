@@ -1,0 +1,11 @@
+.donation__frequency_input {
+  display: none;
+  z-index: 0;
+}
+
+/* Checked */
+.donation__frequency_input:checked+.donation__frequency_label {
+  background: #82607D;
+  color: #FFFFFF;
+  z-index: 3;
+}

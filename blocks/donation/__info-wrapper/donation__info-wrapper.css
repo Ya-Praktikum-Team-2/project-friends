@@ -1,0 +1,16 @@
+.donation__info-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.donation__info-wrapper:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .donation__info-wrapper {
+    justify-content: center;
+    flex-direction: column;
+  }
+}

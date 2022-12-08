@@ -12,7 +12,88 @@
 @import url("../blocks/main/main.css");
 
 /* donation block */
+@import url(../blocks/donation/__content/donation__content.css);
+@import url(../blocks/donation/donation.css);
+@import url(../blocks/donation/__title/donation__title.css);
+@import url(../blocks/donation/__title/_normal/donation__title_normal.css);
 
+@import url(../blocks/donation/__title/_italics/donation__title_italics.css);
+@import url(../blocks/donation/__form/donation__form.css);
+@import url(../blocks/input/input.css);
+@import url(../blocks/donation/__active-button/donation__active-button.css);
+@import url(../blocks/donation/__section/donation__section.css);
+@import url(../blocks/donation/__subtitle/donation__subtitle.css);
+
+@import url(../blocks/donation/__frequency-wrapper/donation__frequency-wrapper.css);
+@import url(../blocks/donation/__frequency/donation__frequency.css);
+@import url(../blocks/donation/__frequency/_input/donation__frequency_input.css);
+@import url(../blocks/donation/__frequency/_label/donation__frequency_label.css);
+@import url(../blocks/donation/__describe-monthlypay/donation__describe-monthlypay.css);
+@import url(../blocks/donation/__describe-monthlypay/_opened/donation__describe-monthlypay_opened.css);
+
+@import url(../blocks/donation/__amount-wrapper/donation__amount-wrapper.css);
+@import url(../blocks/donation/__amount/donation__amount.css);
+@import url(../blocks/donation/__amount/_radio-button/_one/donation__amount_radio-button_one.css);
+@import url(../blocks/donation/__amount/_radio-button/_two/donation__amount_radio-button_two.css);
+@import url(../blocks/donation/__amount/_radio-button/_three/donation__amount_radio-button_three.css);
+@import url(../blocks/donation/__amount-input/donation__amount-input.css);
+@import url(../blocks/donation/__amount-label/donation__amount-label.css);
+@import url(../blocks/donation/__other-amount-wrapper/donation__other-amount-wrapper.css);
+@import url(../blocks/donation/__other-amount/donation__other-amount.css);
+@import url(../blocks/donation/__ruble/donation__ruble.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_active/button_active.css);
+
+@import url(../blocks/donation/__buttons/donation__buttons.css);
+@import url(../blocks/donation/__button/donation__button.css);
+@import url(../blocks/donation/__button/_visa-maestro-mir/_active/donation__button_visa-maestro-mir_active.css);
+@import url(../blocks/donation/__button/_visa-maestro-mir/_default/donation__button_visa-maestro-mir_default.css);
+
+@import url(../blocks/donation/__button/_googlepay/_default/donation__button_googlepay_default.css);
+@import url(../blocks/donation/__button/_googlepay/_active/donation__button_googlepay_active.css);
+
+
+@import url(../blocks/donation/__button/_applepay/_default/donation__button_applepay_default.css);
+@import url(../blocks/donation/__button/_applepay/_active/donation__button_applepay_active.css);
+
+@import url(../blocks/donation/__info/donation__info.css);
+@import url(../blocks/donation/__info-wrapper/donation__info-wrapper.css);
+@import url(../blocks/donation/__info-input/donation__info-input.css);
+
+@import url(../blocks/card/__box/card__box.css);
+@import url(../blocks/card/__box/_opened/card__box_opened.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__container/card__container.css);
+@import url(../blocks/card/__inputs/card__inputs.css);
+@import url(../blocks/card/__input/card__input.css);
+@import url(../blocks/card/__input/_number/card__input_number.css);
+@import url(../blocks/card/__input/_holder/card__input_holder.css);
+@import url(../blocks/card/__input/_expiration-data/card__input_expiration-data.css);
+
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__text-total/card__text-total.css);
+@import url(../blocks/card/__wrapper/card__wrapper.css);
+@import url(../blocks/card/__total-amount/card__total-amount.css);
+
+@import url(../blocks/card-cvv/card-cvv.css);
+@import url(../blocks/card-cvv/__gray-stripe/card-cvv__gray-stripe.css);
+@import url(../blocks/card-cvv/__title/card-cvv__title.css);
+@import url(../blocks/card-cvv/__input/card-cvv__input.css);
+@import url(../blocks/card-cvv/__text/card-cvv__text.css);
+@import url(../blocks/card/__formobile/card__formobile.css);
+@import url(../blocks/card/__formobile/_closed/card__formobile_closed.css);
+
+@import url(../blocks/agreement/agreement.css);
+@import url(../blocks/agreement/_opened/agreement_opened.css);
+@import url(../blocks/agreement/__checkboxes/agreement__checkboxes.css);
+@import url(../blocks/agreement/__label/agreement__label.css);
+@import url(../blocks/agreement/__checkbbox/agreement__checkbox.css);
+@import url(../blocks/agreement/__link/agreement__link.css);
+@import url(../blocks/agreement/__text/agreement__text.css);
+
+@import url(../blocks/donation/__support-btn/donation__support-btn.css);
+@import url(../blocks/donation/__support-btn/_active/donation__support-btn_active.css);
 
 /* feedback block */
 

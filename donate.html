@@ -9,13 +9,165 @@
 </head>
 
 <body class="page">
-  <header class="header">
+  <div class="page__content">
+    <header class="header">
+    </header>
+    <main>
+      <section class="donation">
+        <h1 class="donation__title donation__title_normal">Поддерживая «Друзей»
+          вы&nbsp;помогаете <span class="donation__title donation__title_italics">развитию&nbsp;всей индустрии</span>
+        </h1>
 
-  </header>
-  <main class="main">
-    <section class="donation" aria-label="удали меня">
+        <form class="donation__form">
 
-    </section>
+
+          <fieldset class="donation__section">
+            <legend class="donation__subtitle">Выберите тип и сумму пожертвования</legend>
+
+            <div class="donation__frequency-wrapper">
+              <input class="input donation__frequency donation__frequency_input" id="radio-1_option" type="radio"
+                name="radio_type_option" value="1" checked>
+              <label class="input donation__frequency donation__frequency_label" for="radio-1_option">Разовое</label>
+
+              <input class="input donation__frequency donation__frequency_input" id="radio-2_option" type="radio"
+                name="radio_type_option" value="2">
+              <label class="input donation__frequency donation__frequency_label"
+                for="radio-2_option">Ежемесячное</label>
+            </div>
+
+            <p class="donation__describe-monthlypay">Ежемесячное пожертвование раз в месяц
+              списывается с банковской карты, Google Pay или Apple Pay. В любой момент вы
+              сможете отключить его.</p>
+          </fieldset>
+
+
+          <fieldset class="donation__section">
+            <legend class="donation__subtitle">Сумма поддержки</legend>
+
+            <div class="donation__amount-wrapper">
+              <div class="input donation__amount donation__amount_radio-button_one">
+                <input class="donation__amount-input" id="radio-1_amount" type="radio" name="radio_type_amount"
+                  value="1">
+                <label data-amount="5000" class="donation__amount-label" for="radio-1_amount">5 000</label>
+              </div>
+
+              <div class="input donation__amount donation__amount_radio-button_two">
+                <input class="donation__amount-input" id="radio-2_amount" type="radio" name="radio_type_amount"
+                  value="2">
+                <label data-amount="10000" class="donation__amount-label" for="radio-2_amount">10 000</label>
+              </div>
+
+              <div class="input donation__amount donation__amount_radio-button_three">
+                <input class="donation__amount-input" id="radio-3_amount" type="radio" name="radio_type_amount"
+                  value="3">
+                <label data-amount="50000" class="donation__amount-label" for="radio-3_amount">50 000</label>
+              </div>
+            </div>
+            <div class="donation__other-amount-wrapper">
+              <input id="other-amount" type="number" class="donation__other-amount" type="text" name="other-amount"
+                placeholder="Другая сумма" min="1">
+              <span class="donation__ruble">&#8381;</span>
+            </div>
+          </fieldset>
+
+
+          <fieldset class="donation__section">
+            <legend class="donation__subtitle">Способ оплаты</legend>
+
+            <div class="donation__buttons">
+              <button class="button donation__button donation__button_visa-maestro-mir_default" type="button"
+                aria-label="Visa Maestro МИР"></button>
+              <button class="button donation__button donation__button_googlepay_default" type="button"
+                aria-label="Google Pay"></button>
+              <button class="button donation__button donation__button_applepay_default" type="button"
+                aria-label="Apple Pay"></button>
+            </div>
+          </fieldset>
+
+          <div class="card__box">
+            <div class="card">
+              <p class="donation__subtitle">Банковская карта</p>
+              <div class="card__container">
+                <div class="card__inputs">
+                  <input class="card__input card__input_number" type="number" minlength="13" maxlength="16"
+                    name="cardnumber" placeholder="Номер карты" value="" tabindex="1" required>
+                  <input class="card__input card__input_holder" type="text" name="cardholder"
+                    placeholder="Держатель карты" value="" tabindex="2" required>
+                  <div class="card__wrapper">
+
+                    <p class="card__text">Действует до</p>
+                    <input class="card__input card__input_expiration-data" type="text" placeholder="ММ/ГГ" tabindex="3"
+                      required>
+
+                    <p class="card__text-total">Итого к оплате</p>
+                    <p class="card__total-amount"></p>
+                  </div>
+                </div>
+
+                <div class="card-cvv">
+                  <div class="card-cvv__gray-stripe"></div>
+                  <p class="card-cvv__title">CVV / CVC</p>
+                  <input class="card-cvv__input" type="password" placeholder="***" maxlength="4" tabindex="4" required>
+                  <p class="сard-cvv__text">Последние 3 цифры на белой полосе с
+                    обратной стороны карты
+                  </p>
+                </div>
+              </div>
+              <div class="card__formobile card__formobile_closed">
+                <input class="card__input card__input_number" type="number" minlength="13" maxlength="16"
+                  name="cardnumber" placeholder="Номер карты" value="" tabindex="1" required>
+                <input class="card__input card__input_holder" type="text" name="cardholder"
+                  placeholder="Держатель карты" value="" tabindex="2" required>
+
+                <div class="card__wrapper">
+                  <p class="card__text">Действует до</p>
+                  <input class="card__input card__input_expiration-data" type="text" placeholder="ММ/ГГ" tabindex="3"
+                    required>
+                  <p class="card-cvv__title">CVV / CVC</p>
+                  <input class="card-cvv__input" type="password" placeholder="***" maxlength="4" tabindex="4" required>
+                </div>
+                <p class="card__text-total">Итого к оплате</p>
+                <p class="card__total-amount"></p>
+              </div>
+              <div class="donation__info">
+                <div class="donation__info-wrapper">
+                  <input class="donation__info-input" type="text" name="name" placeholder="Имя" tabindex="5" required>
+                  <input class="donation__info-input" type="text" name="surname" placeholder="Фамилия" tabindex="6"
+                    required>
+                </div>
+                <div class="donation__info-wrapper">
+                  <input class="donation__info-input" type="tel" name="mobilenumber" maxlength="10" tabindex="7"
+                    placeholder="Телефон" required>
+                  <input class="donation__info-input" type="email" name="email" placeholder="Email" tabindex="8"
+                    required>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="agreement">
+            <div class="agreement__checkboxes">
+              <input class="agreement__checkbox" id="check-1" type="checkbox" name="approval" value="" required>
+              <label class="agreement__label" for="check-1"><span class="agreement__text">
+                  Согласен с
+                  <a href="#" class="agreement__link">офертой</a>
+              </label>
+            </div>
+            <div class="agreement__checkboxes">
+              <input class="agreement__checkbox" id="check-2" type="checkbox" name="agreement" value="" required>
+              <label class="agreement__label" for="check-2"><span class="agreement__text">
+                  Ознакомился и согласен c <a href="#" class="agreement__link">политикой обработки персональных
+                    данных</a>
+                </span></label>
+            </div>
+          </div>
+          <button type="submit" class="donation__support-btn">Поддержать фонд</button>
+        </form>
+
+      </section>
+
+
+
+
     <section class="feedback" aria-label="удали меня">
 
     </section>
@@ -31,75 +183,82 @@
     <section class="subscribe" aria-label="удали меня">
 
     </section>
-  </main>
-  <footer class="footer footer_donate">
-    <nav class="footer__nav">
-      <a href="#" class="logo footer__logo">
-        <div class="logo__image-container">
-          <img src="/images/logos/logo_friends.svg" alt="Friend Logo">
-        </div>
-        <p class="logo__title"><span class="logo__title-foundation">Фонд</span>Друзья</p>
-      </a>
-      <ul class="footer__menu">
-        <li class="footer__menu-item">
-          <a href="#" class="footer__menu-link">Фонд</a>
-        </li>
-        <li class="footer__menu-item">
-          <button type="button" class="footer__menu-button">Программы</button>
-          <ul class="submenu footer__submenu submenu_type_program">
-            <li class="footer__submenu-item">
-              <a href="#" class="footer__submenu-link">Команда профессионалов</a>
-            </li>
-            <li class="footer__submenu-item">
-              <a href="#" class="footer__submenu-link">МШПФ</a>
-            </li>
-            <li class="footer__submenu-item">
-              <a href="#" class="footer__submenu-link">ProCharity</a>
-            </li>
-          </ul>
-        </li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Для НКО</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Для бизнеса</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Блог</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Партнёры</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Контакты</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link footer__menu-link_donate">Помочь фонду</a></li>
-      </ul>
-    </nav>
-    <div class="footer__contacts-container">
-      <div class="footer__contacts">
-        <div class="footer__contact">
-          <p class="footer__contact-title">Написать нам:</p>
-          <a href="mailto:friends@friends-foundation.com" class="footer__contact-value">friends@friends-foundation.com</a>
-        </div>
-        <div class="footer__contact">
-          <p class="footer__contact-title">Позвонить нам:</p>
-          <a href="tel:+79772770717" class="footer__contact-value">+7 977 277-07-17</a>
-        </div>
-        <div class="footer__contact">
-          <p class="footer__contact-title">Мы в соцсетях:</p>
-          <div class="footer__socials">
-            <a href="#" class="footer__social-link">
-              <img src="./images/logos/logo_vk.svg" alt="VK" class="footer__social">
-            </a>
-            <a href="#" class="footer__social-link">
-              <img src="./images/logos/logo_telegram.svg" alt="Telegram" class="footer__social">
-            </a>
+    </main>
+    <footer class="footer footer_donate">
+      <nav class="footer__nav">
+        <a href="#" class="logo footer__logo">
+          <div class="logo__image-container">
+            <img src="/images/logos/logo_friends.svg" alt="Friend Logo">
+          </div>
+          <p class="logo__title"><span class="logo__title-foundation">Фонд</span>Друзья</p>
+        </a>
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <a href="#" class="footer__menu-link">Фонд</a>
+          </li>
+          <li class="footer__menu-item">
+            <button type="button" class="footer__menu-button">Программы</button>
+            <ul class="submenu footer__submenu submenu_type_program">
+              <li class="footer__submenu-item">
+                <a href="#" class="footer__submenu-link">Команда профессионалов</a>
+              </li>
+              <li class="footer__submenu-item">
+                <a href="#" class="footer__submenu-link">МШПФ</a>
+              </li>
+              <li class="footer__submenu-item">
+                <a href="#" class="footer__submenu-link">ProCharity</a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Для НКО</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Для бизнеса</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Блог</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Партнёры</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link">Контакты</a></li>
+          <li class="footer__menu-item"><a href="#" class="footer__menu-link footer__menu-link_donate">Помочь фонду</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__contacts-container">
+        <div class="footer__contacts">
+          <div class="footer__contact">
+            <p class="footer__contact-title">Написать нам:</p>
+            <a href="mailto:friends@friends-foundation.com"
+              class="footer__contact-value">friends@friends-foundation.com</a>
+          </div>
+          <div class="footer__contact">
+            <p class="footer__contact-title">Позвонить нам:</p>
+            <a href="tel:+79772770717" class="footer__contact-value">+7 977 277-07-17</a>
+          </div>
+          <div class="footer__contact">
+            <p class="footer__contact-title">Мы в соцсетях:</p>
+            <div class="footer__socials">
+              <a href="#" class="footer__social-link">
+                <img src="./images/logos/logo_vk.svg" alt="VK" class="footer__social">
+              </a>
+              <a href="#" class="footer__social-link">
+                <img src="./images/logos/logo_telegram.svg" alt="Telegram" class="footer__social">
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer__law">
-      <p class="footer__copyright">
-        <span class="footer__copyright-age">18+</span>
-        &copy;&nbsp;2021 Фонд «Друзья» Все права защищены.
-      </p>
-      <p class="footer__terms-of-use">Исключительные права на фото- и иные материалы принадлежат авторам. Любое размещение материалов на сторонних
-        &nbsp;ресурсах необходимо согласовывать с правообладателями.</p>
-      <img src="./images/logos/logo_duns.svg" alt="DUN & BRADSTREET" class="footer__duns-logo">
-    </div>
-  </footer>
-  <script type="module" src="scripts/main.js"></script>
+      <div class="footer__law">
+        <p class="footer__copyright">
+          <span class="footer__copyright-age">18+</span>
+          &copy;&nbsp;2021 Фонд «Друзья» Все права защищены.
+        </p>
+        <p class="footer__terms-of-use">Исключительные права на фото- и иные материалы принадлежат авторам. Любое
+          размещение материалов на сторонних
+          &nbsp;ресурсах необходимо согласовывать с правообладателями.</p>
+        <img src="./images/logos/logo_duns.svg" alt="DUN & BRADSTREET" class="footer__duns-logo">
+      </div>
+    </footer>
+
+    <script type="module" src="scripts/main.js"></script>
+    <script type="text/javascript" src="./scripts/donation.js"></script>
+
+
 </body>
 
 </html>

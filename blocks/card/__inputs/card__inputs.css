@@ -1,0 +1,23 @@
+.card__inputs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 367px;
+  min-height: 267px;
+  margin-top: 16px;
+  background-color: #F8F8F8;
+  border-radius: 8px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 32px;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+  .card__inputs {
+    display: flex;
+    visibility: visible;
+  }
+}

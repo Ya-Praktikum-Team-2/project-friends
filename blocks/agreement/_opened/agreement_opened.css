@@ -1,0 +1,6 @@
+.agreement_opened {
+  display: flex;
+  visibility: visible;
+  transition: 0.5s;
+  margin-top: 32px;
+}

@@ -1,0 +1,12 @@
+.donation {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  margin-top: 56px;
+  outline: 3px solid grey;
+  width: 100%;
+  align-items: center;
+  background-image: linear-gradient(0deg, #82607D, #82607D);
+  background-repeat: no-repeat;
+  background-size: 100% 490px;
+}

@@ -1,0 +1,17 @@
+.button {
+  background-color: #F8F8F8;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+}
+
+.button:hover {
+  background-color: #82607D;
+  color: #FFFFFF;
+}
+
+.button:checked {
+  background-color: #82607D;
+  color: #FFFFFF;
+}

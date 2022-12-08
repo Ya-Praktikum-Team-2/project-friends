@@ -1,0 +1,34 @@
+.donation__support-btn {
+    width: 550px;
+    height: 56px;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 56px;
+    background-color: #EEB250;
+}
+
+.donation__support-btn:hover {
+    background-color: #E8AD4D;
+}
+
+@media screen and (max-width: 768px) {
+    .donation__support-btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .donation__support-btn {
+        width: 100%;
+        min-width: 311px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

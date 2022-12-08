@@ -1,0 +1,19 @@
+.card-cvv__title {
+  width: 100%;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #000000;
+  margin-left: 205px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .card-cvv__title {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 0;
+  }
+}

@@ -1,0 +1,11 @@
+.donation__buttons {
+  display: flex;
+  width: 100%;
+  gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .donation__buttons {
+    flex-direction: column;
+  }
+}
