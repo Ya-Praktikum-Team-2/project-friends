@@ -4,6 +4,8 @@
 const buttonPayMonthly = document.querySelector('#radio-2_option');
 const textMonthlyDetails = document.querySelector('.donation__describe-monthlypay');
 const buttonSupport = document.querySelector('.donation__support-btn');
+const buttonGooglepay = document.querySelector('.donation__button.donation__button_googlepay_default');
+const buttonApplepay = document.querySelector('.donation__button.donation__button_applepay_default');
 
 buttonPayMonthly.addEventListener('click', () => {
   textMonthlyDetails.classList.add('donation__describe-monthlypay_opened');
@@ -15,7 +17,6 @@ buttonPayOnce.addEventListener('click', () => {
   textMonthlyDetails.classList.remove('donation__describe-monthlypay_opened');
   buttonSupport.classList.remove('donation__support-btn_active');
 });
-
 
 // При клике на кнопку с Visa
 // 1-появляется форма с картами для оплаты
@@ -41,13 +42,9 @@ buttonCards.addEventListener('click', () => {
   buttonGooglepay.classList.add('donation__button_googlepay_default');
 });
 
-
 // При клике на кнопки GooglePay и ApplePay:
 // 1 - если блок с картами открыт - он должен закрыться,
 // 2 - также по кнопке должен быть переход на оплату по выбранной системе.
-const buttonGooglepay = document.querySelector('.donation__button.donation__button_googlepay_default');
-const buttonApplepay = document.querySelector('.donation__button.donation__button_applepay_default');
-
 function closeCard(cards) {
   cards.classList.remove('card-box_opened');
 }
@@ -67,7 +64,6 @@ buttonGooglepay.addEventListener('click', () => {
   boxAgreement.classList.add('agreement_opened');
 });
 
-
 buttonApplepay.addEventListener('click', () => {
   closeCard(cardBox);
   buttonApplepay.classList.add('button_active');
@@ -82,7 +78,6 @@ buttonApplepay.addEventListener('click', () => {
   buttonSupport.classList.add('donation__support-btn_active');
   boxAgreement.classList.add('agreement_opened');
 });
-
 
 // Отображение суммы  в "Итого к оплате"
 const btnFirstAmount = document.querySelector('#radio-1_amount');
@@ -122,4 +117,4 @@ for (x = 0; x < allRadios.length; x++) {
       booRadio = this;
     }
   };
-}*/
+} */
