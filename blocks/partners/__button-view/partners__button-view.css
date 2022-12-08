@@ -1,0 +1,21 @@
+.partners__button-view {
+  margin: 0;
+  padding: 0;
+  min-width: 161px;
+  min-height: 56px;
+  border: none;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  background-color: var(--black-90);
+  border-radius: 56px;
+  font: 700 16px/20px var(--font-normal);
+  transition: background-color 0.4s ease;
+}
+
+.partners__button-view:hover {
+  background-color: var(--black-100);
+  transition: background-color 0.4s ease;
+}

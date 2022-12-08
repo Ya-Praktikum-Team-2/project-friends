@@ -164,6 +164,15 @@
 
 
 /* partners block */
+@import url("../blocks/partners/partners.css");
+@import url("../blocks/partners/_hidden/partners_hidden.css");
+@import url("../blocks/partners/__title/partners__title.css");
+@import url("../blocks/partners/__slider/partners__slider.css");
+@import url("../blocks/partners/__button-left/partners__button-left.css");
+@import url("../blocks/partners/__button-right/partners__button-right.css");
+@import url("../blocks/partners/__slider-line/partners__slider-line.css");
+@import url("../blocks/partners/__logo/partners__logo.css");
+@import url("../blocks/partners/__button-view/partners__button-view.css");
 
 
 /* feedback block */
