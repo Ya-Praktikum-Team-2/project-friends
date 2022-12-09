@@ -1,18 +1,5 @@
 .card__total-amount {
-  max-width: 100px;
-  min-height: 26px;
-  border: none;
-  background-color: var(--black-90);
-  box-sizing: border-box;
-  grid-column: 2/3;
-  grid-row: 2/3;
-  margin-bottom: 18px;
-  margin-top: 23px;
-}
-
-@media (max-width: 768px) {
-  .card__total-amount {
-    margin-bottom: 0;
-    margin-top: 2px;
-  }
+  padding: 0;
+  margin: 0;
+  font: 400 18px/26px var(--font-normal);
 }

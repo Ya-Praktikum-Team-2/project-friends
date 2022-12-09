@@ -2,14 +2,12 @@
   display: block;
   background-color: var(--black-90);
   color: var(--black-50);
-  cursor: pointer;
   box-sizing: border-box;
   padding: 0;
   border: none;
-  line-height: 20px;
-  font-weight: 700;
-  text-align: center;
+  font: 400 16px/20px var(--font-normal);
   height: 56px;
+  padding-left: 18px;
 }
 
 .input:checked {

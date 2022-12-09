@@ -1,8 +1,0 @@
-.card-cvv__gray-stripe {
-  position: absolute;
-  width: 100%;
-  min-height: 52px;
-  top: 25px;
-  background-color: var(--black-85);
-  z-index: -2;
-}
