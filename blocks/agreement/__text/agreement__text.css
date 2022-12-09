@@ -1,0 +1,13 @@
+.agreement__text {
+  display: inline-block;
+  max-width: 391px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .agreement__text {
+    max-width: 261px;
+  }
+}

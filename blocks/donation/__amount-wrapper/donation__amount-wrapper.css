@@ -1,0 +1,14 @@
+.donation__amount-wrapper {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 173px);
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .donation__amount-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat (2, 56px);
+    grid-row-gap: 16px;
+  }
+}
