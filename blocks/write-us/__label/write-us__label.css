@@ -1,0 +1,22 @@
+.write-us__label {
+  display: flex;
+  gap: 12px;
+
+}
+
+.write-us__label::before {
+  content: "";
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid var(--black-10);
+  border-radius: 4px;
+  transition: border 0.4s ease;
+}

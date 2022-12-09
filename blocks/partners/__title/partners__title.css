@@ -1,0 +1,12 @@
+.partners__title {
+  font: var(--title-3);
+  text-align: center;
+  margin: 0 auto 24px;
+}
+
+@media (max-width: 576px) {
+  .partners__title {
+    margin: 0 auto 16px;
+  }
+}
+

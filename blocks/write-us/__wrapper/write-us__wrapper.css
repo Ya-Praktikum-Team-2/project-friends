@@ -1,0 +1,14 @@
+.write-us__wrapper {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 328px);
+  gap: 24px;
+  justify-content: center;
+}
+
+@media (max-width: 679px) {
+  .write-us__wrapper {
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, 100%);
+  }
+}

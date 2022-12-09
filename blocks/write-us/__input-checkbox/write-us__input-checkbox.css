@@ -1,0 +1,52 @@
+/* .write-us__input-checkbox {
+  margin: 0;
+  padding: 0;
+  max-width: 20px;
+  height: 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+  appearance: none;
+  border: 1px solid var(--black-10);
+  border-radius: 4px;
+  transition: border 0.4s ease;
+}
+
+.write-us__input-checkbox:hover {
+  border: 1px solid var(--turquoise-40);
+} */
+
+/* .write-us__input-checkbox+label::before {
+  margin: 0;
+  padding: 0;
+  max-width: 20px;
+  height: 20px;
+  width: 100%;
+  border: none;
+  outline: none;
+  appearance: none;
+  border: 1px solid var(--black-10);
+  border-radius: 4px;
+  transition: border 0.4s ease;
+}
+
+.write-us__input-checkbox:hover {
+  border: 1px solid var(--turquoise-40);
+} */
+
+.write-us__input-checkbox {
+  display: none;
+}
+
+/* Checked */
+.write-us__input-checkbox:checked + .write-us__label::before {
+  border-color: var(--turquoise-40);
+  background-color: var(--turquoise-40);
+  background-image: url("../../../../images/write-us/check_mark.svg")
+}
+
+/* Fokus ,Hover */
+.write-us__input-checkbox:focus + .write-us__label::before,
+.write-us__input-checkbox:hover + .write-us__label::before {
+  border-color: var(--turquoise-40);
+}

@@ -1,0 +1,10 @@
+.write-us__paragraph {
+  margin: 0;
+  font: 400 18px/22px var(--font-normal);
+  text-align: center;
+}
+
+.write-us__user-agreement .write-us__paragraph {
+  text-align: start;
+  margin-left: 32px;
+}
