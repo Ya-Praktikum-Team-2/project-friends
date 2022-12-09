@@ -133,7 +133,20 @@
 /* blog block */
 
 
-/* subscribe block */
+/* subscription block */
+@import url("../blocks/subscription/subscription.css");
+@import url("../blocks/subscription/__message/subscription__message.css");
+@import url("../blocks/subscription/__message-heading/subscription__message-heading.css");
+@import url("../blocks/subscription/__message-subtitle/subscription__message-subtitle.css");
+@import url("../blocks/subscription/__form/subscription__form.css");
+@import url("../blocks/subscription/__input/subscription__input.css");
+@import url("../blocks/subscription/__input/_empty/subscription__input_empty.css");
+@import url("../blocks/subscription/__button/subscription__button.css");
+
+
+/* reset-button block */
+@import url("../blocks/reset-button/reset-button.css");
+@import url("../blocks/reset-button/_active/reset-button_active.css");
 
 
 /* partners block */
@@ -171,11 +184,13 @@
 @import url("../blocks/footer/__terms-of-use/footer__terms-of-use.css");
 @import url("../blocks/footer/__duns-logo/footer__duns-logo.css");
 
+
 /* logo block */
 @import url("../blocks/logo/logo.css");
 @import url("../blocks/logo/__image-container/logo__image-container.css");
 @import url("../blocks/logo/__title/logo__title.css");
 @import url("../blocks/logo/__title-foundation/logo__title-foundation.css");
+
 
 /* submenu block */
 @import url("../blocks/submenu/submenu.css");

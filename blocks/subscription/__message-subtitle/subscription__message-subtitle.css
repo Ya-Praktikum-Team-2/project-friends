@@ -1,0 +1,7 @@
+.subscription__message-subtitle {
+  margin: 0;
+  color: var(--black-10);
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: 400;
+}

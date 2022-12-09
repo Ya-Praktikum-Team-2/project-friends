@@ -1,0 +1,8 @@
+.subscription__message-heading {
+  margin: 0;
+  margin-bottom: 16px;
+  color: var(--black-10);
+  line-height: 35px;
+  font-size: 34px;
+  font-weight: 700;
+}

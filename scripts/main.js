@@ -18,3 +18,21 @@ const programSubmenu = document.querySelector('.submenu_type_program');
 window.addEventListener('resize', () => checkScreenSize(), { passive: true });
 
 toggleSubmenu(footerSubmenuButton, programSubmenu);
+
+const subscriptionForm = document.querySelector('.subscription__form');
+const subscriptionInput = document.querySelector('.subscription__input');
+const resetButton = document.querySelector('.reset-button');
+
+if (subscriptionInput.textContent.length > 0) {
+}
+
+subscriptionInput.addEventListener('input', () => {
+  resetButton.classList.add('reset-button_active');
+  subscriptionInput.classList.remove('subscription__input_empty');
+})
+
+resetButton.addEventListener('click', () => {
+  subscriptionForm.reset();
+  resetButton.classList.remove('reset-button_active');
+  subscriptionInput.classList.add('subscription__input_empty');
+})
