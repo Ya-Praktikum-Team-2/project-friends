@@ -1,0 +1,8 @@
+.subscription {
+  background-color: var(--black-90);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 43px 125px;
+}
