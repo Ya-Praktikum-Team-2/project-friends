@@ -1,0 +1,9 @@
+.button_type_yellow {
+  background-color: var(--yellow-70);
+  color: var(--black-100);
+}
+
+.button_type_yellow:hover,
+.button_type_yellow:focus {
+  background-color: var(--yellow-60);
+}

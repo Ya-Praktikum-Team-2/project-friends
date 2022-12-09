@@ -1,0 +1,19 @@
+.header__social-link {
+  display: block;
+}
+
+.header__social-link::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .header__social-link::before {
+    width: 40px;
+    height: 40px;
+  }
+}

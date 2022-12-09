@@ -1,0 +1,10 @@
+.logo_type_footer {
+  gap: 19px;
+}
+
+.logo_type_footer::before {
+  width: 40px;
+  height: 45px;
+  padding-right: 18px;
+  border-right: 0.5px solid var(--black-100-20p);
+}

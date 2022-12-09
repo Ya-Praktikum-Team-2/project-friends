@@ -1,0 +1,13 @@
+.header__programs-subtitle {
+  padding: 0;
+  margin: 0;
+
+  font: 400 11px/15px var(--font-normal);
+  grid-area: subtitle;
+}
+
+@media (max-width: 576px) {
+  .header__programs-subtitle {
+    font: 400 18px/24px var(--font-normal);
+  }
+}

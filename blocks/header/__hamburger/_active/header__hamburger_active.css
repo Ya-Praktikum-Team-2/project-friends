@@ -1,0 +1,4 @@
+.header__hamburger_active {
+  border-radius: 3px;
+  background-color: var(--black-100-20p);
+}

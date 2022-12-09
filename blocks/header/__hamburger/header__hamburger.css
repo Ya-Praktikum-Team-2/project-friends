@@ -1,0 +1,26 @@
+.header__hamburger {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+
+  grid-area: hamburger;
+  align-self: center;
+  width: 34px;
+  height: 28px;
+  display: none;
+  background-image: url("../../../images/icons/hamburger.svg");
+  background-repeat: no-repeat;
+  background-size: 24px 18px;
+  background-position: center;
+}
+
+.header__hamburger:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .header__hamburger {
+    display: block;
+  }
+}
