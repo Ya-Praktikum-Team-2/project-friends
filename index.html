@@ -10,10 +10,9 @@
 
 <body class="page">
   <header class="header">
-
   </header>
   <main class="main">
-    <section class="hero-banner carousel carousel_dots-placement_inner whole-width" tabindex="0"
+    <section class="hero-banner carousel carousel_dots-placement_inner page-block" tabindex="0"
       aria-label="о программах фонда">
       <button type="button" class="arrow-button arrow-button_dir_left carousel__prev"
         aria-label="предыдущий слайд"></button>
@@ -63,7 +62,7 @@
           </article>
         </li>
       </ul>
-      <div class="carousel-dots carousel__dots carousel__dots_type_hero">
+      <div class="carousel-dots carousel__dots carousel__dots_type_inner">
         <div class="carousel-dots__dot carousel-dots__dot_color_transparent carousel-dots__dot_active"></div>
         <div class="carousel-dots__dot carousel-dots__dot_color_transparent"></div>
         <div class="carousel-dots__dot carousel-dots__dot_color_transparent"></div>
@@ -72,83 +71,130 @@
     <section class="activities" aria-label="удали меня">
 
     </section>
-    <section class="programs">
+    <section class="programs page-block page-block_top-indent">
       <h2 id="programs" class="programs__title">Наши программы</h2>
       <ul class="programs__blocks">
-        <li class="programs-procharity">
-          <div class="programs-procharity__logo-title">
-            <img class="programs-procharity__image" src="./images/programs/ProCharity-mini-logo.svg" alt="procharity">
-            <h4 class="programs-procharity__name">ПРОГРАММА</h4>
-          </div>
-          <h3 class="programs-procharity__title">ProCharity</h3>
-          <p class="programs-procharity__about">Скорая интеллектуальная помощь для благотворительных фондов</p>
-          <button class="programs-procharity__button" type="button" title="О программе" id="procharity-button">О программе</button>
+        <li class="program program_type_procharity">
+          <p class="program__name program__name_type_procharity">ПРОГРАММА</p>
+          <h3 class="program__title">ProCharity</h3>
+          <p class="program__about">Скорая интеллектуальная помощь для благотворительных фондов</p>
+          <a class="program__button" href="#">О программе</a>
         </li>
-        <li class="programs-moscow-school">
-          <div class="programs-moscow-school__logo-title">
-            <img class="programs-moscow-school__image" src="./images/programs/MoscowSchool-mini-logo.svg" alt="moscow-school">
-            <h4 class="programs-moscow-school__name">ПРОГРАММА</h4>
-          </div>
-          <h3 class="programs-moscow-school__title">Московская школа<br>профессиональной филантропии</h3>
-          <p class="programs-moscow-school__about">Повышение квалификации и профессионализма сотрудников НКО</p>
-          <button class="programs-moscow-school__button" type="button" title="О программе" id="moscow-school-button">О программе</button>
+        <li class="program program_type_school">
+          <p class="program__name program__name_type_school">ПРОГРАММА</p>
+          <h3 class="program__title">Московская школа<span class="utils-break utils-break_md"></span>профес&shy;сиональной филантропии</h3>
+          <p class="program__about">Повышение квалификации и профессионализма<span class="utils-break utils-break_md"></span>сотрудников НКО</p>
+          <a href="#" class="program__button">О программе</a>
         </li>
-        <li class="programs-prof-team">
-          <div class="programs-prof-team__logo-title">
-            <img class="programs-prof-team__image" src="./images/programs/ProfTeam-mini-logo.svg" alt="prof-team">
-            <h4 class="programs-prof-team__name">ПРОГРАММА</h4>
-          </div>
-          <h3 class="programs-prof-team__title">Команда профессионалов</h3>
-          <p class="programs-prof-team__about">Стратегическое развитие и менторская поддержка социальных проектов и НКО</p>
-          <button class="programs-prof-team__button" type="button" title="О программе" id="prof-team-button">О программе</button>
+        <li class="program program_type_profteam">
+          <p class="program__name program__name_type_profteam">ПРОГРАММА</p>
+          <h3 class="program__title">Команда профес&shy;сионалов</h3>
+          <p class="program__about">Стратегическое развитие и менторская поддержка социальных проектов и НКО</p>
+          <a href="#" class="program__button">О программе</a>
         </li>
       </ul>
     </section>
-    <section class="values" aria-label="удали меня">
+    <section class="values page-block page-block_partial page-block_top-indent">
+      <h2 class="values__title">Наши ценности</h2>
+      <ul class="values__cells">
+        <li class="value-cell">
+          <img class="value-cell__image" src="./images/value-cell/education.svg" alt="Выпускник в академической шапочке">
+          <p class="value-cell__paragraph">Образование и профессионализм</p>
+        </li>
+        <li class="value-cell">
+          <img class="value-cell__image" src="./images/value-cell/planning.svg" alt="Чек-лист">
+          <p class="value-cell__paragraph">Планирование и устойчивость</p>
+        </li>
+        <li class="value-cell">
+          <img class="value-cell__image" src="./images/value-cell/approach.svg" alt="Пазлы">
+          <p class="value-cell__paragraph">Системный подход к решениям</p>
+        </li>
+        <li class="value-cell">
+          <img class="value-cell__image" src="./images/value-cell/partnership.svg" alt="Рукопожатие">
+          <p class="value-cell__paragraph">Объединение и партнерство</p>
+        </li>
+        <li class="value-cell">
+          <img class="value-cell__image" src="./images/value-cell/measurable-effect.svg" alt="Росток в ладони">
+          <p class="value-cell__paragraph">Измеримый эффект</p>
+        </li>
+      </ul>
+    </section>
+    <section class="statistics page-block page-block_top-indent" aria-label="Статистика">
+      <ul class="statistics__cells">
+        <li class="statistics__cell">
+          <p class="statistics__heading">2 500</p>
+          <p class="statistics__paragraph">
+            НКО <span class="statistics__font-bold">стали </span>участниками наших программ
+          </p>
+        </li>
+        <li class="statistics__cell">
+          <p class="statistics__heading">150</p>
+          <p class="statistics__paragraph">
+            <span class="statistics__font-bold">Профессионалов </span>благотворительности получили дипломы
+          </p>
+        </li>
+        <li class="statistics__cell">
+          <p class="statistics__heading">4 000</p>
+          <p class="statistics__paragraph">
+            Волонтер <span class="statistics__font-bold">был привлечен </span>через нас для помощи различным НКО
+          </p>
+        </li>
+        <li class="statistics__cell">
+          <p class="statistics__heading">250</p>
+          <p class="statistics__paragraph">
+            Экспертов <span class="statistics__font-bold">преподают </span>в наших программах
+          </p>
+        </li>
+    </ul>
 
     </section>
-    <section class="statistics" aria-label="удали меня">
-
+    <section class="useful-links page-block page-block_partial page-block_top-indent">
+      <h2 id="useful" class="useful-links__title">Полезно</h2>
+      <ul class="useful-links__cards">
+        <li class="useful-links__card">
+          <a href="#" target="_blank" class="useful-card">
+            <div class="useful-card__text">
+              <h3 class="useful-card__title">Как&nbsp;научиться&nbsp;быть настоящим&nbsp;филантропом?</h3>
+              <p class="useful-card__paragraph">Читать</p>
+            </div>
+            <img class="useful-card__image useful-card__image_icon_handshake" src="./images/useful-card/handshake.svg"
+              alt="Рукопожатие">
+          </a>
+        </li>
+        <li class="useful-links__card">
+          <a href="#" target="_blank" class="useful-card">
+            <div class="useful-card__text">
+              <h3 class="useful-card__title">Лучшие&nbsp;книги о&nbsp;благотворительности</h3>
+              <p class="useful-card__paragraph">Читать</p>
+            </div>
+            <img class="useful-card__image useful-card__image_icon_books" src="./images/useful-card/books.svg"
+              alt="Стопка книг">
+          </a>
+        </li>
+        <li class="useful-links__card">
+          <a href="#" target="_blank" class="useful-card">
+            <div class="useful-card__text">
+              <h3 class="useful-card__title">Как&nbsp;проверить благотворительный&nbsp;фонд?</h3>
+              <p class="useful-card__paragraph">Читать</p>
+            </div>
+            <img class="useful-card__image useful-card__image_icon_magnifying-glass"
+              src="./images/useful-card/magnifyingGlass.svg" alt="Вопросительный знак">
+          </a>
+        </li>
+        <li class="useful-links__card">
+          <a href="#" target="_blank" class="useful-card">
+            <div class="useful-card__text">
+              <h3 class="useful-card__title">Отчетность<span class="utils-break"></span>фонда</h3>
+              <p class="useful-card__paragraph">Смотреть</p>
+            </div>
+            <img class="useful-card__image useful-card__image_icon_checklist" src="./images/useful-card/checklist.svg"
+              alt="Чек-лист">
+          </a>
+        </li>
+      </ul>
     </section>
-    <section class="useful-links">
-      <h2 class="useful-links__title">Полезно</h2>
-      <div class="useful-links__cards">
-        <a href="#" target="_blank" class="useful-card">
-          <div class="useful-card__text">
-            <h3 class="useful-card__title">Как&nbsp;научиться&nbsp;быть настоящим&nbsp;филантропом?</h3>
-            <p class="useful-card__paragraph">Читать</p>
-          </div>
-          <img class="useful-card__image useful-card__image_icon_handshake" src="./images/useful-card/handshake.svg"
-            alt="Рукопожатие">
-        </a>
-        <a href="#" target="_blank" class="useful-card">
-          <div class="useful-card__text">
-            <h3 class="useful-card__title">Лучшие&nbsp;книги о&nbsp;благотворительности</h3>
-            <p class="useful-card__paragraph">Читать</p>
-          </div>
-          <img class="useful-card__image useful-card__image_icon_books" src="./images/useful-card/books.svg"
-            alt="Стопка книг">
-        </a>
-        <a href="#" target="_blank" class="useful-card">
-          <div class="useful-card__text">
-            <h3 class="useful-card__title">Как&nbsp;проверить благотворительный&nbsp;фонд?</h3>
-            <p class="useful-card__paragraph">Читать</p>
-          </div>
-          <img class="useful-card__image useful-card__image_icon_magnifying-glass"
-            src="./images/useful-card/magnifyingGlass.svg" alt="Вопросительный знак">
-        </a>
-        <a href="#" target="_blank" class="useful-card">
-          <div class="useful-card__text">
-            <h3 class="useful-card__title">Отчетность<span class="utils-break"></span>фонда</h3>
-            <p class="useful-card__paragraph">Смотреть</p>
-          </div>
-          <img class="useful-card__image useful-card__image_icon_checklist" src="./images/useful-card/checklist.svg"
-            alt="Чек-лист">
-        </a>
-      </div>
-    </section>
-    <section class="our-friends whole-width">
-      <h2 id="our-friends-title" class="our-friends__title">Наши друзья</h2>
+    <section class="our-friends page-block page-block_top-indent">
+      <h2 id="our-friends" class="our-friends__title">Наши друзья</h2>
       <div class="carousel carousel_dots-placement_outer" tabindex="0" role="region" aria-label="слайды с друзьями">
         <button type="button" class="arrow-button arrow-button_dir_left carousel__prev"
           aria-label="предыдущий слайд"></button>
@@ -275,7 +321,7 @@
             </article>
           </li>
         </ul>
-        <div class="carousel-dots carousel__dots carousel__dots_type_friends">
+        <div class="carousel-dots carousel__dots carousel__dots_type_outer">
           <div class="carousel-dots__dot carousel-dots__dot_color_gray carousel-dots__dot_active"></div>
           <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
           <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
@@ -287,8 +333,78 @@
         </div>
       </div>
     </section>
-    <section class="blog" aria-label="удали меня">
-
+    <section class="blog page-block page-block_partial page-block_top-indent">
+      <h2 id="blog" class="blog__title">Блог</h2>
+      <div class="blog__content">
+        <button type="button" class="blog__prev"
+          aria-label="предыдущий блог-пост"></button>
+        <button type="button" class="blog__next"
+          aria-label="следующий блог-пост"></button>
+        <ul class="blog__list">
+          <li class="blog__item blog__item_type_big">
+            <a class="blog-item blog-item_big" href="#">
+              <article class="blog-item__content">
+                <p class="blog-item__sticker blog-item__sticker_type_stats" aria-roledescription="тип блогпоста">
+                  Статистика</p>
+                <img class="blog-item__image" src="images/blogs/1.jpg" alt="изображение с гуманитарной помощью">
+                <time class="blog-item__date" datetime="2021-07-07">7 Июля 2021</time>
+                <h3 class="blog-item__title">Россияне и благотворительность</h3>
+                <p class="blog-item__text">Что статистика знает о добрых делах</p>
+              </article>
+            </a>
+          </li>
+          <li class="blog__item blog__item_type_right">
+            <a class="blog-item" href="#">
+              <article class="blog-item__content">
+                <img class="blog-item__image" src="images/blogs/2.jpg" alt="изображение выпускников МШПФ">
+                <time class="blog-item__date" datetime="2021-07-07">7 Июля 2021</time>
+                <h3 class="blog-item__title">Выпускной МШПФ 3.0</h3>
+                <p class="blog-item__text">Выпуск уже третьего набора Московской Школы Профессиональной Филантропии</p>
+              </article>
+            </a>
+          </li>
+          <li class="blog__item">
+            <a class="blog-item" href="#">
+              <article class="blog-item__content">
+                <p class="blog-item__sticker blog-item__sticker_type_analysis" aria-roledescription="тип блогпоста">
+                  Разбор</p>
+                <img class="blog-item__image" src="images/blogs/3.jpg" alt="изображение вывески с надписью для бедных">
+                <time class="blog-item__date" datetime="2021-07-07">7 Июля 2021</time>
+                <h3 class="blog-item__title">Благотворительность в России</h3>
+                <p class="blog-item__text">Как работает благотворительность в России: кто, как, почему и сколько жертвует другим</p>
+              </article>
+            </a>
+          </li>
+          <li class="blog__item">
+            <a class="blog-item" href="#">
+              <article class="blog-item__content">
+                <img class="blog-item__image" src="images/blogs/4.jpg" alt="изображение с доставкой гуманитарной помощи">
+                <time class="blog-item__date" datetime="2021-07-07">7 Июля 2021</time>
+                <h3 class="blog-item__title">Кому жертвуют в России?</h3>
+                <p class="blog-item__text">Самые частые случаи благотворительности — поддержка детей, религиозных ..</p>
+              </article>
+            </a>
+          </li>
+          <li class="blog__item">
+            <a class="blog-item" href="#">
+              <article class="blog-item__content">
+                <img class="blog-item__image" src="images/blogs/5.jpg" alt="изображение с членами фонда друзья">
+                <time class="blog-item__date" datetime="2021-07-07">7 Июля 2021</time>
+                <h3 class="blog-item__title">День рождения фонда «Друзья»</h3>
+                <p class="blog-item__text">День, в который собрались все друзья фонда.</p>
+              </article>
+            </a>
+          </li>
+        </ul>
+        <div class="carousel-dots blog__dots">
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray carousel-dots__dot_active"></div>
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
+          <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
+        </div>
+      </div>
+      <a href="#" class="blog__link">Перейти в блог</a>
     </section>
     <section class="subscription">
       <div class="subscription__message">
@@ -309,11 +425,11 @@
     <section class="feedback" aria-label="удали меня">
 
     </section>
-    <section class="support" aria-label="удали меня">
+    <section class="donation-block" aria-label="удали меня">
 
     </section>
   </main>
-  <footer class="footer footer_main">
+  <footer class="footer footer_main page-block">
     <nav class="footer__nav">
       <a href="#" class="logo footer__logo">
         <div class="logo__image-container">
@@ -344,14 +460,16 @@
         <li class="footer__menu-item"><a href="#" class="footer__menu-link">Блог</a></li>
         <li class="footer__menu-item"><a href="#" class="footer__menu-link">Партнёры</a></li>
         <li class="footer__menu-item"><a href="#" class="footer__menu-link">Контакты</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link footer__menu-link_donate">Помочь фонду</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-link footer__menu-link_donate">Помочь фонду</a>
+        </li>
       </ul>
     </nav>
     <div class="footer__contacts-container">
       <div class="footer__contacts">
         <div class="footer__contact">
           <p class="footer__contact-title">Написать нам:</p>
-          <a href="mailto:friends@friends-foundation.com" class="footer__contact-value">friends@friends-foundation.com</a>
+          <a href="mailto:friends@friends-foundation.com"
+            class="footer__contact-value">friends@friends-foundation.com</a>
         </div>
         <div class="footer__contact">
           <p class="footer__contact-title">Позвонить нам:</p>
@@ -375,7 +493,8 @@
         <span class="footer__copyright-age">18+</span>
         &copy;&nbsp;2021 Фонд «Друзья» Все права защищены.
       </p>
-      <p class="footer__terms-of-use">Исключительные права на фото- и иные материалы принадлежат авторам. Любое размещение материалов на сторонних
+      <p class="footer__terms-of-use">Исключительные права на фото- и иные материалы принадлежат авторам. Любое
+        размещение материалов на сторонних
         &nbsp;ресурсах необходимо согласовывать с правообладателями.</p>
       <img src="./images/logos/logo_duns.svg" alt="DUN & BRADSTREET" class="footer__duns-logo">
     </div>

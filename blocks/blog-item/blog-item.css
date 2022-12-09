@@ -1,0 +1,18 @@
+.blog-item {
+  text-decoration: none;
+  color: var(--black-10);
+  background-color: var(--black-90);
+
+  height: 100%;
+
+  display: grid;
+  grid-template:
+    "image image image"
+    ". . ." minmax(26px, 1fr)
+    ". date ."
+    ". . ." 16px
+    ". title ."
+    ". . ." 16px
+    ". text ."
+    ". . ." minmax(26px, 1fr) / 24px 1fr 24px;
+}

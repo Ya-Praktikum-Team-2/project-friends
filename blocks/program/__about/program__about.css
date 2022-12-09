@@ -1,0 +1,13 @@
+.program__about {
+  margin: 0;
+  padding: 0;
+  font: 400 18px/26px var(--font-normal);
+
+  grid-area: about;
+}
+
+@media (max-width: 768px) {
+  .program__about {
+    line-height: 24px;
+  }
+}

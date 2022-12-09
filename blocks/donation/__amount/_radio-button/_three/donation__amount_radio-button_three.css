@@ -1,0 +1,11 @@
+.donation__amount_radio-button_three {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+@media (max-width: 768px) {
+  .donation__amount_radio-button_three {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+}

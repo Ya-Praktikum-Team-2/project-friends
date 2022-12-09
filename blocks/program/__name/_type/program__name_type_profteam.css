@@ -1,0 +1,12 @@
+.program__name_type_profteam::before {
+  height: 26px;
+  width: 26px;
+  background-image: url("../../../../images/programs/ProfTeam-mini-logo.svg");
+}
+
+@media (max-width: 768px) {
+  .program__name_type_profteam::before {
+    height: 16.8px;
+    width: 16.8px;
+  }
+}

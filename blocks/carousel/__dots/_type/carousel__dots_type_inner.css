@@ -1,0 +1,9 @@
+.carousel__dots_type_inner {
+  margin-bottom: 28px;
+}
+
+@media (max-width: 576px) {
+  .carousel__dots_type_inner {
+    margin-bottom: 16px;
+  }
+}

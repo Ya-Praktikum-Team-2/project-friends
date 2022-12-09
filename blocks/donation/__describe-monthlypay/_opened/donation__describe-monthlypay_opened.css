@@ -1,0 +1,5 @@
+.donation__describe-monthlypay_opened {
+  display: inline-block;
+  visibility: visible;
+  transition: 0.5s;
+}

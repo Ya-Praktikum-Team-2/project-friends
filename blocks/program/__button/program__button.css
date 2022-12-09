@@ -1,0 +1,20 @@
+.program__button {
+  grid-area: button;
+
+  height: 56px;
+  width: 201px;
+  border-radius: 56px;
+  color: var(--black-100);
+  background-color: var(--black-100-10p);
+  transition: 0.2s linear;
+  font: 700 16px/20px var(--font-normal);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.program__button:hover {
+  background-color: var(--black-100);
+  color: var(--black-10);
+}
