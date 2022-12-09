@@ -1,0 +1,39 @@
+.header__menu {
+  grid-area: menu;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template: "nav . social . lang" / auto minmax(8px, 1fr) auto minmax(8px, 1fr) auto;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .header__menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--black-100);
+    color: var(--black-10);
+    grid-template: "nav . social . lang ." / auto 32px auto 32px auto 1fr;
+    padding: 20px 15px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 576px) {
+  .header__menu {
+    padding: 56px 0 59px;
+    justify-items: center;
+    grid-template:
+      ". nav ."
+      ". . ." 56px
+      ". lang ."
+      ". . ." 32px
+      ". social ."
+      ". . ." 1fr
+      / minmax(8px, 119px) 1fr minmax(8px, 119px);
+  }
+}

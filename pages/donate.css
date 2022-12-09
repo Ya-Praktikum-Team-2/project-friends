@@ -37,7 +37,9 @@
 @import url("../blocks/donation/__other-amount/donation__other-amount.css");
 @import url("../blocks/donation/__ruble/donation__ruble.css");
 @import url("../blocks/button/button.css");
-@import url("../blocks/button/_active/button_active.css");
+@import url("../blocks/button/_rounded/button_rounded.css");
+@import url("../blocks/button/_type/button_type_gray.css");
+@import url("../blocks/button/_type/button_type_yellow.css");
 @import url("../blocks/donation/__buttons/donation__buttons.css");
 @import url("../blocks/donation/__button/donation__button.css");
 @import url("../blocks/donation/__button/_visa-maestro-mir/_active/donation__button_visa-maestro-mir_active.css");

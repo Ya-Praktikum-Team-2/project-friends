@@ -1,0 +1,9 @@
+.header__fund {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+
+  background-color: var(--black-100);
+  color: var(--black-10);
+}

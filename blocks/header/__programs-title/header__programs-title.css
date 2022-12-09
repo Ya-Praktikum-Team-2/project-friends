@@ -1,0 +1,16 @@
+.header__programs-title {
+  padding: 0;
+  margin: 0;
+
+  font: 700 16px/16px var(--font-normal);
+
+  align-self: center;
+
+  grid-area: title;
+}
+
+@media (max-width: 576px) {
+  .header__programs-title {
+    font: 700 32px/36px var(--font-normal);
+  }
+}

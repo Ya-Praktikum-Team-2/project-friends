@@ -1,0 +1,5 @@
+.subscription__form {
+  position: relative;
+  display: flex;
+  gap: 16px;
+}

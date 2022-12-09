@@ -1,0 +1,10 @@
+.header__nav-item {
+  font: 400 16px/20px var(--font-normal);
+}
+
+@media (max-width: 576px) {
+  .header__nav-item {
+    font: 700 24px/38px var(--font-normal);
+  }
+}
+

@@ -1,0 +1,23 @@
+.header__nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  grid-area: nav;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 32px;
+}
+
+
+@media (max-width: 1200px) {
+  .header__nav-list {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 576px) {
+  .header__nav-list {
+    flex-flow: column nowrap;
+    gap: 20px;
+  }
+}
