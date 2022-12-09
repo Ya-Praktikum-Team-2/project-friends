@@ -15,8 +15,7 @@
 @import url("../blocks/donation/__content/donation__content.css");
 @import url("../blocks/donation-page/donation-page.css");
 @import url("../blocks/donation-page/__title/donation-page__title.css");
-@import url("../blocks/donation-page/__title/_normal/donation-page__title_normal.css");
-@import url("../blocks/donation-page/__title/_italics/donation-page__title_italics.css");
+@import url("../blocks/donation-page/__title-italics/donation-page__title-italics.css");
 @import url("../blocks/donation/donation.css");
 @import url("../blocks/input/input.css");
 @import url("../blocks/donation/__active-button/donation__active-button.css");
@@ -64,6 +63,8 @@
 @import url("../blocks/card/__text-total/card__text-total.css");
 @import url("../blocks/card/__wrapper/card__wrapper.css");
 @import url("../blocks/card/__total-amount/card__total-amount.css");
+@import url("../blocks/card/__title-cvv-formobile/card__title-cvv-formobile.css");
+@import url("../blocks/card/__input-cvv-formobile/card__input-cvv-formobile.css");
 @import url("../blocks/card-cvv/card-cvv.css");
 @import url("../blocks/card-cvv/__gray-stripe/card-cvv__gray-stripe.css");
 @import url("../blocks/card-cvv/__title/card-cvv__title.css");
