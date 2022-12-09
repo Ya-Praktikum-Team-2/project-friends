@@ -31,7 +31,7 @@ ScreenSizeTracker.addListener(768, (isBigger) => {
 });
 
 ScreenSizeTracker.addListener(576, (isBigger) => {
-  header.onViewCnahge(!isBigger);
+  header.onWidthCnahge(!isBigger);
 });
 
 const footerSubmenuButton = document.querySelector('.footer__menu-button');

@@ -1,14 +1,28 @@
+/** Header section helper */
 class Header {
+  /**
+   * Create a header section helper.
+   * @param {HTMLElement} headerEl Header section element
+   */
   constructor(headerEl) {
+    /** @private */
     this.hamburderEl = headerEl.querySelector('.header__hamburger');
+    /** @private */
     this.menuEl = headerEl.querySelector('.header__menu');
+    /** @private */
     this.fundItemEl = headerEl.querySelector('.header__nav-item-fund');
+    /** @private */
     this.fundMenuEl = headerEl.querySelector('.header__fund');
+    /** @private */
     this.fundData = { to: null, hidden: true };
 
+    /** @private */
     this.programsItemEl = headerEl.querySelector('.header__nav-item-programs');
+    /** @private */
     this.programsMenuEl = headerEl.querySelector('.header__programs');
+    /** @private */
     this.programsData = { to: null, hidden: true };
+    /** @private */
     this.isMobile = true;
 
     this.hamburderEl.addEventListener('click', () => {
@@ -27,12 +41,16 @@ class Header {
     );
   }
 
+  /**
+   * Add events for menu handling
+   * @private
+   */
   addMenuEvents(itemEl, itemData, toggleFunc) {
     const showMenu = () => {
       if (this.isMobile) {
         return;
       }
-      Header.onItemOver(itemData, () => toggleFunc(true));
+      Header.handleItemOver(itemData, () => toggleFunc(true));
     };
     itemEl.addEventListener('mouseover', showMenu, { passive: true });
     itemEl.addEventListener('focusin', showMenu, { passive: true });
@@ -41,7 +59,7 @@ class Header {
       if (this.isMobile) {
         return;
       }
-      Header.onItemOut(itemData, () => toggleFunc(false));
+      Header.handleItemOut(itemData, () => toggleFunc(false));
     };
     itemEl.addEventListener('mouseout', hideMenu, { passive: true });
     itemEl.addEventListener('focusout', hideMenu, { passive: true });
@@ -63,8 +81,12 @@ class Header {
     });
   }
 
+  /**
+   * Handle over and focus events with timeout
+   * @private
+   */
   /* eslint-disable no-param-reassign */
-  static onItemOver(data, toggleFn) {
+  static handleItemOver(data, toggleFn) {
     if (data.to) {
       clearTimeout(data.to);
       data.to = null;
@@ -76,8 +98,12 @@ class Header {
     }
   }
 
+  /**
+   * Handle out and blur events with timeout
+   * @private
+   */
   /* eslint-disable no-param-reassign */
-  static onItemOut(data, toggleFn) {
+  static handleItemOut(data, toggleFn) {
     if (data.to) {
       clearTimeout(data.to);
       data.to = null;
@@ -89,6 +115,10 @@ class Header {
     }
   }
 
+  /**
+   * Show and hide page menu
+   * @private
+   */
   toggleMenu(show) {
     if (show) {
       this.hamburderEl.setAttribute('aria-pressed', 'true');
@@ -103,6 +133,10 @@ class Header {
     }
   }
 
+  /**
+   * Show and hide fund submenu
+   * @private
+   */
   toggleFundMenu(show) {
     this.fundData.hidden = !show;
     if (show) {
@@ -112,6 +146,10 @@ class Header {
     }
   }
 
+  /**
+   * Show and hide programs submenu
+   * @private
+   */
   toggleProgramsMenu(show) {
     this.programsData.hidden = !show;
     if (show) {
@@ -121,7 +159,10 @@ class Header {
     }
   }
 
-  onViewCnahge(isMobile) {
+  /**
+   * Call on page width change
+   */
+  onWidthCnahge(isMobile) {
     if (isMobile === this.isMobile) {
       return;
     }
