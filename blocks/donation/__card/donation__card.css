@@ -1,0 +1,14 @@
+.donation__card {
+  border: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 32px;
+}
+
+@media (max-width: 768px) {
+  .donation__card {
+    gap: 24px;
+  }
+}

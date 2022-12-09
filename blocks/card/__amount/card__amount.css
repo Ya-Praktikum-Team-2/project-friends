@@ -1,0 +1,8 @@
+.card__amount {
+  grid-area: amount;
+  z-index: 2;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2px;
+  padding-top: 18px;
+}
