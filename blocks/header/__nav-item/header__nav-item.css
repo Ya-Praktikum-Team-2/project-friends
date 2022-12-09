@@ -1,7 +1,5 @@
 .header__nav-item {
   font: 400 16px/20px var(--font-normal);
-  display: grid;
-  grid-template: "link ." / auto minmax(0, 4px);
 }
 
 @media (max-width: 576px) {

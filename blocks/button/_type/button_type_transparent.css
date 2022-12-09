@@ -1,0 +1,10 @@
+.button_type_transparent {
+  background-color: var(--black-100-10p);
+  color: var(--black-100);
+}
+
+.button_type_transparent:hover,
+.button_type_transparent:focus {
+  background-color: var(--black-100);
+  color: var(--black-10);
+}

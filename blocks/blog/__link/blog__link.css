@@ -1,11 +1,7 @@
 .blog__link {
   margin: 56px auto 0;
 
-  /* FIXME: remove */
-  text-align: center;
-  width: 300px;
-  display: block;
-  color: inherit;
+  width: 328px;
 }
 
 @media (max-width: 576px) {

@@ -4,7 +4,7 @@
   padding: 0;
   list-style: none;
   display: grid;
-  grid-template: "nav . social . lang" / auto minmax(12px, 1fr) auto minmax(12px, 1fr) auto;
+  grid-template: "nav . social . lang" / auto minmax(8px, 1fr) auto minmax(8px, 1fr) auto;
   align-items: center;
 }
 

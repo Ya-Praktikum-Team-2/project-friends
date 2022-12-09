@@ -1,17 +1,14 @@
 .button {
-  background-color: var(--black-90);
   cursor: pointer;
   box-sizing: border-box;
   padding: 0;
   border: none;
-}
-
-.button:hover {
-  background-color: var(--purple-70);
-  color: var(--black-100);
-}
-
-.button:checked {
-  background-color: var(--purple-70);
-  color: var(--black-100);
+  text-decoration: none;
+  text-align: center;
+  font: 700 16px/20px var(--font-normal);
+  min-height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s linear;
 }

@@ -10,17 +10,17 @@
 
 <body class="page">
   <header class="header page-block">
-    <button class="header__hamburger" type="button" aria-pressed="false"></button>
-    <a href="#" class="logo logo_type_header header__logo">
+    <button class="active-el header__hamburger" type="button" aria-pressed="false"></button>
+    <a href="#" class="logo logo_type_header active-el header__logo">
       <h1 class="logo__title"><span class="logo__title-foundation">Фонд</span>Друзья</h1>
     </a>
     <div class="fixed-menu header__menu">
-      <button class="close-button" type="button" aria-label="Закрыть"></button>
+      <button class="close-button active-el" type="button" aria-label="Закрыть"></button>
       <nav class="header__nav">
         <ul class="header__nav-list">
           <li class="header__nav-item header__nav-item-fund"><a href="#" class="header__nav-link" title="Фонд">Фонд</a>
             <div class="fixed-menu header__fund header__fund_hidden">
-              <button class="close-button" type="button" aria-label="Закрыть"></button>
+              <button class="close-button active-el" type="button" aria-label="Закрыть"></button>
               <ul class="header__fund-list">
                 <li class="header__fund-item">
                   <a href="#" class="header__fund-link">
@@ -62,15 +62,15 @@
             </div>
           </li>
           <li class="header__nav-item header__nav-item-programs"><a href="#" class="header__nav-link" title="Программы">Программы</a>
-            <div class="fixed-menu header__programs">
-              <button class="close-button" type="button" aria-label="Закрыть"></button>
+            <div class="fixed-menu header__programs header__programs_hidden">
+              <button class="close-button active-el" type="button" aria-label="Закрыть"></button>
               <ul class="header__programs-list">
                 <li class="header__programs-item">
                   <div class="header__programs-wrap header__programs-wrap_type_procharity">
                     <p class="header__programs-icon">ПРОГРАММА</p>
                     <p class="header__programs-title ">ProCharity</p>
                     <p class="header__programs-subtitle">Скорая интеллектуальная помощь для благотворительных фондов</p>
-                    <a href="#" class="header__programs-button">О программе</a>
+                    <a href="#" class="button button_type_transparent button_rounded header__programs-button">О программе</a>
                   </div>
                 </li>
                 <li class="header__programs-item">
@@ -78,7 +78,7 @@
                     <p class="header__programs-icon">ПРОГРАММА</p>
                     <p class="header__programs-title">Московская школа профессиональной филантропии</p>
                     <p class="header__programs-subtitle">Повышение квалификации и профессионализма сотрудников НКО</p>
-                    <a href="#" class="header__programs-button">О программе</a>
+                    <a href="#" class="button button_type_transparent button_rounded header__programs-button">О программе</a>
                   </div>
                 </li>
                 <li class="header__programs-item">
@@ -86,7 +86,7 @@
                     <p class="header__programs-icon">ПРОГРАММА</p>
                     <p class="header__programs-title">Команда профессионалов</p>
                     <p class="header__programs-subtitle">Стратегическое развитие и менторская поддержка некоммерческих организаций</p>
-                    <a href="#" class="header__programs-button">О программе</a>
+                    <a href="#" class="button button_type_transparent button_rounded header__programs-button">О программе</a>
                   </div>
                 </li>
               </ul>
@@ -100,12 +100,12 @@
         </ul>
       </nav>
       <ul class="header__socials">
-        <li class="header__social"><a href="#" class="header__social-link header__social-link_type_vk" aria-label="ВКонтакте"></a></li>
-        <li class="header__social"><a href="#" class="header__social-link header__social-link_type_telegram" aria-label="Телеграм"></a></li>
+        <li class="header__social"><a href="#" class="active-el header__social-link header__social-link_type_vk" aria-label="ВКонтакте"></a></li>
+        <li class="header__social"><a href="#" class="active-el header__social-link header__social-link_type_telegram" aria-label="Телеграм"></a></li>
       </ul>
       <ul class="header__langs">
-        <li class="header__lang"><button class="header__lang-btn header__lang-btn_active" type="button" aria-pressed="true">Ру</button></li>
-        <li class="header__lang"><button class="header__lang-btn" type="button">En</button></li>
+        <li class="header__lang"><button class="active-el header__lang-btn header__lang-btn_active" type="button" aria-pressed="true">Ру</button></li>
+        <li class="header__lang"><button class="active-el header__lang-btn" type="button">En</button></li>
       </ul>
     </div>
     <button class="header__help" type="button">Помочь фонду</button>
@@ -127,8 +127,7 @@
                   class="hero-slide__title-emphasis">помогали</em> другим</h2>
               <p class="hero-slide__subtitle" style="max-width: 550px;"><span class="hero-slide__subtitle-bold">Фонд
                   «Друзья»</span> — это фонд для тех, кто хочет приносить пользу другим людям ничего за это не беря.</p>
-              <!-- FIXME: исправить на нормальную кнопку -->
-              <a href="#" class="hero-slide__link">Наши программы</a>
+              <a href="#programs" class="button button_type_white hero-slide__link">Наши программы</a>
             </div>
           </article>
         </li>
@@ -177,19 +176,19 @@
           <p class="program__name program__name_type_procharity">ПРОГРАММА</p>
           <h3 class="program__title">ProCharity</h3>
           <p class="program__about">Скорая интеллектуальная помощь для благотворительных фондов</p>
-          <a class="program__button" href="#">О программе</a>
+          <a class="button button_type_transparent button_rounded program__button" href="#">О программе</a>
         </li>
         <li class="program program_type_school">
           <p class="program__name program__name_type_school">ПРОГРАММА</p>
           <h3 class="program__title">Московская школа<span class="utils-break utils-break_md"></span>профес&shy;сиональной филантропии</h3>
           <p class="program__about">Повышение квалификации и профессионализма<span class="utils-break utils-break_md"></span>сотрудников НКО</p>
-          <a href="#" class="program__button">О программе</a>
+          <a href="#" class="button button_type_transparent button_rounded program__button">О программе</a>
         </li>
         <li class="program program_type_profteam">
           <p class="program__name program__name_type_profteam">ПРОГРАММА</p>
           <h3 class="program__title">Команда профес&shy;сионалов</h3>
           <p class="program__about">Стратегическое развитие и менторская поддержка социальных проектов и НКО</p>
-          <a href="#" class="program__button">О программе</a>
+          <a href="#" class="button button_type_transparent button_rounded program__button">О программе</a>
         </li>
       </ul>
     </section>
@@ -503,7 +502,7 @@
           <div class="carousel-dots__dot carousel-dots__dot_color_gray"></div>
         </div>
       </div>
-      <a href="#" class="blog__link">Перейти в блог</a>
+      <a href="#" class="button button_type_gray button_rounded blog__link">Перейти в блог</a>
     </section>
     <section class="subscribe" aria-label="удали меня">
 
@@ -520,15 +519,15 @@
   </main>
   <footer class="footer footer_main page-block">
     <nav class="footer__nav">
-      <a href="#" class="logo logo_type_footer footer__logo">
+      <a href="#" class="logo logo_type_footer active-el footer__logo">
         <p class="logo__title"><span class="logo__title-foundation">Фонд</span>Друзья</p>
       </a>
       <ul class="footer__menu">
         <li class="footer__menu-item">
-          <a href="#" class="footer__menu-link">Фонд</a>
+          <a href="#" class="active-el footer__menu-link">Фонд</a>
         </li>
         <li class="footer__menu-item">
-          <button type="button" class="footer__menu-button">Программы</button>
+          <button type="button" class="active-el footer__menu-button">Программы</button>
           <ul class="submenu footer__submenu submenu_type_program">
             <li class="footer__submenu-item">
               <a href="#" class="footer__submenu-link">Команда профессионалов</a>
@@ -541,12 +540,12 @@
             </li>
           </ul>
         </li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Для НКО</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Для бизнеса</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Блог</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Партнёры</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Контакты</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-link footer__menu-link_donate">Помочь фонду</a>
+        <li class="footer__menu-item"><a href="#" class="active-el footer__menu-link">Для НКО</a></li>
+        <li class="footer__menu-item"><a href="#" class="active-el footer__menu-link">Для бизнеса</a></li>
+        <li class="footer__menu-item"><a href="#" class="active-el footer__menu-link">Блог</a></li>
+        <li class="footer__menu-item"><a href="#" class="active-el footer__menu-link">Партнёры</a></li>
+        <li class="footer__menu-item"><a href="#" class="active-el footer__menu-link">Контакты</a></li>
+        <li class="footer__menu-item"><a href="#" class="active-el footer__menu-link footer__menu-link_donate">Помочь фонду</a>
         </li>
       </ul>
     </nav>
@@ -555,17 +554,17 @@
         <div class="footer__contact">
           <p class="footer__contact-title">Написать нам:</p>
           <a href="mailto:friends@friends-foundation.com"
-            class="footer__contact-value">friends@friends-foundation.com</a>
+            class="active-el footer__contact-value">friends@friends-foundation.com</a>
         </div>
         <div class="footer__contact">
           <p class="footer__contact-title">Позвонить нам:</p>
-          <a href="tel:+79772770717" class="footer__contact-value">+7 977 277-07-17</a>
+          <a href="tel:+79772770717" class="active-el footer__contact-value">+7 977 277-07-17</a>
         </div>
         <div class="footer__contact">
           <p class="footer__contact-title">Мы в соцсетях:</p>
           <ul class="footer__socials">
-            <li class="footer__social"><a href="#" class="footer__social-link footer__social-link_type_vk" aria-label="ВКонтакте"></a></li>
-            <li class="footer__social"><a href="#" class="footer__social-link footer__social-link_type_telegram" aria-label="Телеграм"></a></li>
+            <li class="footer__social"><a href="#" class="active-el footer__social-link footer__social-link_type_vk" aria-label="ВКонтакте"></a></li>
+            <li class="footer__social"><a href="#" class="active-el footer__social-link footer__social-link_type_telegram" aria-label="Телеграм"></a></li>
           </ul>
         </div>
       </div>
