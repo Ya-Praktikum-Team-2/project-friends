@@ -1,0 +1,9 @@
+.header__socials {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  grid-area: social;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 16px;
+}

@@ -1,0 +1,11 @@
+@media (max-width: 576px) {
+  .fixed-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9000;
+    overflow-y: auto;
+  }
+}
