@@ -3,6 +3,8 @@
   height: 163px;
   border-radius: 136px;
   margin-top: -42px;
+  position: relative;
+  display: flex;
 }
 
 @media (max-width: 768px) {
@@ -12,3 +14,4 @@
     height: 102.23px;
   }
 }
+

@@ -2,6 +2,7 @@
   margin: 92px 124px 0;
   display: flex;
   flex-flow: wrap row;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
