@@ -35,3 +35,4 @@ const buttonSupport = document.querySelector('.donation__support-btn');
 buttonSupport.addEventListener('click', () => {
   buttonSupport.classList.add('donation__support-btn_active');
 });
+
