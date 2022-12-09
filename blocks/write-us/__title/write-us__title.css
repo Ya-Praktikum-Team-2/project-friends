@@ -1,0 +1,11 @@
+.write-us__title {
+  margin: 0 0 8px;
+  font: 700 44px/57px var(--font-normal);
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .write-us__title {
+    font: 700 32px/42px var(--font-normal);
+  }
+}

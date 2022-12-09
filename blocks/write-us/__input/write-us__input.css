@@ -1,0 +1,17 @@
+.write-us__input {
+  width: 328px;
+  height: 56px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 32px 0 32px;
+  background-color: var(--black-90);
+  border: none;
+  border-radius: 56px;
+  font: 400 18px/22px var(--font-normal);
+}
+
+@media (max-width: 679px) {
+  .write-us__input {
+    width: 100%;
+  }
+}

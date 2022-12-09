@@ -4,6 +4,8 @@
 
 /* page block */
 @import url("../blocks/page/page.css");
+@import url("../blocks/page-block/page-block.css");
+@import url("../blocks/page-block/_top-indent/page-block_top-indent.css");
 
 /* header block */
 
@@ -18,13 +20,30 @@
 
 
 /* statistics block */
-
+@import url("../blocks/statistics/statistics.css");
+@import url("../blocks/statistics/__cells/statistics__cells.css");
+@import url("../blocks/statistics/__cell/statistics__cell.css");
+@import url("../blocks/statistics/__heading/statistics__heading.css");
+@import url("../blocks/statistics/__paragraph/statistics__paragraph.css");
+@import url("../blocks/statistics/__font-bold/statistics__font-bold.css");
 
 /* more-help block */
 
 
 /* write-us block */
-
+@import url("../blocks/write-us/write-us.css");
+@import url("../blocks/write-us/__title/write-us__title.css");
+@import url("../blocks/write-us/__paragraph/write-us__paragraph.css");
+@import url("../blocks/write-us/__form/write-us__form.css");
+@import url("../blocks/write-us/__wrapper/write-us__wrapper.css");
+@import url("../blocks/write-us/__input/write-us__input.css");
+@import url("../blocks/write-us/__textarea/write-us__textarea.css");
+@import url("../blocks/write-us/__user-agreement/write-us__user-agreement.css");
+@import url("../blocks/write-us/__input-checkbox/write-us__input-checkbox.css");
+@import url("../blocks/write-us/__label/write-us__label.css");
+@import url("../blocks/write-us/__text/write-us__text.css");
+@import url("../blocks/write-us/__hyperlink/write-us__hyperlink.css");
+@import url("../blocks/write-us/__button-submit/write-us__button-submit.css");
 
 /* subscribe block */
 
@@ -64,3 +83,11 @@
 @import url("../blocks/submenu/submenu.css");
 @import url("../blocks/submenu/_active/submenu_active.css");
 @import url("../blocks/submenu/_type/submenu_type_program.css");
+
+/* popup-write-us block */
+@import url("../blocks/popup-write-us/popup-write-us.css");
+@import url("../blocks/popup-write-us/_opened/popup-write-us_opened.css");
+@import url("../blocks/popup-write-us/__container/popup-write-us__container.css");
+@import url("../blocks/popup-write-us/__button-close/popup-write-us__button-close.css");
+@import url("../blocks/popup-write-us/__title/popup-write-us__title.css");
+@import url("../blocks/popup-write-us/__paragraph/popup-write-us__paragraph.css");

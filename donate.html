@@ -25,11 +25,55 @@
     <section class="more-help" aria-label="удали меня">
 
     </section>
-    <section class="write-us" aria-label="удали меня">
+    <section class="write-us page-block page-block_top-indent">
+      <h2 class="write-us__title">Связь с нами</h2>
+      <p class="write-us__paragraph">Если у вас есть вопросы или предложения, напишите нам. Мы ответим в течение дня</p>
+      <form class="write-us__form">
+        <div class="write-us__wrapper">
+          <input class="write-us__input" type="text" name="user_name" placeholder="Имя" required>
+          <input class="write-us__input" type="email" name="user_email" placeholder="E-mail" required>
+        </div>
 
+          <textarea class="write-us__textarea" name="user_message" id="write-us-msg" cols="30" rows="10" placeholder="Сообщение"></textarea>
+
+          <div class="write-us__user-agreement">
+            <input class="write-us__input-checkbox" type="checkbox" id="write-us_checkbox" value="" required>
+            <label class="write-us__label" for="write-us_checkbox">
+              <span class="write-us__text">Я согласен с <a class="write-us__hyperlink" href="#" target="_blank">пользовательским соглашением</a></span>
+            </label>
+            <!-- <p class="write-us__paragraph">Я согласен с <a class="write-us__hyperlink" href="#" target="_blank">пользовательским соглашением</a></p> -->
+          </div>
+
+          <button class="write-us__button-submit" type="submit">Отправить</button>
+      </form>
     </section>
-    <section class="subscribe" aria-label="удали меня">
-
+    <section class="statistics page-block page-block_top-indent" aria-label="Статистика">
+      <ul class="statistics__cells">
+        <li class="statistics__cell">
+          <p class="statistics__heading">2 500</p>
+          <p class="statistics__paragraph">
+            НКО <span class="statistics__font-bold">стали </span>участниками наших программ
+          </p>
+        </li>
+        <li class="statistics__cell">
+          <p class="statistics__heading">150</p>
+          <p class="statistics__paragraph">
+            <span class="statistics__font-bold">Профессионалов </span>благотворительности получили дипломы
+          </p>
+        </li>
+        <li class="statistics__cell">
+          <p class="statistics__heading">4 000</p>
+          <p class="statistics__paragraph">
+            Волонтер <span class="statistics__font-bold">был привлечен </span>через нас для помощи различным НКО
+          </p>
+        </li>
+        <li class="statistics__cell">
+          <p class="statistics__heading">250</p>
+          <p class="statistics__paragraph">
+            Экспертов <span class="statistics__font-bold">преподают </span>в наших программах
+          </p>
+        </li>
+    </ul>
     </section>
   </main>
   <footer class="footer footer_donate">
@@ -99,7 +143,17 @@
       <img src="./images/logos/logo_duns.svg" alt="DUN & BRADSTREET" class="footer__duns-logo">
     </div>
   </footer>
+
+  <div class="popup-write-us">
+    <div class="popup-write-us__container">
+      <button class="popup-write-us__button-close active-el" type="button" aria-label="Закрыть"></button>
+      <h2 class="popup-write-us__title">Заявка успешно отправлена</h2>
+      <p class="popup-write-us__paragraph">Мы ответим в течение дня</p>
+    </div>
+  </div>
+
   <script type="module" src="scripts/main.js"></script>
+  <script src="./scripts/write-us.js"></script>
 </body>
 
 </html>

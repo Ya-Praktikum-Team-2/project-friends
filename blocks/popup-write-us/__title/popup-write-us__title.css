@@ -1,0 +1,32 @@
+.popup-write-us__title {
+  margin: 0 0 24px;
+  padding: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 16px;
+  align-items: center;
+  font: 700 44px/53px var(--font-normal);
+}
+
+.popup-write-us__title::before {
+  content: "";
+  width: 120px;
+  height: 120px;
+  display: block;
+  align-items: center;
+  background: url("../../../images/popup-write-us/checkmark.svg") no-repeat center;
+  background-size: 120px;
+}
+
+@media (max-width: 592px) {
+  .popup-write-us__title {
+    font: 700 32px/42px var(--font-normal);
+    gap: 24px;
+  }
+
+  .popup-write-us__title::before {
+    width: 104px;
+    height: 104px;
+    background-size: 104px;
+  }
+}
