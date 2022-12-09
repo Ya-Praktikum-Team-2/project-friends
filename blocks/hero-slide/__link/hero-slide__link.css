@@ -1,7 +1,11 @@
 .hero-slide__link {
   margin-top: 56px;
 
-  /* FIXME: remove */
-  display: block;
-  color: inherit;
+  border-radius: 48px;
+  width: 231px;
+}
+
+.hero-slide__link:hover,
+.hero-slide__link:focus {
+  box-shadow: 0 0 50px var(--black-100-10p);
 }

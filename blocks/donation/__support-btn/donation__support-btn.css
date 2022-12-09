@@ -1,0 +1,19 @@
+.donation__support-btn {
+  width: 550px;
+  margin-top: 28px;
+}
+
+@media (max-width: 768px) {
+  .donation__support-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .donation__support-btn {
+    width: 100%;
+    min-width: 311px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

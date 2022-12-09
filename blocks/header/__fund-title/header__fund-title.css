@@ -1,0 +1,17 @@
+.header__fund-title {
+  margin: 0;
+  padding: 0;
+  font: 700 16px/16px var(--font-normal);
+}
+
+.header__fund-link:hover > .header__fund-title,
+.header__fund-link:focus > .header__fund-title {
+  color: var(--turquoise-80);
+}
+
+@media (max-width: 576px) {
+  .header__fund-title {
+    font: 700 24px/16px var(--font-normal);
+    text-align: center;
+  }
+}

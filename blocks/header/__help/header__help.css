@@ -1,0 +1,19 @@
+.header__help {
+  border: none;
+  padding: 18px 55px;
+  background-color: var(--yellow-70);
+  font: 700 16px/20px var(--font-normal);
+  color: inherit;
+  grid-area: button;
+}
+
+.header__help:hover {
+  cursor: pointer;
+  background-color: var(--yellow-60);
+}
+
+@media (max-width: 1200px) {
+  .header__help {
+    padding: 14px 17px;
+  }
+}

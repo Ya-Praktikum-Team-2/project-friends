@@ -2,6 +2,7 @@ import Carousel from './utils/carousel.js';
 import ScreenSizeTracker from './utils/ScreenSizeTracker.js';
 import toggleSubmenu from './toggleSubmenu.js';
 import Blog from './blog.js';
+import Header from './header.js';
 
 const heroEl = document.querySelector('.hero-banner');
 // eslint-disable-next-line no-unused-vars
@@ -17,6 +18,8 @@ const friendsCarousel = new Carousel(friendsEl);
 
 const blog = new Blog(document.querySelector('.blog'));
 
+const header = new Header(document.querySelector('.header'));
+
 ScreenSizeTracker.addListener(768, (isBigger) => {
   if (isBigger) {
     blog.setNormal();
@@ -26,7 +29,26 @@ ScreenSizeTracker.addListener(768, (isBigger) => {
   }
 });
 
+ScreenSizeTracker.addListener(576, (isBigger) => {
+  header.onWidthCnahge(!isBigger);
+});
+
 const footerSubmenuButton = document.querySelector('.footer__menu-button');
 const programSubmenu = document.querySelector('.submenu_type_program');
 
 toggleSubmenu(footerSubmenuButton, programSubmenu);
+
+const subscriptionForm = document.querySelector('.subscription__form');
+const subscriptionInput = document.querySelector('.subscription__input');
+const resetButton = document.querySelector('.reset-button');
+
+subscriptionInput.addEventListener('input', () => {
+  resetButton.classList.add('reset-button_active');
+  subscriptionInput.classList.remove('subscription__input_empty');
+});
+
+resetButton.addEventListener('click', () => {
+  subscriptionForm.reset();
+  resetButton.classList.remove('reset-button_active');
+  subscriptionInput.classList.add('subscription__input_empty');
+});

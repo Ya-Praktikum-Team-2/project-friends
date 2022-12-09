@@ -1,0 +1,12 @@
+.donation__button {
+  width: 175px;
+  height: 56px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .donation__button {
+    width: 100%;
+  }
+}

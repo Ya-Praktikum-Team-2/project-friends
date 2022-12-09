@@ -1,0 +1,22 @@
+.card__formobile {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 267px;
+  background-color: var(--black-90);
+  border-radius: 8px;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+@media (max-width: 768px) {
+  .card__formobile {
+    padding: 24px 32px 24px 24px;
+  }
+}
+
+@media (max-width: 525px) {
+  .card__formobile {
+    padding: 16px 16px 24px;
+  }
+}

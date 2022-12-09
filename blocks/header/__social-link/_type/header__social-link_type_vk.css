@@ -1,0 +1,9 @@
+.header__social-link_type_vk::before {
+  background-image: url("../../../../images/logos/logo_vk_white.svg");
+}
+
+@media (max-width: 1200px) {
+  .header__social-link_type_vk::before {
+    background-image: url("../../../../images/logos/logo_vk_black.svg");
+  }
+}
