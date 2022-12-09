@@ -17,6 +17,6 @@
 
 @media (max-width: 525px) {
   .card__formobile {
-    padding: 16px 16px 24px 16px;
+    padding: 16px 16px 24px;
   }
 }
