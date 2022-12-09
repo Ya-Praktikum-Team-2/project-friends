@@ -12,13 +12,11 @@
 @import url("../blocks/main/main.css");
 
 /* donation block */
-@import url("../blocks/donation/__content/donation__content.css");
 @import url("../blocks/donation-page/donation-page.css");
 @import url("../blocks/donation-page/__title/donation-page__title.css");
 @import url("../blocks/donation-page/__title-italics/donation-page__title-italics.css");
 @import url("../blocks/donation/donation.css");
 @import url("../blocks/input/input.css");
-@import url("../blocks/donation/__active-button/donation__active-button.css");
 @import url("../blocks/donation/__section/donation__section.css");
 @import url("../blocks/donation/__section/_min-gap/donation__section_min-gap.css");
 @import url("../blocks/donation/__subtitle/donation__subtitle.css");
@@ -74,8 +72,6 @@
 @import url("../blocks/card/__formobile/_closed/card__formobile_closed.css");
 @import url("../blocks/agreement/agreement.css");
 @import url("../blocks/agreement/_opened/agreement_opened.css");
-@import url("../blocks/agreement/__checkboxes/agreement__checkboxes.css");
-@import url("../blocks/agreement/__checkboxes/_gap/agreement__checkboxes_gap.css");
 @import url("../blocks/agreement/__label/agreement__label.css");
 @import url("../blocks/agreement/__checkbbox/agreement__checkbox.css");
 @import url("../blocks/agreement/__link/agreement__link.css");

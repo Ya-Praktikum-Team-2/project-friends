@@ -3,4 +3,5 @@
   visibility: visible;
   transition: 0.5s;
   margin-top: 32px;
+  gap: 14px;
 }
