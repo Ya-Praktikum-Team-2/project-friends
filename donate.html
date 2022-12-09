@@ -51,7 +51,7 @@
               </div>
             </div>
             <div class="donation__other-amount-wrapper">
-              <input id="other-amount" type="number" class="donation__other-amount" type="text" name="other-amount"
+              <input id="other-amount" type="number" class="donation__other-amount" name="other-amount"
                 placeholder="Другая сумма" min="1">
               <span class="donation__ruble">&#8381;</span>
             </div>
@@ -72,8 +72,7 @@
               <p class="donation__subtitle">Банковская карта</p>
               <div class="card__container">
                 <div class="card__inputs">
-                  <input class="card__input card__input_number" type="number" minlength="13" maxlength="16"
-                    name="cardnumber" placeholder="Номер карты" value="" tabindex="1" required>
+                  <input class="card__input card__input_number" type="number" name="cardnumber" placeholder="Номер карты" value="" tabindex="1" required>
                   <input class="card__input card__input_holder" type="text" name="cardholder"
                     placeholder="Держатель карты" value="" tabindex="2" required>
                   <div class="card__wrapper">
@@ -94,8 +93,7 @@
                 </div>
               </div>
               <div class="card__formobile card__formobile_closed">
-                <input class="card__input card__input_number" type="number" minlength="13" maxlength="16"
-                  name="cardnumber" placeholder="Номер карты" value="" tabindex="1" required>
+                <input class="card__input card__input_number" type="number" name="cardnumber" placeholder="Номер карты" value="" tabindex="1" required>
                 <input class="card__input card__input_holder" type="text" name="cardholder"
                   placeholder="Держатель карты" value="" tabindex="2" required>
                 <div class="card__wrapper">
@@ -128,7 +126,7 @@
               <input class="agreement__checkbox" id="check-1" type="checkbox" name="approval" value="" required>
               <label class="agreement__label" for="check-1"><span class="agreement__text">
                   Согласен с
-                  <a href="#" class="agreement__link">офертой</a>
+                  <a href="#" class="agreement__link">офертой</a></span>
               </label>
             </div>
             <div class="agreement__checkboxes">
@@ -229,6 +227,6 @@
       </div>
     </footer>
     <script type="module" src="scripts/main.js"></script>
-    <script type="text/javascript" src="./scripts/donation.js"></script>
+    <script src="scripts/donation.js"></script>
 </body>
 </html>
