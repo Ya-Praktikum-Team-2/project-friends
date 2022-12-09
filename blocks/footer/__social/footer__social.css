@@ -1,6 +1,4 @@
 .footer__social {
-  object-fit: contain;
-  width: 24px;
-  height: 24px;
-  display: block;
+  margin: 0;
+  padding: 0;
 }

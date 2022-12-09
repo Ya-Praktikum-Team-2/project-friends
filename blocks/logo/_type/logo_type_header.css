@@ -1,0 +1,9 @@
+.logo_type_header {
+  gap: 8px;
+}
+
+.logo_type_header::before {
+  width: 23.1px;
+  height: 26px;
+  padding-right: 4px;
+}

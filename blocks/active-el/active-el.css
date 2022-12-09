@@ -1,0 +1,8 @@
+.active-el {
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+
+.active-el:hover {
+  opacity: 0.5;
+}

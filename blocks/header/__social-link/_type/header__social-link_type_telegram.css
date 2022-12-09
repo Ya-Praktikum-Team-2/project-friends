@@ -1,0 +1,9 @@
+.header__social-link_type_telegram::before {
+  background-image: url("../../../../images/logos/logo_telegram_white.svg");
+}
+
+@media (max-width: 1200px) {
+  .header__social-link_type_telegram::before {
+    background-image: url("../../../../images/logos/logo_telegram_black.svg");
+  }
+}

@@ -1,0 +1,15 @@
+.button_type_gray {
+  background-color: var(--black-90);
+  color: var(--black-10);
+}
+
+.button_type_gray:hover,
+.button_type_gray:focus {
+  background-color: var(--purple-70);
+  color: var(--black-100);
+}
+
+.button_type_gray:checked {
+  background-color: var(--purple-70);
+  color: var(--black-100);
+}
