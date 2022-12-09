@@ -46,6 +46,7 @@
 @import url("../blocks/logo/logo.css");
 @import url("../blocks/logo/_type/logo_type_footer.css");
 @import url("../blocks/logo/_type/logo_type_header.css");
+@import url("../blocks/logo/__image-container/logo__image-container.css");
 @import url("../blocks/logo/__title/logo__title.css");
 @import url("../blocks/logo/__title-foundation/logo__title-foundation.css");
 
@@ -270,13 +271,6 @@
 @import url("../blocks/footer/__copyright-age/footer__copyright-age.css");
 @import url("../blocks/footer/__terms-of-use/footer__terms-of-use.css");
 @import url("../blocks/footer/__duns-logo/footer__duns-logo.css");
-
-
-/* logo block */
-@import url("../blocks/logo/logo.css");
-@import url("../blocks/logo/__image-container/logo__image-container.css");
-@import url("../blocks/logo/__title/logo__title.css");
-@import url("../blocks/logo/__title-foundation/logo__title-foundation.css");
 
 
 /* submenu block */
