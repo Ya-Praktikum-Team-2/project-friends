@@ -18,7 +18,6 @@ const friendsCarousel = new Carousel(friendsEl);
 
 const blog = new Blog(document.querySelector('.blog'));
 
-// eslint-disable-next-line no-unused-vars
 const header = new Header(document.querySelector('.header'));
 
 ScreenSizeTracker.addListener(768, (isBigger) => {
