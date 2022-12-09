@@ -1,0 +1,10 @@
+.donation__ruble {
+  position: absolute;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--black-10);
+  z-index: 2;
+  top: 18px;
+  right: 18px;
+}

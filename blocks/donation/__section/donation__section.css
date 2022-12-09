@@ -1,0 +1,15 @@
+.donation__section {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  margin: 0 0 40px;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .donation__section {
+    margin-bottom: 32px;
+  }
+}

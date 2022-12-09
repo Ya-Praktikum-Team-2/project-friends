@@ -1,0 +1,4 @@
+.button_active {
+  background-color: var(--purple-70);
+  color: var(--black-100);
+}
