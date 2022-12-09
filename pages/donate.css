@@ -21,6 +21,7 @@
 @import url("../blocks/input/input.css");
 @import url("../blocks/donation/__active-button/donation__active-button.css");
 @import url("../blocks/donation/__section/donation__section.css");
+@import url("../blocks/donation/__section/_min-gap/donation__section_min-gap.css");
 @import url("../blocks/donation/__subtitle/donation__subtitle.css");
 @import url("../blocks/donation/__frequency-wrapper/donation__frequency-wrapper.css");
 @import url("../blocks/donation/__frequency/donation__frequency.css");

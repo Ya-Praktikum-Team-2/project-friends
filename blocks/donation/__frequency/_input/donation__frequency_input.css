@@ -4,7 +4,7 @@
 }
 
 /* Checked */
-.donation__frequency_input:checked+.donation__frequency_label {
+.donation__frequency_input:checked + .donation__frequency_label {
   background: var(--purple-70);
   color: var(--black-100);
   z-index: 3;

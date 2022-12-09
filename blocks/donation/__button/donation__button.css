@@ -5,8 +5,6 @@
   background-position: center;
 }
 
-
-
 @media (max-width: 768px) {
   .donation__button {
     width: 100%;

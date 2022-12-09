@@ -13,9 +13,8 @@
   z-index: 0;
 }
 
-
 @media (max-width: 768px) {
   .card-cvv {
-    display: none
+    display: none;
   }
 }

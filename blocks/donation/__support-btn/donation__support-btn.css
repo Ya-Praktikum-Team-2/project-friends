@@ -12,7 +12,7 @@
   text-align: center;
   border-radius: 56px;
   background-color: var(--yellow-70);
-  margin-top: 28px
+  margin-top: 28px;
 }
 
 .donation__support-btn:hover {

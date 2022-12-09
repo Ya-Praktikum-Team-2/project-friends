@@ -2,13 +2,10 @@
   display: flex;
   width: 268px;
   height: 56px;
-  background-color: #F8F8F8;
+  background-color: var(--black-90);
   border: none;
   text-align: left;
-  padding-left: 18px;
-  padding-top: 0;
-  padding-right: 0;
-  padding-bottom: 0;
+  padding-top: 0 0 0 18px;
   box-sizing: border-box;
 }
 

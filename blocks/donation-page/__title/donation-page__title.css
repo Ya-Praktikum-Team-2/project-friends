@@ -3,12 +3,8 @@
   line-height: 58px;
   text-align: center;
   max-width: 855px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 56px;
-  margin-bottom: 55px;
+  margin: 56px auto 55px auto;
 }
-
 
 @media (max-width: 925px) {
   .donation-page__title {

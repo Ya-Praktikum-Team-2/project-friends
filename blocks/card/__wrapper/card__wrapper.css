@@ -8,10 +8,10 @@
 }
 
 @media (max-width: 768px) {
-.card__wrapper {
-  grid-template-columns: 112px 104px;
-  grid-template-rows: 24px 56px;
-  column-gap: 32px;
-  row-gap: 4px;
-
-}}
+  .card__wrapper {
+    grid-template-columns: 112px 104px;
+    grid-template-rows: 24px 56px;
+    column-gap: 32px;
+    row-gap: 4px;
+  }
+}

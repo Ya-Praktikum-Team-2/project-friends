@@ -3,14 +3,14 @@
 }
 
 /* Checked */
-.agreement__checkbox:checked+.agreement__label::before {
+.agreement__checkbox:checked + .agreement__label::before {
   border-color: var(--turquoise-40);
   background-color: var(--turquoise-40);
   background-image: url("../../../images/donation/сheck.svg");
 }
 
 /* Fokus ,Hover */
-.agreement__checkbox:focus+.agreement__label::before,
-.agreement__checkbox:hover+.agreement__label::before {
+.agreement__checkbox:focus + .agreement__label::before,
+.agreement__checkbox:hover + .agreement__label::before {
   border-color: var(--turquoise-40);
 }

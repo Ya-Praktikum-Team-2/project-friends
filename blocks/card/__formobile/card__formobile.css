@@ -3,27 +3,20 @@
   flex-direction: column;
   width: 100%;
   min-height: 267px;
-  margin-top: 16px;
-  background-color: #F8F8F8;
+  background-color: var(--black-90);
   border-radius: 8px;
   box-sizing: border-box;
   z-index: 3;
-
 }
 
 @media (max-width: 768px) {
   .card__formobile {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 24px;
-    padding-right: 32px;
+    padding: 24px 32px 24px 24px;
   }
 }
 
 @media (max-width: 525px) {
   .card__formobile {
-    padding-top: 16px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 16px 16px 24px 16px;
   }
 }

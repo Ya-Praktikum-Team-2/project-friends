@@ -1,13 +1,10 @@
 .donation__section {
   display: flex;
   flex-direction: column;
-  margin-bottom: 40px;
   box-sizing: border-box;
   width: 100%;
   padding: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
+  margin: 0 0 40px 0;
   border: none;
 }
 

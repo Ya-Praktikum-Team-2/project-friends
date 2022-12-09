@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+  .donation__section_min-gap {
+    margin-bottom: 24px;
+  }
+}
