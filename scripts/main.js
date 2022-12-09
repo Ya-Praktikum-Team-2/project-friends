@@ -2,6 +2,7 @@ import Carousel from './utils/carousel.js';
 import ScreenSizeTracker from './utils/ScreenSizeTracker.js';
 import toggleSubmenu from './toggleSubmenu.js';
 import Blog from './blog.js';
+import Header from './header.js';
 
 const heroEl = document.querySelector('.hero-banner');
 // eslint-disable-next-line no-unused-vars
@@ -17,6 +18,8 @@ const friendsCarousel = new Carousel(friendsEl);
 
 const blog = new Blog(document.querySelector('.blog'));
 
+const header = new Header(document.querySelector('.header'));
+
 ScreenSizeTracker.addListener(768, (isBigger) => {
   if (isBigger) {
     blog.setNormal();
@@ -24,6 +27,10 @@ ScreenSizeTracker.addListener(768, (isBigger) => {
     // TODO: enable carousel
     blog.setCarousel(false);
   }
+});
+
+ScreenSizeTracker.addListener(576, (isBigger) => {
+  header.onWidthCnahge(!isBigger);
 });
 
 const footerSubmenuButton = document.querySelector('.footer__menu-button');

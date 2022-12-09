@@ -1,0 +1,25 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+
+  padding-left: 15px;
+
+  display: grid;
+  grid-template: "logo . menu . button" / min-content 60px 1fr 40px max-content;
+  align-items: stretch;
+  min-height: 56px;
+
+  background-color: var(--turquoise-40);
+  color: var(--black-100);
+}
+
+@media (max-width: 1200px) {
+  .header {
+    min-height: 48px;
+    padding-left: 24px;
+    grid-template:
+      "hamburger .    logo .    button"
+      / min-content 24px min-content 1fr max-content;
+  }
+}

@@ -1,5 +1,13 @@
 .logo {
   display: flex;
-  gap: 19px;
   text-decoration: none;
+  align-items: center;
+}
+
+.logo::before {
+  content: "";
+  display: block;
+  background-image: url("../../images/logos/logo_friends.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }

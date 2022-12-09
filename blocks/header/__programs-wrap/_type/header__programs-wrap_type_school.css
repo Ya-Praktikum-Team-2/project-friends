@@ -1,0 +1,23 @@
+@media (max-width: 576px) {
+  .header__programs-wrap_type_school {
+    min-height: 354px;
+    background-color: var(--blue-70);
+    color: var(--black-100);
+    padding: 32px 24px;
+    grid-template:
+      "icon"
+      "." 10.35px
+      "title"
+      "." 15.53px
+      "subtitle"
+      "." 24px
+      "button"
+      / 1fr;
+  }
+}
+
+.header__programs-wrap_type_school:hover,
+.header__programs-wrap_type_school:focus {
+  background-color: var(--blue-70);
+  color: var(--black-100);
+}

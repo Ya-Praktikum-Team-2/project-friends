@@ -1,0 +1,9 @@
+.button_type_white {
+  background-color: var(--black-100);
+  color: var(--black-10);
+}
+
+.button_type_white:hover,
+.button_type_white:focus {
+  color: var(--turquoise-40);
+}

@@ -1,0 +1,9 @@
+.header__lang-btn {
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  border: 0;
+  background: none;
+  opacity: 0.4;
+}
