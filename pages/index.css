@@ -265,3 +265,6 @@
 
 /* fixed-menu block */
 @import url("../blocks/fixed-menu/fixed-menu.css");
+
+/* fixed-submenu block */
+@import url("../blocks/fixed-menu/fixed-submenu.css");
