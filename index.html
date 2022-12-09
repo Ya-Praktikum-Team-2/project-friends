@@ -415,8 +415,51 @@
     <section class="feedback" aria-label="удали меня">
 
     </section>
-    <section class="donation-block" aria-label="удали меня">
-
+    <section class="donation-block">
+      <div class="donation-block__content">
+      <h2 class="donation-block__title">Поддержите «Друзей» или станьте
+        <span class="donation-block__title-italic">нашим&nbsp;
+          партнером</span></h2>
+      <form class="donation donation_short-form">
+        <fieldset class="donation__section" action="#">
+          <legend class="donation-block__subtitle">Поддержать Друзей:</legend>
+            <div class="donation__frequency-wrapper">
+              <input class="input donation__frequency donation__frequency_input" id="radio-1_option" type="radio"
+                name="radio_type_option" value="1" checked>
+              <label class="input donation__frequency donation__frequency_label" for="radio-1_option">Разовое</label>
+              <input class="input donation__frequency donation__frequency_input" id="radio-2_option" type="radio"
+                name="radio_type_option" value="2">
+              <label class="input donation__frequency donation__frequency_label"
+                for="radio-2_option">Ежемесячное</label>
+            </div>
+        </fieldset>
+        <fieldset class="donation__section donation__section_max-gap">
+          <div class="donation__amount-wrapper donation__amount-wrapper donation__amount-wrapper_schort-form">
+            <div class="input donation__amount donation__amount_radio-button_one">
+              <input class="donation__amount-input" id="radio-1_amount" type="radio" name="radio_type_amount"
+                value="1" checked>
+              <label data-amount="5000" class="donation__amount-label" for="radio-1_amount">5 000</label>
+            </div>
+            <div class="input donation__amount donation__amount_radio-button_two">
+              <input class="donation__amount-input" id="radio-2_amount" type="radio" name="radio_type_amount"
+                value="2">
+              <label data-amount="10000" class="donation__amount-label" for="radio-2_amount">10 000</label>
+            </div>
+            <div class="input donation__amount donation__amount_radio-button_three donation__amount_radio-button_three-schort-form">
+              <input class="donation__amount-input" id="radio-3_amount" type="radio" name="radio_type_amount"
+                value="3">
+              <label data-amount="50000" class="donation__amount-label" for="radio-3_amount">50 000</label>
+            </div>
+          </div>
+          <div class="donation__other-amount-wrapper">
+            <input id="other-amount" type="number" class="donation__other-amount" name="other-amount"
+              placeholder="Другая сумма" min="1">
+            <span class="donation__ruble">&#8381;</span>
+          </div>
+        </fieldset>
+        <button action="#" type="submit" class="donation__support-btn donation__support-btn-short-form">Поддержать фонд</button>
+      </form>
+      </div>
     </section>
   </main>
   <footer class="footer footer_main page-block">

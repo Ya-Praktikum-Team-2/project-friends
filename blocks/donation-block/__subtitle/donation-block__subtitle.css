@@ -1,0 +1,21 @@
+.donation-block__subtitle {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 26px;
+  color: var(--black-10);
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+@media (max-width: 1180px) {
+  .donation-block__subtitle {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+
+@media (max-width: 768px) {
+  .donation-block__subtitle {
+    margin-bottom: 24px;
+  }
+}

@@ -169,7 +169,37 @@
 /* feedback block */
 
 
-/* support block */
+/* donation block */
+@import url("../blocks/donation-block/donation-block.css");
+@import url("../blocks/donation-block/__content/donation-block__content.css");
+@import url("../blocks/donation-block/__title/donation-block__title.css");
+@import url("../blocks/donation-block/__title-italic/donation-block__title-italic.css");
+@import url("../blocks/donation/donation.css");
+@import url("../blocks/donation/_short-form/donation_short-form.css");
+@import url("../blocks/donation/__section/donation__section.css");
+@import url("../blocks/donation/__section/_max-gap/donation__section_max-gap.css");
+@import url("../blocks/donation-block/__subtitle/donation-block__subtitle.css");
+@import url("../blocks/donation/__frequency-wrapper/donation__frequency-wrapper.css");
+@import url("../blocks/input/input.css");
+@import url("../blocks/donation/__frequency/donation__frequency.css");
+@import url("../blocks/donation/__frequency/_label/donation__frequency_label.css");
+@import url("../blocks/donation/__frequency/_input/donation__frequency_input.css");
+@import url("../blocks/donation/__amount/donation__amount.css");
+@import url("../blocks/donation/__amount-wrapper/donation__amount-wrapper.css");
+@import url("../blocks/donation/__amount-wrapper/_short-form/donation__amount-wrapper_short-form.css");
+@import url("../blocks/donation/__amount-label/donation__amount-label.css");
+@import url("../blocks/donation/__amount-input/donation__amount-input.css");
+@import url("../blocks/donation/__amount/_radio-button/_one/donation__amount_radio-button_one.css");
+@import url("../blocks/donation/__amount/_radio-button/_two/donation__amount_radio-button_two.css");
+@import url("../blocks/donation/__amount/_radio-button/_three/donation__amount_radio-button_three.css");
+@import url("../blocks/donation/__amount/_radio-button/_three-schort-form/donation__amount_radio-button_three-schort-form.css");
+@import url("../blocks/donation/__other-amount-wrapper/donation__other-amount-wrapper.css");
+@import url("../blocks/donation/__other-amount/donation__other-amount.css");
+@import url("../blocks/donation/__ruble/donation__ruble.css");
+@import url("../blocks/donation/__support-btn/donation__support-btn.css");
+@import url("../blocks/donation/__support-btn/");
+@import url("../blocks/donation/__support-btn-short-form/donation__support-btn-short-form.css");
+@import url("../blocks/donation/__support-btn/_active/donation__support-btn_active.css");
 
 
 /* footer block */

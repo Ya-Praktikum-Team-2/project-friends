@@ -1,0 +1,7 @@
+@media (max-width: 1180px) {
+  .donation__amount-wrapper_schort-form {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat (2, 56px);
+    grid-row-gap: 16px;
+  }
+}

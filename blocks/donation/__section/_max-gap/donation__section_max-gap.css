@@ -1,0 +1,9 @@
+.donation__section_max-gap {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1180px) {
+  .donation__section_max-gap {
+    margin-bottom: 32px;
+  }
+}

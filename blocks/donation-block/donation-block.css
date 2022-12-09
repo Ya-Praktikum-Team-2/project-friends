@@ -1,0 +1,13 @@
+.donation-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+  padding-left: 73px;
+  padding-right: 73px;
+}
+
+@media (max-width: 1180px) {
+  .donation-block {
+    padding: 0;
+  }
+}

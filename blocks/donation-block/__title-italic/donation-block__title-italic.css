@@ -1,0 +1,29 @@
+.donation-block__title-italic {
+  font-family: var(--font-italic);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 66px;
+}
+
+@media (max-width: 1180px) {
+  .donation-block__title-italic {
+    font-size: 48px;
+    line-height: 52px;
+  }
+}
+
+@media (max-width: 768px) {
+  .donation-block__title-italic {
+    font-size: 35px;
+    line-height: 40px;
+    margin: 55px auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .donation-block__title {
+    font-size: 27px;
+    line-height: 36px;
+  }
+}

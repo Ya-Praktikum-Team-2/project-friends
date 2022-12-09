@@ -1,0 +1,20 @@
+.donation-block__content {
+  display: flex;
+  position: relative;
+  min-height: 590px;
+  max-width: 1134px;
+  background-color: var(--purple-70);
+}
+
+@media (max-width: 1180px) {
+  .donation-block__content {
+    flex-direction: column;
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .donation-block__content {
+    width: 100%;
+  }
+}
