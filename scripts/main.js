@@ -32,6 +32,6 @@ const programSubmenu = document.querySelector('.submenu_type_program');
 toggleSubmenu(footerSubmenuButton, programSubmenu);
 
 const buttonSupport = document.querySelector('.donation__support-btn');
-buttonSupport.addEventListener('click',() => {
-    buttonSupport.classList.add('donation__support-btn_active');
-} )
+buttonSupport.addEventListener('click', () => {
+  buttonSupport.classList.add('donation__support-btn_active');
+});
