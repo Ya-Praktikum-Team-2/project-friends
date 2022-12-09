@@ -1,0 +1,17 @@
+.donation__amount-label {
+  display: inline-block;
+  cursor: pointer;
+  line-height: 20px;
+  user-select: none;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 18px 0;
+}
+
+
+/* Hover */
+.donation__amount-label:hover {
+  background-color: var(--purple-70);
+  color: var(--black-100);
+}

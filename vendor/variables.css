@@ -8,13 +8,16 @@
   --black-100-60p: rgba(255 255 255 / 60%);
   --black-90: #f8f8f8;
   --black-90-40p: rgba(248 248 248 / 40%);
+  --black-85: #d0cfcc;
   --black-80: #f1f5f9;
+  --black-75: #e5e5e5;
   --black-70: #e3e7eb;
   --black-60: #c5c9cd;
   --black-50: #999;
   --black-40: #6b6b6b;
   --black-30: #424242;
   --black-20: #302f2d;
+  --black-15: #8e8e8e;
   --black-10: #000;
 
   /* turquoise */

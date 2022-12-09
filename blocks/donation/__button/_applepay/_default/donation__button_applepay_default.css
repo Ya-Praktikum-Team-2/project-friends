@@ -1,0 +1,8 @@
+.donation__button_applepay_default {
+  background-image: url("../../../../../images//donation/apple_default.svg");
+}
+
+/* Hover */
+.donation__button_applepay_default:hover {
+  background-image: url("../../../../../images//donation/apple_active.svg");
+}

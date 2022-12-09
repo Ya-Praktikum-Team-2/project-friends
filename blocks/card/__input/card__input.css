@@ -1,0 +1,7 @@
+.card__input {
+  min-height: 56px;
+  border: none;
+  padding: 0 0 0 18px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
