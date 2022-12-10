@@ -5,3 +5,10 @@
   height: 48px;
   padding-top: 8px;
 }
+
+@media (max-width: 768px) {
+  .card__cvv-input {
+    width: 104px;
+    height: 56px;
+  }
+}

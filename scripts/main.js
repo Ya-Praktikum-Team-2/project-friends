@@ -4,6 +4,7 @@ import toggleSubmenu from './utils/toggleSubmenu.js';
 import Blog from './blocks/blog.js';
 import Header from './blocks/header.js';
 import initPartners from './blocks/partners.js';
+import initDonationSection from './blocks/donation-section.js';
 
 const heroEl = document.querySelector('.hero-banner');
 // eslint-disable-next-line no-unused-vars
@@ -46,4 +47,5 @@ resetButton.addEventListener('click', () => {
   subscriptionForm.reset();
 });
 
+initDonationSection(false);
 initPartners();

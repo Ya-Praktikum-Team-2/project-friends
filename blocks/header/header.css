@@ -17,9 +17,9 @@
 @media (max-width: 1200px) {
   .header {
     min-height: 48px;
-    padding-left: 24px;
+    padding-left: 19px;
     grid-template:
       "hamburger .    logo .    button"
-      / min-content 24px min-content 1fr max-content;
+      / min-content 19px min-content 1fr max-content;
   }
 }

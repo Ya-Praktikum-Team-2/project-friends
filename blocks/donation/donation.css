@@ -1,22 +1,21 @@
 .donation {
   max-width: 680px;
+  display: flex;
   flex-direction: column;
   box-sizing: border-box;
   justify-content: center;
   background-color: var(--black-100);
-  padding: 56px 64px 72px;
+  padding: 56px 64px 75px;
 }
 
 @media (max-width: 768px) {
   .donation {
-    width: 85%;
     padding: 56px 24px 24px;
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   .donation {
-    width: 95%;
     padding-top: 24px;
     margin: 0 8px;
   }

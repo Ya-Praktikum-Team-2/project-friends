@@ -1,9 +1,9 @@
 .donation-section {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: var(--black-100);
   width: 100%;
-  align-items: center;
   background-image: linear-gradient(0deg, var(--purple-70), var(--purple-70));
   background-repeat: no-repeat;
   background-size: 100% 490px;

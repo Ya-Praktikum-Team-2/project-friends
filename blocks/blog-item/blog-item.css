@@ -8,11 +8,27 @@
   display: grid;
   grid-template:
     "image image image"
-    ". . ." minmax(26px, 1fr)
+    ". . ." 26px
     ". date ."
     ". . ." 16px
     ". title ."
     ". . ." 16px
     ". text ."
-    ". . ." minmax(26px, 1fr) / 24px 1fr 24px;
+    ". . ." minmax(26px, 1fr)
+    / 24px 1fr 24px;
+}
+
+@media (max-width: 576px) {
+  .blog-item {
+    grid-template:
+      "image image image"
+      ". . ." 23px
+      ". date ."
+      ". . ." 6px
+      ". title ."
+      ". . ." 3px
+      ". text ."
+      ". . ." minmax(26px, 1fr)
+      / 15px 1fr 15px;
+  }
 }
