@@ -1,0 +1,14 @@
+.donation__agreement {
+  display: none;
+  flex-direction: column;
+  transition: 0.5s;
+  margin-top: 32px;
+  gap: 14px;
+  max-width: 391px;
+}
+
+@media (max-width: 768px) {
+  .donation__agreement {
+    max-width: 261px;
+  }
+}

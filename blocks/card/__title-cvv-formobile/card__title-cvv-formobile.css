@@ -1,9 +1,0 @@
-.card__title-cvv-formobile {
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 400;
-  color: var(--black-10);
-  margin: 0;
-  grid-column: 2/3;
-  grid-row: 1/2;
-}

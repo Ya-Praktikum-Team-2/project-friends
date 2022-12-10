@@ -1,9 +1,4 @@
 .donation__amount-input {
+  grid-area: 1 / 1 / 1 / 1;
   display: none;
-}
-
-/* Checked */
-.donation__amount-input:checked + .donation__amount-label {
-  color: var(--black-100);
-  background-color: var(--purple-70);
 }

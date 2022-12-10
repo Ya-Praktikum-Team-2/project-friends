@@ -1,0 +1,11 @@
+.card__cvv-text {
+  grid-area: text;
+  z-index: 1;
+  font: 400 14px/19px var(--font-normal);
+}
+
+@media (max-width: 768px) {
+  .card__cvv-text {
+    display: none;
+  }
+}

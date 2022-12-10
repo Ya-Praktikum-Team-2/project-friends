@@ -3,6 +3,7 @@
   padding: 0;
   display: grid;
   grid-template: "content" minmax(486px, min-content) /  minmax(0, 1fr);
+  background-color: var(--black-100);
 }
 
 @media (max-width: 576px) {

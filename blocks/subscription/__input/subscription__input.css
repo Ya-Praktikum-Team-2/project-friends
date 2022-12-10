@@ -1,22 +1,9 @@
 .subscription__input {
-  border: none;
-  box-sizing: border-box;
-  width: 328px;
-  padding: 18px 32px;
-  background-color: var(--black-100);
-  border-radius: 56px;
-  color: var(--black-10);
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 400;
+  width: 100%;
+  grid-area: input;
 }
 
 .subscription__input::placeholder {
-  background-image: url("/images/icons/mail-icon.svg");
-  background-repeat: no-repeat;
-  background-position: 32px 50%;
+  font: 400 16px/20px "SF Compact Rounded", var(--font-normal);
   color: var(--black-50);
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 400;
 }

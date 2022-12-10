@@ -1,0 +1,10 @@
+.write-us__input {
+  width: 328px;
+  margin: 0;
+}
+
+@media (max-width: 679px) {
+  .write-us__input {
+    width: 100%;
+  }
+}

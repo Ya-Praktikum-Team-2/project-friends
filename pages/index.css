@@ -46,7 +46,6 @@
 @import url("../blocks/logo/logo.css");
 @import url("../blocks/logo/_type/logo_type_footer.css");
 @import url("../blocks/logo/_type/logo_type_header.css");
-@import url("../blocks/logo/__image-container/logo__image-container.css");
 @import url("../blocks/logo/__title/logo__title.css");
 @import url("../blocks/logo/__title-foundation/logo__title-foundation.css");
 
@@ -55,6 +54,11 @@
 
 /* active-el block */
 @import url("../blocks/active-el/active-el.css");
+
+/* input block */
+@import url("../blocks/input/input.css");
+@import url("../blocks/input/_round/input_round.css");
+@import url("../blocks/input/_white/input_white.css");
 
 /* page block */
 @import url("../blocks/page/page.css");
@@ -65,6 +69,7 @@
 @import url("../blocks/button/_type/button_type_gray.css");
 @import url("../blocks/button/_type/button_type_transparent.css");
 @import url("../blocks/button/_type/button_type_white.css");
+@import url("../blocks/button/_type/button_type_blue.css");
 
 /* header block */
 @import url("../blocks/header/header.css");
@@ -123,7 +128,6 @@
 @import url("../blocks/hero-slide/__subtitle-bold/hero-slide__subtitle-bold.css");
 @import url("../blocks/hero-slide/__title/hero-slide__title.css");
 @import url("../blocks/hero-slide/__title-emphasis/hero-slide__title-emphasis.css");
-
 
 /* activities block */
 
@@ -221,21 +225,25 @@
 
 /* subscription block */
 @import url("../blocks/subscription/subscription.css");
-@import url("../blocks/subscription/__message/subscription__message.css");
-@import url("../blocks/subscription/__message-heading/subscription__message-heading.css");
-@import url("../blocks/subscription/__message-subtitle/subscription__message-subtitle.css");
+@import url("../blocks/subscription/__reset/subscription__reset.css");
+@import url("../blocks/subscription/__title/subscription__title.css");
+@import url("../blocks/subscription/__subtitle/subscription__subtitle.css");
 @import url("../blocks/subscription/__form/subscription__form.css");
 @import url("../blocks/subscription/__input/subscription__input.css");
-@import url("../blocks/subscription/__input/_empty/subscription__input_empty.css");
 @import url("../blocks/subscription/__button/subscription__button.css");
 
-
-/* reset-button block */
-@import url("../blocks/reset-button/reset-button.css");
-@import url("../blocks/reset-button/_active/reset-button_active.css");
-
-
 /* partners block */
+@import url("../blocks/partners/partners.css");
+@import url("../blocks/partners/__title/partners__title.css");
+@import url("../blocks/partners/__scroller/partners__scroller.css");
+@import url("../blocks/partners/__logo/partners__logo.css");
+@import url("../blocks/partners/__button/partners__button.css");
+@import url("../blocks/partners/__button/_dir/partners__button_dir_left.css");
+@import url("../blocks/partners/__button/_dir/partners__button_dir_right.css");
+@import url("../blocks/partners/__wrap/partners__wrap.css");
+@import url("../blocks/partners/__link/partners__link.css");
+@import url("../blocks/partners/__hidden/partners__hidden.css");
+@import url("../blocks/partners/__view-all/partners__view-all.css");
 
 
 /* feedback block */
@@ -271,7 +279,6 @@
 @import url("../blocks/footer/__copyright-age/footer__copyright-age.css");
 @import url("../blocks/footer/__terms-of-use/footer__terms-of-use.css");
 @import url("../blocks/footer/__duns-logo/footer__duns-logo.css");
-
 
 /* submenu block */
 @import url("../blocks/submenu/submenu.css");

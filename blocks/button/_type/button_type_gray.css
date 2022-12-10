@@ -8,8 +8,3 @@
   background-color: var(--purple-70);
   color: var(--black-100);
 }
-
-.button_type_gray:checked {
-  background-color: var(--purple-70);
-  color: var(--black-100);
-}

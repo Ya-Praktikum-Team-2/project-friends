@@ -1,0 +1,19 @@
+.donation__card-inputs {
+  display: grid;
+  grid-template:
+    ". ."
+    ". ."
+    / 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .donation__card-inputs {
+    grid-template:
+      "."
+      "."
+      "."
+      "."
+      / 1fr;
+  }
+}

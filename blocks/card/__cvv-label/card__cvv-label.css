@@ -1,0 +1,5 @@
+.card__cvv-label {
+  grid-area: label;
+  font: 400 18px/26px var(--font-normal);
+  z-index: 1;
+}

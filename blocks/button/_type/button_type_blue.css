@@ -1,0 +1,9 @@
+.button_type_blue {
+  background-color: var(--blue-70);
+  color: var(--black-100);
+}
+
+.button_type_blue:hover,
+.button_type_blue:focus {
+  background-color: var(--blue-60);
+}

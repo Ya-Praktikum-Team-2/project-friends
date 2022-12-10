@@ -1,0 +1,17 @@
+.write-us__textarea {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 18px 71px 0 32px;
+  background-color: var(--black-90);
+  border: none;
+  overflow: auto;
+  resize: none;
+  outline: none;
+  border-radius: 26px;
+  font: 400 18px/22px var(--font-normal);
+}
+
+.write-us__textarea::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,7 @@
+.partners__button {
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+  z-index: 1;
+  background-color: var(--black-90);
+}
