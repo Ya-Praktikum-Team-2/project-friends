@@ -120,8 +120,8 @@
   </header>
   <main class="main">
     <section class="donation-section page-block">
-      <h1 class="donation-section__title">Поддерживая «Друзей»
-        вы&nbsp;помогаете <span class="donation-section__title-italics">развитию всей индустрии</span></h1>
+      <h2 class="donation-section__title">Поддерживая «Друзей»
+        вы&nbsp;помогаете <span class="donation-section__title-italics">развитию всей индустрии</span></h2>
       <form action="#" class="donation">
         <fieldset class="donation__section donation__section_min-gap">
           <legend class="donation__subtitle">Выберите тип и сумму пожертвования</legend>
@@ -154,8 +154,8 @@
           </div>
           <div class="donation__other-amount-wrapper">
             <input class="donation__amount-input" id="radio-4_amount" type="radio" name="radio_amount" value="4">
-            <input id="other-amount" autocomplete="off" type="text" inputmode="numeric" pattern="[0-9]*"
-              class="donation__other-amount" name="other-amount" placeholder="Другая сумма">
+            <input id="other-amount" autocomplete="off" type="text" pattern="[0-9]*" class="donation__other-amount"
+              name="other-amount" placeholder="Другая сумма">
             <span class="donation__ruble">&#8381;</span>
           </div>
         </fieldset>
@@ -173,14 +173,13 @@
         <fieldset class="donation__card donation__card_hidden" disabled>
           <legend class="donation__subtitle">Банковская карта</legend>
           <div class="card">
-            <input autocomplete="cc-number" class="input input_white card__number" type="text" inputmode="numeric"
-              pattern="[0-9\-]*" minlength="13" maxlength="16" name="cardnumber" placeholder="Номер карты" value=""
-              required>
-            <input autocomplete="cc-name" class="input input_white card__holder" type="text" name="cardholder"
+            <input autocomplete="off" class="input input_white card__number" type="text" pattern="[0-9\-]*"
+              minlength="13" maxlength="16" name="cardnumber" placeholder="Номер карты" value="" required>
+            <input autocomplete="off" class="input input_white card__holder" type="text" name="cardholder"
               placeholder="Держатель карты" value="" required>
             <label class="card__expiration">Действует до
-              <input autocomplete="cc-exp" class="input input_white card__expiration-input" name="expiration-date"
-                class="card__input-expiration-data" type="text" placeholder="ММ/ГГ" required>
+              <input autocomplete="off" class="input input_white card__expiration-input" name="expiration-date"
+                type="text" placeholder="ММ/ГГ" required>
             </label>
             <div class="card__amount">
               <p class="card__text-total">Итого к оплате</p>
@@ -188,17 +187,17 @@
             </div>
             <div class="card__cvv">
               <label for="card-cvv" class="card__cvv-label">CVV / CVC</label>
-              <input autocomplete="cc-csc" id="card-cvv" class="input input_white card__cvv-input" type="password"
+              <input autocomplete="off" id="card-cvv" class="input input_white card__cvv-input" type="password"
                 placeholder="***" maxlength="3" required>
               <p class="card__cvv-text">Последние 3 цифры на белой полосе с обратной стороны карты</p>
             </div>
           </div>
           <div class="donation__card-inputs">
-            <input class="input donation__card-input" type="text" name="name" placeholder="Имя" autocomplete="name"
+            <input class="input donation__card-input" type="text" name="name" placeholder="Имя" autocomplete="off"
               required>
             <input class="input donation__card-input" type="text" name="surname" placeholder="Фамилия"
-              autocomplete="family-name" required>
-            <input class="input donation__card-input" type="tel" name="mobilenumber" autocomplete="tel" maxlength="10"
+              autocomplete="off" required>
+            <input class="input donation__card-input" type="tel" name="mobilenumber" autocomplete="off" maxlength="10"
               placeholder="Телефон" required>
             <input class="input donation__card-input" type="email" name="email" placeholder="Email" autocomplete="email"
               required>
@@ -262,7 +261,8 @@
           placeholder="Сообщение"></textarea>
         <input class="checkbox" type="checkbox" id="write-us_checkbox" value="" required>
         <label class="checkbox-label write-us__user-agreement" for="write-us_checkbox"><span>Я согласен с <a
-              class="active-el checkbox-label__link" href="#" target="_blank">пользовательским соглашением</a></span></label>
+              class="active-el checkbox-label__link" href="#" target="_blank">пользовательским
+              соглашением</a></span></label>
         <button class="button button_type_gray button_rounded write-us__button-submit" type="submit">Отправить</button>
       </form>
     </section>
