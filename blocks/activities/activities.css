@@ -1,5 +1,28 @@
 .activities {
-  display: flex;
-  width: 100%;
-  margin: 0 auto;
+  display: grid;
+  grid-template:
+    "title .    text"
+    "list  list list"
+    / 503fr 25fr 504fr;
+}
+
+@media (max-width: 1100px) {
+  .activities {
+    grid-template:
+      ".    title .    text ."
+      ".    .     .    .    ." 16px
+      "list list  list list list"
+      / 32px 503fr 25fr 504fr 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .activities {
+    grid-template:
+      ".    title ."
+      ".    text  ."
+      ".    .     ." 50px
+      "list list  list"
+      / 24fr 327fr 24fr;
+  }
 }

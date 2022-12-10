@@ -1,0 +1,19 @@
+.activities__item {
+  overflow: hidden;
+  border-radius: 136px;
+  width: 416px;
+  box-sizing: border-box;
+  background-clip: border-box;
+  padding: 49px 0 0 192px;
+  font: 700 18px/24px var(--font-normal);
+  color: var(--black-100);
+}
+
+@media (max-width: 768px) {
+  .activities__item {
+    font-size: 16px;
+    line-height: 18px;
+    border-radius: 85.3px;
+    padding: 23.73px 23.6px 11.1px 103.49px;
+  }
+}
