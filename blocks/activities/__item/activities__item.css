@@ -4,7 +4,7 @@
   width: 416px;
   box-sizing: border-box;
   background-clip: border-box;
-  padding: 49px 0 0 192px;
+  padding: 49px 16px 0 192px;
   font: 700 18px/24px var(--font-normal);
   color: var(--black-100);
 }

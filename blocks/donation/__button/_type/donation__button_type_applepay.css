@@ -1,11 +1,11 @@
 .donation__button_type_applepay {
-  background-image: url("../../../../../images//donation/apple_default.svg");
+  background-image: url("../../../../images/donation/apple_default.svg");
 }
 
 .donation__button_type_applepay:hover {
-  background-image: url("../../../../../images//donation/apple_active.svg");
+  background-image: url("../../../../images/donation/apple_active.svg");
 }
 
 .donation__button_active.donation__button_type_applepay {
-  background-image: url("../../../../../images/donation/apple_active.svg");
+  background-image: url("../../../../images/donation/apple_active.svg");
 }
