@@ -1,0 +1,13 @@
+.more-help__mail {
+  grid-area: link;
+  font: 400 22px/33px var(--font-normal);
+  color: var(--turquoise-40);
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .more-help__mail {
+    max-width: 300px;
+    word-wrap: break-word;
+  }
+}

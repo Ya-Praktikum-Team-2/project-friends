@@ -1,0 +1,12 @@
+.more-help__article-title {
+  padding: 0;
+  margin: 0;
+  grid-area: title;
+  font: 700 22px/120% var(--font-normal);
+}
+
+@media (max-width: 768px) {
+  .more-help__article-title {
+    line-height: 150%;
+  }
+}

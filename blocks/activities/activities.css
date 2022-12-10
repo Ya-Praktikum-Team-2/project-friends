@@ -2,6 +2,7 @@
   display: grid;
   grid-template:
     "title .    text"
+    ".     .    ." 15px
     "list  list list"
     / 503fr 25fr 504fr;
 }
@@ -10,7 +11,7 @@
   .activities {
     grid-template:
       ".    title .    text ."
-      ".    .     .    .    ." 16px
+      ".    .     .    .    ." 15px
       "list list  list list list"
       / 32px 503fr 25fr 504fr 32px;
   }
@@ -20,6 +21,7 @@
   .activities {
     grid-template:
       ".    title ."
+      ".    .     ." 16px
       ".    text  ."
       ".    .     ." 50px
       "list list  list"

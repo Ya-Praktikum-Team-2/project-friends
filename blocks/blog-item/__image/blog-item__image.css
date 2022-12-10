@@ -5,6 +5,12 @@
   object-fit: cover;
 }
 
+@media (max-width: 576px) {
+  .blog-item__image {
+    aspect-ratio: 343 / 216;
+  }
+}
+
 @media (min-width: 769px) {
   .blog-item_big .blog-item__image {
     aspect-ratio: unset;

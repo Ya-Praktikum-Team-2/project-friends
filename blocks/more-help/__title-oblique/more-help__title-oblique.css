@@ -1,0 +1,9 @@
+.more-help__title-oblique {
+  font: italic 400 44px/44px var(--font-italic);
+}
+
+@media (max-width: 768px) {
+  .more-help__title-oblique {
+    font: 400 32px/40px var(--font-italic);
+  }
+}

@@ -1,0 +1,6 @@
+.more-help__button {
+  grid-area: link;
+  margin-top: 32px;
+  padding: 0 61px 0 31px;
+  justify-self: start;
+}

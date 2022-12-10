@@ -1,0 +1,4 @@
+.donation-main__form {
+  grid-area: form;
+  width: 100%;
+}

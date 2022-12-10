@@ -1,3 +1,9 @@
+/**
+ * @fileOverview Implementation of Blog section helper
+ * @author Vladislav Cherepita
+ * @version 1.0.0
+ */
+
 import Carousel from '../utils/carousel.js';
 
 const BLOG_CLASSES = {

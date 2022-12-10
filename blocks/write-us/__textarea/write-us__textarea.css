@@ -10,6 +10,7 @@
   outline: none;
   border-radius: 26px;
   font: 400 18px/22px var(--font-normal);
+  height: 160px;
 }
 
 .write-us__textarea::-webkit-scrollbar {

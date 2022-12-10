@@ -1,0 +1,6 @@
+.more-help__about {
+  padding: 0;
+  margin: 0;
+  grid-area: text;
+  font: 400 18px/26px var(--font-normal);
+}

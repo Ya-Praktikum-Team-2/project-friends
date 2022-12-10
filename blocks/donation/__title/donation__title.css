@@ -1,0 +1,12 @@
+.donation__title {
+  font: 700 34px/44px var(--font-normal);
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+@media (max-width: 576px) {
+  .donation__title {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+}

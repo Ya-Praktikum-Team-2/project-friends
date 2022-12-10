@@ -2,3 +2,10 @@
   width: 96px;
   margin-top: 4px;
 }
+
+@media (max-width: 768px) {
+  .card__expiration-input {
+    width: 112px;
+    height: 56px;
+  }
+}

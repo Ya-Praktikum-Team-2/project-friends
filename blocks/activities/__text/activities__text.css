@@ -3,7 +3,7 @@
   flex-flow: column nowrap;
   gap: 26px;
   grid-area: text;
-  font: 400 18px/25px var(--font-normal);
+  font: 400 18px/26.5px var(--font-normal);
 }
 
 @media (max-width: 768px) {

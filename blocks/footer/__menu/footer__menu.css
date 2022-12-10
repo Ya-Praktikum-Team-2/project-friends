@@ -6,13 +6,20 @@
   max-width: 740px;
   width: 100%;
   display: flex;
-  gap: 28px;
+  gap: 29px;
   flex-wrap: wrap;
+  justify-content: end;
+}
+
+@media (max-width: 1150px) {
+  .footer__menu {
+    justify-content: start;
+  }
 }
 
 @media (max-width: 576px) {
   .footer__menu {
     padding-top: 0;
-    gap: 25px;
+    gap: 16px 25px;
   }
 }

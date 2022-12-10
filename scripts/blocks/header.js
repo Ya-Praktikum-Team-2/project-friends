@@ -1,3 +1,9 @@
+/**
+ * @fileOverview Implementation of Header section helper
+ * @author Vladislav Cherepita
+ * @version 1.0.0
+ */
+
 /** Header section helper */
 class Header {
   /**

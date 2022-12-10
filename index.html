@@ -179,14 +179,17 @@
       <div class="activities__text">
         <p class="activities__paragraph">Мы помогаем некоммерческим организациям становиться лучше, привлекать
           профессионалов и достигать своей цели<span class="activities__text-bold">- помощь людям.</span></p>
-        <p class="activities__paragraph">Через свои ключевые программы «Друзья» привлекают лучшие бизнес-практики в работу благотворительных
+        <p class="activities__paragraph">Через свои ключевые программы «Друзья» привлекают лучшие бизнес-практики в
+          работу благотворительных
           организаций и создают площадки для фандрайзинга и успешного сотрудничества с бизнесом и государством.</p>
       </div>
       <ul class="activities__list">
         <li class="activities__item activities__item_type_bulb">Находим интеллектальных волонтеров</li>
         <li class="activities__item activities__item_type_learning">Обучаем филантропии</li>
-        <li class="activities__item activities__item_type_development">Помогаем развиваться некоммерческим организациям</li>
-        <li class="activities__item activities__item_type_responsibility">Помогаем бизнесу становиться социально ответственным</li>
+        <li class="activities__item activities__item_type_development">Помогаем развиваться некоммерческим организациям
+        </li>
+        <li class="activities__item activities__item_type_responsibility">Помогаем бизнесу становиться социально
+          ответственным</li>
       </ul>
     </section>
     <section class="programs page-block page-block_top-indent">
@@ -466,7 +469,7 @@
                   Статистика</p>
                 <img class="blog-item__image" src="images/blogs/1.jpg" alt="изображение с гуманитарной помощью">
                 <time class="blog-item__date" datetime="2021-07-07">7 Июля 2021</time>
-                <h3 class="blog-item__title">Россияне и благотворительность</h3>
+                <h3 class="blog-item__title">Россияне и&nbsp;благотворительность</h3>
                 <p class="blog-item__text">Что статистика знает о добрых делах</p>
               </article>
             </a>
@@ -568,16 +571,58 @@
         </div>
       </div>
     </section>
-    <section class="feedback">
+    <section class="feedback page-block page-block_partial page-block_top-indent">
       <div class="feedback__content">
         <h3 class="feedback__title">Остались вопросы? Пишите и звоните нам</h3>
         <a href="mailto:friends@friends-foundation.com"
-        class="feedback__email">friends@friends-foundation.com</a>
-        <a href="tel:+79772770717" class="feedback__telephone">+7 977 277-07-17</a>
+          class="active-el feedback__email">friends@friends-foundation.com</a>
+        <a href="tel:+79772770717" class="active-el feedback__telephone">+7 977 277-07-17</a>
       </div>
     </section>
-    <section class="donation-block" aria-label="удали меня">
-
+    <section class="donation-main page-block page-block_top-indent">
+      <h2 class="donation-main__title">Поддержите «Друзей» или станьте <span class="donation-main__title-italic">нашим
+          партнером</span></h2>
+      <form class="donation donation_mini donation-main__form" action="#">
+        <fieldset class="donation__section donation__section_min-gap">
+          <legend class="donation__title">Поддержать Друзей:</legend>
+          <div class="donation__frequency-wrapper">
+            <input class="input donation__frequency donation__frequency_input" id="radio-1_option" type="radio"
+              name="radio_type_option" value="1" checked>
+            <label class="input donation__frequency donation__frequency_label" for="radio-1_option"
+              tabindex="0">Разовое</label>
+            <input class="input donation__frequency donation__frequency_input" id="radio-2_option" type="radio"
+              name="radio_type_option" value="2">
+            <label class="input donation__frequency donation__frequency_label" for="radio-2_option"
+              tabindex="0">Ежемесячное</label>
+          </div>
+          <p class="donation__describe-monthlypay">Ежемесячное пожертвование раз в месяц
+            списывается с банковской карты, Google Pay или Apple Pay. В любой момент вы
+            сможете отключить его.</p>
+        </fieldset>
+        <fieldset class="donation__section">
+          <div class="donation__amount-wrapper">
+            <input class="donation__amount-input" id="radio-1_amount" type="radio" name="radio_amount" value="1"
+              checked>
+            <label for="radio-1_amount" data-amount="5000" class="button button_type_gray donation__amount"
+              tabindex="0">5 000</label>
+            <input class="donation__amount-input" id="radio-2_amount" type="radio" name="radio_amount" value="2">
+            <label for="radio-2_amount" data-amount="10000" class="button button_type_gray donation__amount"
+              tabindex="0">10 000</label>
+            <input class="donation__amount-input" id="radio-3_amount" type="radio" name="radio_amount" value="3">
+            <label for="radio-3_amount" data-amount="50000"
+              class="button button_type_gray donation__amount donation__amount_whole-width" tabindex="0">50 000</label>
+          </div>
+          <div class="donation__other-amount-wrapper">
+            <input class="donation__amount-input" id="radio-4_amount" type="radio" name="radio_amount" value="4">
+            <input id="other-amount" autocomplete="off" type="text" pattern="[0-9]*" class="donation__other-amount"
+              name="other-amount" placeholder="Другая сумма">
+            <span class="donation__ruble">&#8381;</span>
+          </div>
+        </fieldset>
+        <button type="submit"
+          class="button button_rounded button_type_yellow donation__support-btn donation__support-btn_mini">Поддержать
+          фонд</button>
+      </form>
     </section>
   </main>
   <footer class="footer footer_main page-block">
