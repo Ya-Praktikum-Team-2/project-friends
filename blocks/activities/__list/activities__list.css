@@ -1,0 +1,18 @@
+.activities__list {
+  grid-area: list;
+  min-height: 515px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-rows: 121fr 42px 69fr 52px 68fr 43px 120fr;
+  grid-template-columns: 1fr;
+  justify-items: start;
+}
+
+@media (max-width: 768px) {
+  .activities__list {
+    grid-template-rows: 95fr 9px 86fr 7px 88fr 7px 95fr;
+    min-height: 387px;
+  }
+}

@@ -1,0 +1,40 @@
+.activities__item_type_learning {
+  position: relative;
+  background: url("../../../../images/icons/book.svg") var(--blue-70) 0% 100% no-repeat;
+  grid-column: 1 / 2;
+  grid-row: 2 / 5;
+  margin-left: 212px;
+}
+
+@media (max-width: 1080px) {
+  .activities__item_type_learning {
+    margin-left: calc(58vw * 0.8 - 300px);
+  }
+}
+
+@media (max-width: 768px) {
+  .activities__item_type_learning {
+    margin-left: calc(80vw*1.2 - 550px);
+    background-size: 80px;
+    width: 283px;
+  }
+}
+
+@media (max-width: 640px) {
+  .activities__item_type_learning {
+    margin-left: calc(80vw - 350px);
+  }
+}
+
+@media (max-width: 500px) {
+  .activities__item_type_learning {
+    margin-left: calc(80vw - 283px);
+  }
+}
+
+@media (max-width: 360px) {
+  .activities__item_type_learning {
+    margin-left: 0;
+    width: 100%;
+  }
+}
