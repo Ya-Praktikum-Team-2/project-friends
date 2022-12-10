@@ -1,0 +1,25 @@
+.feedback__title {
+  font-size: 44px;
+  line-height: 50px;
+  font-weight: 700;
+  font-family: var(--font-normal);
+  color: var(--black-10);
+  margin-bottom: 32px;
+  margin-top: 0;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .feedback__title {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+
+@media (max-width: 768px) {
+  .feedback__title {
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 16px;
+  }
+}
