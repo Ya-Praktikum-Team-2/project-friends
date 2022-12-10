@@ -126,6 +126,7 @@
 @import url("../blocks/hero-slide/__caption/_add-contrast/hero-slide__caption_add-contrast.css");
 @import url("../blocks/hero-slide/__link/hero-slide__link.css");
 @import url("../blocks/hero-slide/__subtitle/hero-slide__subtitle.css");
+@import url("../blocks/hero-slide/__subtitle/_small/hero-slide__subtitle_small.css");
 @import url("../blocks/hero-slide/__subtitle-bold/hero-slide__subtitle-bold.css");
 @import url("../blocks/hero-slide/__title/hero-slide__title.css");
 @import url("../blocks/hero-slide/__title-emphasis/hero-slide__title-emphasis.css");
@@ -203,6 +204,9 @@
 @import url("../blocks/our-friends-slide/__background/_align/our-friends-slide__background_align_left.css");
 @import url("../blocks/our-friends-slide/__background/_align/our-friends-slide__background_align_right.css");
 @import url("../blocks/our-friends-slide/__caption/our-friends-slide__caption.css");
+@import url("../blocks/our-friends-slide/__caption/_size/our-friends-slide__caption_size_big.css");
+@import url("../blocks/our-friends-slide/__caption/_size/our-friends-slide__caption_size_medium.css");
+@import url("../blocks/our-friends-slide/__caption/_size/our-friends-slide__caption_size_small.css");
 @import url("../blocks/our-friends-slide/__caption/_align/our-friends-slide__caption_align_left.css");
 @import url("../blocks/our-friends-slide/__caption/_align/our-friends-slide__caption_align_right.css");
 @import url("../blocks/our-friends-slide/__description/our-friends-slide__description.css");

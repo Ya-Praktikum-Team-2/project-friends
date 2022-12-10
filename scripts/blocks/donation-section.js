@@ -17,7 +17,7 @@ const initDonationSection = (initShowTotal) => {
       cardEl.removeAttribute('disabled');
       cardEl.classList.remove('donation__card_hidden');
     } else {
-      cardEl.setAttribute('disabled', null);
+      cardEl.setAttribute('disabled', '');
       cardEl.classList.add('donation__card_hidden');
     }
   };
@@ -119,6 +119,8 @@ const initDonationSection = (initShowTotal) => {
   buttonPayMonthly.addEventListener('change', handlePayTypeChange);
 
   buttonPayOnce.addEventListener('change', handlePayTypeChange);
+
+  buttons[0].click();
 };
 
 export default initDonationSection;

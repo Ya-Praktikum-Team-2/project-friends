@@ -1,11 +1,11 @@
 .donation__button_type_googlepay {
-  background-image: url("../../../../../images//donation/googleblack.svg");
+  background-image: url("../../../../images/donation/googleblack.svg");
 }
 
 .donation__button_type_googlepay:hover {
-  background-image: url("../../../../../images//donation/google_active.svg");
+  background-image: url("../../../../images/donation/google_active.svg");
 }
 
 .donation__button_active.donation__button_type_googlepay {
-  background-image: url("../../../../../images//donation/google_active.svg");
+  background-image: url("../../../../images/donation/google_active.svg");
 }
