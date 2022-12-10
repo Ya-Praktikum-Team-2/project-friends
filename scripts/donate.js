@@ -9,5 +9,5 @@ ScreenSizeTracker.addListener(576, (isBigger) => {
   header.onWidthCnahge(!isBigger);
 });
 
-initDonationSection();
+initDonationSection(true);
 initEriteUs();

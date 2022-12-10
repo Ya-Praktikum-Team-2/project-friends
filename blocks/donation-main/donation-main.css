@@ -1,0 +1,21 @@
+.donation-main {
+  max-width: 1134px;
+  background-color: var(--purple-70);
+  z-index: 1;
+
+  display: grid;
+  padding: 40px 0 60px;
+  grid-template: ". title . form ." / 51fr 363fr 24fr 664fr 32fr;
+}
+
+@media (max-width: 1180px) {
+  .donation-main {
+    padding: 48px 8px 8px;
+    grid-template:
+      ".    title ."
+      ".    .     ." 40px
+      "form form  form"
+      / 16px 1fr 16px;
+    justify-items: center;
+  }
+}

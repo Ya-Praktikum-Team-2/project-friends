@@ -1,6 +1,6 @@
 .subscription__title {
-  margin: 0 0 16px;
-  font: 700 35px/34px var(--font-normal);
+  margin: 0;
+  font: 700 34px/40px var(--font-normal);
 
   grid-area: title;
 }

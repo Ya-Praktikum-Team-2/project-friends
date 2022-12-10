@@ -1,0 +1,30 @@
+.donation-main__title {
+  margin: 0;
+  padding: 0;
+  grid-area: title;
+  font: 700 63px/66px var(--font-normal);
+  color: var(--black-100);
+}
+
+@media (max-width: 1180px) {
+  .donation-main__title {
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .donation-main__title {
+    font-size: 35px;
+    line-height: 40px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 425px) {
+  .donation-main__title {
+    font-size: 27px;
+    line-height: 30px;
+  }
+}

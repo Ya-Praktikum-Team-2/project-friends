@@ -7,6 +7,12 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 576px) {
+  .blog-item__date {
+    letter-spacing: 0.08em;
+  }
+}
+
 @media (min-width: 768px) {
   .blog-item_big .blog-item__date {
     color: var(--black-100);

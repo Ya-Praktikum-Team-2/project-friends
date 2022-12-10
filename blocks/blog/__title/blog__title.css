@@ -4,3 +4,9 @@
   font: var(--title-3);
   text-align: center;
 }
+
+@media (max-width: 576px) {
+  .blog__title {
+    margin: 0 0 23px;
+  }
+}

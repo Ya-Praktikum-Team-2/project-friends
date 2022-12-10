@@ -1,0 +1,9 @@
+.donation_mini {
+  padding: 48px 56px 64px;
+}
+
+@media (max-width: 576px) {
+  .donation_mini {
+    padding: 40px 24px;
+  }
+}

@@ -12,6 +12,10 @@
 }
 
 @media (min-width: 769px) {
+  .blog-item_big .blog-item__title {
+    font: 700 26px/30px var(--font-normal);
+  }
+
   .blog-item_big:hover .blog-item__title {
     color: var(--turquoise-80);
   }

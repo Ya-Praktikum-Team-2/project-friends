@@ -70,6 +70,7 @@
 @import url("../blocks/button/_type/button_type_transparent.css");
 @import url("../blocks/button/_type/button_type_white.css");
 @import url("../blocks/button/_type/button_type_blue.css");
+@import url("../blocks/button/_type/button_type_yellow.css");
 
 /* header block */
 @import url("../blocks/header/header.css");
@@ -255,7 +256,6 @@
 @import url("../blocks/partners/__hidden/partners__hidden.css");
 @import url("../blocks/partners/__view-all/partners__view-all.css");
 
-
 /* feedback block */
 @import url("../blocks/feedback/feedback.css");
 @import url("../blocks/feedback/__content/feedback__content.css");
@@ -263,8 +263,33 @@
 @import url("../blocks/feedback/__email/feedback__email.css");
 @import url("../blocks/feedback/__telephone/feedback__telephone.css");
 
-/* support block */
-
+/* donation-main block */
+@import url("../blocks/donation-main/donation-main.css");
+@import url("../blocks/donation-main/__title/donation-main__title.css");
+@import url("../blocks/donation-main/__form/donation-main__form.css");
+@import url("../blocks/donation-main/__title-italic/donation-main__title-italic.css");
+@import url("../blocks/donation/donation.css");
+@import url("../blocks/donation/_mini/donation_mini.css");
+@import url("../blocks/donation/__section/donation__section.css");
+@import url("../blocks/donation/__section/_min-gap/donation__section_min-gap.css");
+@import url("../blocks/donation/__subtitle/donation__subtitle.css");
+@import url("../blocks/donation/__frequency-wrapper/donation__frequency-wrapper.css");
+@import url("../blocks/donation/__frequency/donation__frequency.css");
+@import url("../blocks/donation/__frequency/_input/donation__frequency_input.css");
+@import url("../blocks/donation/__frequency/_label/donation__frequency_label.css");
+@import url("../blocks/donation/__describe-monthlypay/donation__describe-monthlypay.css");
+@import url("../blocks/donation/__describe-monthlypay/_opened/donation__describe-monthlypay_opened.css");
+@import url("../blocks/donation/__amount-input/donation__amount-input.css");
+@import url("../blocks/donation/__amount/donation__amount.css");
+@import url("../blocks/donation/__amount/_whole-width/donation__amount_whole-width.css");
+@import url("../blocks/donation/__amount-wrapper/donation__amount-wrapper.css");
+@import url("../blocks/donation/__other-amount-wrapper/donation__other-amount-wrapper.css");
+@import url("../blocks/donation/__other-amount/donation__other-amount.css");
+@import url("../blocks/donation/__ruble/donation__ruble.css");
+@import url("../blocks/donation/__support-btn/donation__support-btn.css");
+@import url("../blocks/donation/__support-btn/_mini/donation__support-btn_mini.css");
+@import url("../blocks/donation/__support-btn/_active/donation__support-btn_active.css");
+@import url("../blocks/donation/__title/donation__title.css");
 
 /* footer block */
 @import url("../blocks/footer/footer.css");

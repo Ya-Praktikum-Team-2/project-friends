@@ -1,6 +1,6 @@
 .activities__list {
   grid-area: list;
-  min-height: 515px;
+  min-height: 514px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -13,6 +13,6 @@
 @media (max-width: 768px) {
   .activities__list {
     grid-template-rows: 95fr 9px 86fr 7px 88fr 7px 95fr;
-    min-height: 387px;
+    min-height: 391px;
   }
 }
