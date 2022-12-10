@@ -1,0 +1,24 @@
+.more-help__article {
+  display: grid;
+  grid-template:
+    ". .      . image" minmax(0, 1fr)
+    ". title  . image"
+    ". .      . image" 16px
+    ". text   . image"
+    ". link . image"
+    ". .      . image" minmax(0, 1fr)
+    / 88fr 472fr 57fr 415fr;
+}
+
+@media (max-width: 768px) {
+  .more-help__article {
+    padding: 0 25px 0 23px;
+    grid-template:
+      "title"
+      "." 16px
+      "text"
+      "link"
+      "image"
+      / 1fr;
+  }
+}

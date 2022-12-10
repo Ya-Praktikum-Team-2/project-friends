@@ -1,5 +1,12 @@
 .subscription__subtitle {
-  margin: 0;
+  margin: 16px 0 0;
   grid-area: subtitle;
-  font: 400 18px/24px var(--font-normal);
+  font: 400 18px/22px var(--font-normal);
+}
+
+@media (max-width: 576px) {
+  .subscription__subtitle {
+    margin: 0;
+    font: 400 18px/24px var(--font-normal);
+  }
 }

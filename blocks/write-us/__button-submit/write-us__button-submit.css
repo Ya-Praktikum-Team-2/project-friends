@@ -1,6 +1,6 @@
 .write-us__button-submit {
   width: 100%;
-  margin: 38px 0 0;
+  margin: 14px 0 30px;
 }
 
 .write-us__form:valid > .write-us__button-submit {
@@ -14,6 +14,6 @@
 
 @media (max-width: 576px) {
   .write-us__button-submit {
-    margin: 32px 0 0;
+    margin: 16px 0 0;
   }
 }

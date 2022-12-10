@@ -1,0 +1,11 @@
+.more-help__img {
+  grid-area: image;
+  width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .more-help__img {
+    margin-top: 32px;
+  }
+}

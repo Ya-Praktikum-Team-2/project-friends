@@ -1,0 +1,12 @@
+@media (min-width: 769px) {
+  .more-help__article_reverse {
+    grid-template:
+      "image . .     ." minmax(0, 1fr)
+      "image . title ."
+      "image . .     ." 16px
+      "image . text  ."
+      "image . link  ."
+      "image . .     ." minmax(0, 1fr)
+      / 422fr 112fr 472fr 32fr;
+  }
+}

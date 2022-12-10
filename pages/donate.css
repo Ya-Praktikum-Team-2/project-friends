@@ -14,6 +14,8 @@
 @import url("../blocks/button/_type/button_type_gray.css");
 @import url("../blocks/button/_type/button_type_transparent.css");
 @import url("../blocks/button/_type/button_type_yellow.css");
+@import url("../blocks/button/_type/button_type_blue.css");
+@import url("../blocks/button/_arrow/button_arrow.css");
 
 /* input block */
 @import url("../blocks/input/input.css");
@@ -137,7 +139,21 @@
 @import url("../blocks/statistics/__font-bold/statistics__font-bold.css");
 
 /* more-help block */
-
+@import url("../blocks/more-help/more-help.css");
+@import url("../blocks/more-help/__about/more-help__about.css");
+@import url("../blocks/more-help/__article/more-help__article.css");
+@import url("../blocks/more-help/__article/_reverse/more-help__article_reverse.css");
+@import url("../blocks/more-help/__article-title/more-help__article-title.css");
+@import url("../blocks/more-help/__button/more-help__button.css");
+@import url("../blocks/more-help/__item/more-help__item.css");
+@import url("../blocks/more-help/__link/more-help__link.css");
+@import url("../blocks/more-help/__list/more-help__list.css");
+@import url("../blocks/more-help/__title-oblique/more-help__title-oblique.css");
+@import url("../blocks/more-help/__title/more-help__title.css");
+@import url("../blocks/more-help/__img/more-help__img.css");
+@import url("../blocks/more-help/__links/more-help__links.css");
+@import url("../blocks/more-help/__mail/more-help__mail.css");
+@import url("../blocks/more-help/__logo/more-help__logo.css");
 
 /* write-us block */
 @import url("../blocks/write-us/write-us.css");

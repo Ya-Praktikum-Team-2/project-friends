@@ -5,7 +5,7 @@
   box-sizing: border-box;
   justify-content: center;
   background-color: var(--black-100);
-  padding: 56px 64px 72px;
+  padding: 56px 64px 75px;
 }
 
 @media (max-width: 768px) {

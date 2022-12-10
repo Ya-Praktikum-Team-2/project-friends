@@ -4,7 +4,7 @@
   grid-template:
     ". title    title . form ."
     ". subtitle .     . form ."
-    / 125fr 428fr 75fr 28fr 496fr 115fr;
+    / 125fr 428fr 75fr 28fr 496fr 125fr;
 
   align-items: center;
   padding: 43px 0;

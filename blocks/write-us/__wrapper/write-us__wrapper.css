@@ -8,6 +8,7 @@
 
 @media (max-width: 679px) {
   .write-us__wrapper {
+    gap: 12px;
     width: 100%;
     grid-template-columns: repeat(auto-fit, 100%);
   }

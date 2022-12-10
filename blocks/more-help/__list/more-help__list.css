@@ -1,0 +1,14 @@
+.more-help__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 74px;
+}
+
+@media (max-width: 768px) {
+  .more-help__list {
+    gap: 40px;
+  }
+}
