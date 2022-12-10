@@ -147,8 +147,14 @@
 @import url("../blocks/write-us/__user-agreement/write-us__user-agreement.css");
 @import url("../blocks/write-us/__button-submit/write-us__button-submit.css");
 
-/* subscribe block */
-
+/* subscription block */
+@import url("../blocks/subscription/subscription.css");
+@import url("../blocks/subscription/__reset/subscription__reset.css");
+@import url("../blocks/subscription/__title/subscription__title.css");
+@import url("../blocks/subscription/__subtitle/subscription__subtitle.css");
+@import url("../blocks/subscription/__form/subscription__form.css");
+@import url("../blocks/subscription/__input/subscription__input.css");
+@import url("../blocks/subscription/__button/subscription__button.css");
 
 /* footer block */
 @import url("../blocks/footer/footer.css");
