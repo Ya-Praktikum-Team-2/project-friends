@@ -5,7 +5,7 @@
     ". title  . image"
     ". .      . image" 16px
     ". text   . image"
-    ". link . image"
+    ". link   . image"
     ". .      . image" minmax(0, 1fr)
     / 88fr 472fr 57fr 415fr;
 }
