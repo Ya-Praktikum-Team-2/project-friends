@@ -1,0 +1,12 @@
+.activities__container {
+  margin: 92px 124px 0;
+  display: flex;
+  flex-flow: wrap row;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .activities__container {
+    margin: 56px 24px 0;
+  }
+}

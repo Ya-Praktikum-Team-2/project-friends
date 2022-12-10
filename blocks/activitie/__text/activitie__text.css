@@ -1,0 +1,17 @@
+.activitie__text {
+  font-family: var(--font-normal);
+  color: var(--black-100);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 50%;
+  margin: 49px 0 0 192px;
+}
+
+@media (max-width: 768px) {
+  .activitie__text {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 23.73px 23.6px 11.1px 103.49px;
+  }
+}

@@ -1,0 +1,19 @@
+.activities__text {
+  font-family: var(--font-normal);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  max-width: calc(100%/2);
+}
+
+@media (max-width: 1024px) {
+  .activities__text {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .activities__text {
+    line-height: 23px;
+  }
+}

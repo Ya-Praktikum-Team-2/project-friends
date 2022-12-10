@@ -1,0 +1,24 @@
+.activitie__item_type_development {
+  position: relative;
+  background: url("../../../../images/icons/development.svg") 0% 50% var(--pink-70) no-repeat;
+  margin: -52px 16.2% 0 auto;
+}
+
+@media (max-width: 1120px) {
+  .activitie__item_type_development {
+    margin-left: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .activitie__item_type_development {
+    background-size: 80px;
+    margin: -8px 0 0 30%;
+  }
+}
+
+@media (max-width: 400px) {
+  .activitie__item_type_development {
+    margin-left: 39px;
+  }
+}

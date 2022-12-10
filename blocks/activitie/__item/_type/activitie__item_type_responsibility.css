@@ -1,0 +1,18 @@
+.activitie__item_type_responsibility {
+  position: relative;
+  background: url("../../../../images/icons/briefcase.svg") 0% 50% var(--yellow-70) no-repeat;
+  margin: -43px 1px 0 auto;
+}
+
+@media (max-width: 768px) {
+  .activitie__item_type_responsibility {
+    background-size: 80px;
+    margin: -8px 1px 0 auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .activitie__item_type_responsibility {
+    margin-left: 45px;
+  }
+}

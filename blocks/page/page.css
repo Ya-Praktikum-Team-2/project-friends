@@ -1,6 +1,8 @@
 .page {
+  max-width: 1280px;
+  font-family: var(--font-normal);
+  box-sizing: border-box;
+  margin: 0 auto;
   display: flex;
   flex-flow: column nowrap;
-
-  font-family: var(--font-normal);
 }
