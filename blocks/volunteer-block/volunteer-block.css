@@ -1,0 +1,15 @@
+.volunteer-block {
+  height: 315px;
+  background-image: url("../../images/more-help/volunteer.jpg");
+  background-size: 415px 315px;
+  background-repeat: no-repeat;
+  background-position: left 625px top 80px;
+}
+
+@media (max-width: 1024px) {
+  .volunteer-block{
+    background-size: 327px 248px;
+    background-position: left 23px top 320px;
+    height: 550px;
+  }
+}

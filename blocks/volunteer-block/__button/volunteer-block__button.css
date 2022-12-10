@@ -1,0 +1,22 @@
+.volunteer-block__button {
+  height: 56px;
+  width: 287px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  border-radius: 48px;
+  border: none;
+  position: relative;
+  box-sizing: border-box;
+  margin: 32px 0 0 100px;
+}
+
+@media (max-width: 1024px) {
+  .volunteer-block__button{
+    font-size: 16px;
+    padding-top: 0;
+    margin: 32px 0 0 23px;
+    width: calc(100% - 48px);
+
+  }
+}

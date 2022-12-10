@@ -1,0 +1,13 @@
+.volunteer-block__about {
+  margin: 16px 0 0 100px;
+  max-width: 470px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+@media (max-width: 1024px) {
+  .volunteer-block__about{
+    margin: 16px auto 0 auto;
+    max-width: calc(100% - 48px)
+  }
+}

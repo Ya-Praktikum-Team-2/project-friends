@@ -21,6 +21,22 @@
 
 
 /* more-help block */
+@import url(../blocks/trustee-block/trustee-block.css);
+@import url(../blocks/trustee-block/__about/trustee-block__about.css);
+@import url(../blocks/trustee-block/__mail/trustee-block__mail.css);
+@import url(../blocks/trustee-block/__title/trustee-block__title.css);
+@import url(../blocks/volunteer-block/volunteer-block.css);
+@import url(../blocks/volunteer-block/__about/volunteer-block__about.css);
+@import url(../blocks/volunteer-block/__button/volunteer-block__button.css);
+@import url(../blocks/volunteer-block/__title/volunteer-block__title.css);
+@import url(../blocks/more-help/more-help.css);
+@import url(../blocks/more-help/__container/more-help__container.css);
+@import url(../blocks/more-help/__link-telegram/more-help__link-telegram.css);
+@import url(../blocks/more-help/__link-vk/more-help__link-vk.css);
+@import url(../blocks/more-help/__say-about-us-title/more-help__say-about-us-title.css);
+@import url(../blocks/more-help/__title/more-help__title.css);
+@import url(../blocks/more-help/__title/_style/more-help__title_style_oblique.css);
+@import url(../blocks/volunteer-block/__arrow/volunteer-block__arrow.css);
 
 
 /* write-us block */

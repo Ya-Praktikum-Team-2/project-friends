@@ -1,0 +1,11 @@
+.more-help__title_style_oblique {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 41px;
+}
+
+@media (max-width: 1024px) {
+  .more-help__title_style_oblique{
+    font-size: 32px;
+  }
+}

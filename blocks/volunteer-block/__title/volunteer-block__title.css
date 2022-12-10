@@ -1,0 +1,16 @@
+.volunteer-block__title {
+  margin: 0 0 0 100px;
+  padding-top: 130px;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .volunteer-block__title{
+    font-size: 22px;
+    padding-top: 0;
+    margin: 40px auto 0 auto;
+    max-width: calc(100% - 48px)
+  }
+}

@@ -1,0 +1,13 @@
+.trustee-block__about {
+  margin: 16px 0 15px 535px;
+  max-width: 470px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+@media (max-width: 1024px) {
+  .trustee-block__about{
+    margin: 16px auto 16px auto;
+    max-width: calc(100% - 48px)
+  }
+}

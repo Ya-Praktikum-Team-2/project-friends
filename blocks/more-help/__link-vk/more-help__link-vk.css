@@ -1,0 +1,9 @@
+.more-help__link-vk {
+  margin: 20px 5px 0 50px;
+}
+
+@media (max-width: 1024px) {
+  .more-help__link-vk{
+    margin: 20px 5px 0 10px;
+  }
+}

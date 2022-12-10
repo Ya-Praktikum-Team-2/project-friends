@@ -1,0 +1,17 @@
+.trustee-block__mail {
+  margin: 0 0 0 535px;
+  font-size: 22px;
+  line-height: 33px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--turquoise-40);
+}
+
+@media (max-width: 1024px) {
+  .trustee-block__mail{
+    margin: 16px 0 0 23px;
+    max-width: calc(100% - 48px)
+  }
+}
+
+

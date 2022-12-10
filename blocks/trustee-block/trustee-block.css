@@ -1,0 +1,15 @@
+.trustee-block {
+  height: 315px;
+  background-image: url("../../images/more-help/trustee.jpg");
+  background-size: 416px 269px;
+  background-repeat: no-repeat;
+  background-position: left 10px top 20px;
+}
+
+@media (max-width: 1024px) {
+  .trustee-block{
+    background-size: 327px 212px;
+    background-position: left 23px top 340px;
+    height: 550px;
+  }
+}
