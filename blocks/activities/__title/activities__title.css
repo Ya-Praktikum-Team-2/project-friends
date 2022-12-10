@@ -1,0 +1,5 @@
+.activities__title {
+  margin: 0;
+  grid-area: title;
+  font: var(--title-3);
+}

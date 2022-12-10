@@ -1,6 +1,5 @@
 .page {
+  font-family: var(--font-normal);
   display: flex;
   flex-flow: column nowrap;
-
-  font-family: var(--font-normal);
 }
