@@ -1,7 +1,8 @@
 .blog__link {
   margin: 56px auto 0;
 
-  width: 328px;
+  max-width: 328px;
+  width: 100%;
 }
 
 @media (max-width: 576px) {

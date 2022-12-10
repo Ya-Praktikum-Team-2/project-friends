@@ -8,6 +8,7 @@
   box-sizing: border-box;
   border-radius: 56px;
   padding: 6px 0;
+  transition: 0.2s linear;
 }
 
 /* Hover */

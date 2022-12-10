@@ -1,13 +1,12 @@
 .input {
   display: block;
   background-color: var(--black-90);
-  color: var(--black-50);
+  color: var(--black-10);
   box-sizing: border-box;
-  padding: 0;
+  text-indent: 18px;
   border: none;
   font: 400 16px/20px var(--font-normal);
   height: 56px;
-  padding-left: 18px;
 }
 
 .input:checked {

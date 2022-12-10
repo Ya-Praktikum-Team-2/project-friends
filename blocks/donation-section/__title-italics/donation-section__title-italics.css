@@ -1,0 +1,7 @@
+.donation-section__title-italics {
+  font-family: var(--font-italic);
+  font-style: italic;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,5 @@
+.subscription__subtitle {
+  margin: 0;
+  grid-area: subtitle;
+  font: 400 18px/22px var(--font-normal);
+}

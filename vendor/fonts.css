@@ -22,3 +22,12 @@
     url("../fonts/Inter-Bold.woff") format("woff");
   font-weight: 700;
 }
+
+@font-face {
+  font-family: "SF Compact Rounded";
+  src:
+    url("../fonts/SF-Compact-Rounded-Regular.woff2") format("woff2"),
+    url("../fonts/SF-Compact-Rounded-Regular.woff") format("woff");
+  font-weight: 400;
+  unicode-range: U+100356;
+}

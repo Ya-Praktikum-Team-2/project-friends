@@ -1,0 +1,33 @@
+.checkbox-label {
+  display: flex;
+  gap: 12px;
+  font: 400 18px/22px var(--font-normal);
+}
+
+.checkbox-label::before {
+  content: "";
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 1px solid var(--black-10);
+  border-radius: 4px;
+  transition: 0.4s ease;
+}
+
+.checkbox:checked + .checkbox-label::before {
+  border-color: var(--turquoise-40);
+  background-color: var(--turquoise-40);
+  background-image: url("../../../../images/write-us/check_mark.svg");
+}
+
+.checkbox:focus + .checkbox-label::before,
+.checkbox:hover + .checkbox-label::before {
+  border-color: var(--turquoise-40);
+}

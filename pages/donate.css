@@ -17,6 +17,7 @@
 
 /* input block */
 @import url("../blocks/input/input.css");
+@import url("../blocks/input/_round/input_round.css");
 @import url("../blocks/input/_white/input_white.css");
 
 /* page-block block */
@@ -24,10 +25,10 @@
 @import url("../blocks/page-block/_partial/page-block_partial.css");
 @import url("../blocks/page-block/_top-indent/page-block_top-indent.css");
 
-/* page block */
-@import url("../blocks/page/page.css");
-@import url("../blocks/page-block/page-block.css");
-@import url("../blocks/page-block/_top-indent/page-block_top-indent.css");
+/* checkbox block */
+@import url("../blocks/checkbox/checkbox.css");
+@import url("../blocks/checkbox-label/checkbox-label.css");
+@import url("../blocks/checkbox-label/__link/checkbox-label__link.css");
 
 /* header block */
 @import url("../blocks/header/header.css");
@@ -74,10 +75,12 @@
 @import url("../blocks/main/main.css");
 
 /* donation block */
-@import url("../blocks/donation-page/donation-page.css");
-@import url("../blocks/donation-page/__title/donation-page__title.css");
-@import url("../blocks/donation-page/__title-italics/donation-page__title-italics.css");
+@import url("../blocks/donation-section/donation-section.css");
+@import url("../blocks/donation-section/__title/donation-section__title.css");
+@import url("../blocks/donation-section/__title-italics/donation-section__title-italics.css");
 @import url("../blocks/donation/donation.css");
+@import url("../blocks/donation/__agreement/donation__agreement.css");
+@import url("../blocks/donation/__agreement/_opened/donation__agreement_opened.css");
 @import url("../blocks/donation/__section/donation__section.css");
 @import url("../blocks/donation/__section/_min-gap/donation__section_min-gap.css");
 @import url("../blocks/donation/__subtitle/donation__subtitle.css");
@@ -104,6 +107,8 @@
 @import url("../blocks/donation/__card/_hidden/donation__card_hidden.css");
 @import url("../blocks/donation/__card-inputs/donation__card-inputs.css");
 @import url("../blocks/donation/__card-input/donation__card-input.css");
+@import url("../blocks/donation/__support-btn/donation__support-btn.css");
+@import url("../blocks/donation/__support-btn/_active/donation__support-btn_active.css");
 @import url("../blocks/card/card.css");
 @import url("../blocks/card/__amount/card__amount.css");
 @import url("../blocks/card/__cvv-input/card__cvv-input.css");
@@ -116,14 +121,6 @@
 @import url("../blocks/card/__number/card__number.css");
 @import url("../blocks/card/__text-total/card__text-total.css");
 @import url("../blocks/card/__total-amount/card__total-amount.css");
-@import url("../blocks/agreement/agreement.css");
-@import url("../blocks/agreement/_opened/agreement_opened.css");
-@import url("../blocks/agreement/__label/agreement__label.css");
-@import url("../blocks/agreement/__checkbbox/agreement__checkbox.css");
-@import url("../blocks/agreement/__link/agreement__link.css");
-@import url("../blocks/agreement/__text/agreement__text.css");
-@import url("../blocks/donation/__support-btn/donation__support-btn.css");
-@import url("../blocks/donation/__support-btn/_active/donation__support-btn_active.css");
 
 /* feedback block */
 
@@ -148,10 +145,6 @@
 @import url("../blocks/write-us/__input/write-us__input.css");
 @import url("../blocks/write-us/__textarea/write-us__textarea.css");
 @import url("../blocks/write-us/__user-agreement/write-us__user-agreement.css");
-@import url("../blocks/write-us/__input-checkbox/write-us__input-checkbox.css");
-@import url("../blocks/write-us/__label/write-us__label.css");
-@import url("../blocks/write-us/__text/write-us__text.css");
-@import url("../blocks/write-us/__hyperlink/write-us__hyperlink.css");
 @import url("../blocks/write-us/__button-submit/write-us__button-submit.css");
 
 /* subscribe block */
@@ -206,6 +199,7 @@
 /* popup-write-us block */
 @import url("../blocks/popup-write-us/popup-write-us.css");
 @import url("../blocks/popup-write-us/_opened/popup-write-us_opened.css");
+@import url("../blocks/popup-write-us/_uninited/popup-write-us_uninited.css");
 @import url("../blocks/popup-write-us/__container/popup-write-us__container.css");
 @import url("../blocks/popup-write-us/__button-close/popup-write-us__button-close.css");
 @import url("../blocks/popup-write-us/__title/popup-write-us__title.css");

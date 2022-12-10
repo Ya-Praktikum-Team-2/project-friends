@@ -1,5 +1,15 @@
 .subscription__form {
-  position: relative;
-  display: flex;
-  gap: 16px;
+  grid-area: form;
+  display: grid;
+  grid-template: "input . button" / 328fr 16fr 152px;
+}
+
+@media (max-width: 576px) {
+  .subscription__form {
+    grid-template:
+      "input"
+      "." 16px
+      "button"
+      / 1fr;
+  }
 }

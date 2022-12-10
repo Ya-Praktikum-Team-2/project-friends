@@ -119,19 +119,21 @@
     <button class="header__help" type="button">Помочь фонду</button>
   </header>
   <main class="main">
-    <section class="donation-page">
-      <h1 class="donation-page__title">Поддерживая «Друзей»
-        вы&nbsp;помогаете <span class="donation-page__title-italics">развитию всей индустрии</span></h1>
-      <form class="donation">
+    <section class="donation-section page-block">
+      <h1 class="donation-section__title">Поддерживая «Друзей»
+        вы&nbsp;помогаете <span class="donation-section__title-italics">развитию всей индустрии</span></h1>
+      <form action="#" class="donation">
         <fieldset class="donation__section donation__section_min-gap">
           <legend class="donation__subtitle">Выберите тип и сумму пожертвования</legend>
           <div class="donation__frequency-wrapper">
             <input class="input donation__frequency donation__frequency_input" id="radio-1_option" type="radio"
               name="radio_type_option" value="1" checked>
-            <label class="input donation__frequency donation__frequency_label" for="radio-1_option" tabindex="0">Разовое</label>
+            <label class="input donation__frequency donation__frequency_label" for="radio-1_option"
+              tabindex="0">Разовое</label>
             <input class="input donation__frequency donation__frequency_input" id="radio-2_option" type="radio"
               name="radio_type_option" value="2">
-            <label class="input donation__frequency donation__frequency_label" for="radio-2_option" tabindex="0">Ежемесячное</label>
+            <label class="input donation__frequency donation__frequency_label" for="radio-2_option"
+              tabindex="0">Ежемесячное</label>
           </div>
           <p class="donation__describe-monthlypay">Ежемесячное пожертвование раз в месяц
             списывается с банковской карты, Google Pay или Apple Pay. В любой момент вы
@@ -141,31 +143,39 @@
           <legend class="donation__subtitle">Сумма поддержки</legend>
           <div class="donation__amount-wrapper">
             <input class="donation__amount-input" id="radio-1_amount" type="radio" name="radio_amount" value="1">
-            <label for="radio-1_amount" data-amount="5000" class="button button_type_gray donation__amount" tabindex="0">5 000</label>
+            <label for="radio-1_amount" data-amount="5000" class="button button_type_gray donation__amount"
+              tabindex="0">5 000</label>
             <input class="donation__amount-input" id="radio-2_amount" type="radio" name="radio_amount" value="2">
-            <label for="radio-2_amount" data-amount="10000" class="button button_type_gray donation__amount" tabindex="0">10 000</label>
+            <label for="radio-2_amount" data-amount="10000" class="button button_type_gray donation__amount"
+              tabindex="0">10 000</label>
             <input class="donation__amount-input" id="radio-3_amount" type="radio" name="radio_amount" value="3">
-            <label for="radio-3_amount" data-amount="50000" class="button button_type_gray donation__amount donation__amount_whole-width" tabindex="0">50 000</label>
+            <label for="radio-3_amount" data-amount="50000"
+              class="button button_type_gray donation__amount donation__amount_whole-width" tabindex="0">50 000</label>
           </div>
           <div class="donation__other-amount-wrapper">
             <input class="donation__amount-input" id="radio-4_amount" type="radio" name="radio_amount" value="4">
-            <input id="other-amount" autocomplete="off" type="text" inputmode="numeric" pattern="[0-9]*" class="donation__other-amount" name="other-amount" placeholder="Другая сумма">
+            <input id="other-amount" autocomplete="off" type="text" inputmode="numeric" pattern="[0-9]*"
+              class="donation__other-amount" name="other-amount" placeholder="Другая сумма">
             <span class="donation__ruble">&#8381;</span>
           </div>
         </fieldset>
         <fieldset class="donation__section">
           <legend class="donation__subtitle">Способ оплаты</legend>
           <div class="donation__buttons">
-            <button class="button button_type_gray donation__button donation__button_type_card" type="button" aria-label="Visa Maestro МИР"></button>
-            <button class="button button_type_gray donation__button donation__button_type_googlepay" type="button" aria-label="Google Pay"></button>
-            <button class="button button_type_gray donation__button donation__button_type_applepay" type="button" aria-label="Apple Pay"></button>
+            <button class="button button_type_gray donation__button donation__button_type_card" type="button"
+              aria-label="Visa Maestro МИР"></button>
+            <button class="button button_type_gray donation__button donation__button_type_googlepay" type="button"
+              aria-label="Google Pay"></button>
+            <button class="button button_type_gray donation__button donation__button_type_applepay" type="button"
+              aria-label="Apple Pay"></button>
           </div>
         </fieldset>
         <fieldset class="donation__card donation__card_hidden" disabled>
           <legend class="donation__subtitle">Банковская карта</legend>
           <div class="card">
-            <input autocomplete="cc-number" class="input input_white card__number" type="text" inputmode="numeric" pattern="[0-9\-]*" minlength="13"
-              maxlength="16" name="cardnumber" placeholder="Номер карты" value="" required>
+            <input autocomplete="cc-number" class="input input_white card__number" type="text" inputmode="numeric"
+              pattern="[0-9\-]*" minlength="13" maxlength="16" name="cardnumber" placeholder="Номер карты" value=""
+              required>
             <input autocomplete="cc-name" class="input input_white card__holder" type="text" name="cardholder"
               placeholder="Держатель карты" value="" required>
             <label class="card__expiration">Действует до
@@ -184,27 +194,23 @@
             </div>
           </div>
           <div class="donation__card-inputs">
-            <input class="input donation__card-input" type="text" name="name" placeholder="Имя" autocomplete="name" required>
-            <input class="input donation__card-input" type="text" name="surname" placeholder="Фамилия" autocomplete="family-name" required>
-            <input class="input donation__card-input" type="tel" name="mobilenumber" autocomplete="tel" maxlength="10" placeholder="Телефон" required>
-            <input class="input donation__card-input" type="email" name="email" placeholder="Email" autocomplete="email" required>
+            <input class="input donation__card-input" type="text" name="name" placeholder="Имя" autocomplete="name"
+              required>
+            <input class="input donation__card-input" type="text" name="surname" placeholder="Фамилия"
+              autocomplete="family-name" required>
+            <input class="input donation__card-input" type="tel" name="mobilenumber" autocomplete="tel" maxlength="10"
+              placeholder="Телефон" required>
+            <input class="input donation__card-input" type="email" name="email" placeholder="Email" autocomplete="email"
+              required>
           </div>
         </fieldset>
-        <div class="agreement">
-          <div>
-            <input class="agreement__checkbox" id="check-1" type="checkbox" name="approval" value="" required>
-            <label class="agreement__label" for="check-1"><span class="agreement__text">
-                Согласен с
-                <a href="#" class="agreement__link">офертой</a></span>
-            </label>
-          </div>
-          <div>
-            <input class="agreement__checkbox" id="check-2" type="checkbox" name="agreement" value="" required>
-            <label class="agreement__label" for="check-2"><span class="agreement__text">
-                Ознакомился и согласен c <a href="#" class="agreement__link">политикой обработки персональных
-                  данных</a>
-              </span></label>
-          </div>
+        <div class="donation__agreement">
+          <input class="checkbox" id="check-1" type="checkbox" name="approval" value="" required>
+          <label class="checkbox-label" for="check-1"><span>Согласен с <a href="#"
+                class="active-el checkbox-label__link">офертой</a></span></label>
+          <input class="checkbox" id="check-2" type="checkbox" name="agreement" value="" required>
+          <label class="checkbox-label" for="check-2"><span>Ознакомился и согласен c <a href="#"
+                class="active-el checkbox-label__link">политикой обработки персональныхданных</a></span></label>
         </div>
         <button type="submit" class="button button_type_yellow button_rounded donation__support-btn">Поддержать
           фонд</button>
@@ -239,7 +245,7 @@
             Экспертов <span class="statistics__font-bold">преподают </span>в наших программах
           </p>
         </li>
-    </ul>
+      </ul>
     </section>
     <section class="more-help" aria-label="удали меня">
 
@@ -247,19 +253,17 @@
     <section class="write-us page-block page-block_top-indent">
       <h2 class="write-us__title">Связь с нами</h2>
       <p class="write-us__paragraph">Если у вас есть вопросы или предложения, напишите нам. Мы ответим в течение дня</p>
-      <form class="write-us__form">
+      <form action="#" class="write-us__form">
         <div class="write-us__wrapper">
-          <input class="write-us__input" type="text" name="user_name" placeholder="Имя" required>
-          <input class="write-us__input" type="email" name="user_email" placeholder="E-mail" required>
+          <input class="input input_round write-us__input" type="text" name="user_name" placeholder="Имя" required>
+          <input class="input input_round write-us__input" type="email" name="user_email" placeholder="E-mail" required>
         </div>
-        <textarea class="write-us__textarea" name="user_message" id="write-us-msg" cols="30" rows="10" placeholder="Сообщение"></textarea>
-        <div class="write-us__user-agreement">
-          <input class="write-us__input-checkbox" type="checkbox" id="write-us_checkbox" value="" required>
-          <label class="write-us__label" for="write-us_checkbox">
-            <span class="write-us__text">Я согласен с <a class="write-us__hyperlink" href="#" target="_blank">пользовательским соглашением</a></span>
-          </label>
-        </div>
-        <button class="write-us__button-submit" type="submit">Отправить</button>
+        <textarea class="write-us__textarea" name="user_message" id="write-us-msg" cols="30" rows="10"
+          placeholder="Сообщение"></textarea>
+        <input class="checkbox" type="checkbox" id="write-us_checkbox" value="" required>
+        <label class="checkbox-label write-us__user-agreement" for="write-us_checkbox"><span>Я согласен с <a
+              class="active-el checkbox-label__link" href="#" target="_blank">пользовательским соглашением</a></span></label>
+        <button class="button button_type_gray button_rounded write-us__button-submit" type="submit">Отправить</button>
       </form>
     </section>
   </main>
@@ -328,6 +332,13 @@
       <img src="./images/logos/logo_duns.svg" alt="DUN & BRADSTREET" class="footer__duns-logo">
     </div>
   </footer>
+  <div class="popup-write-us popup-write-us_uninited">
+    <div class="popup-write-us__container">
+      <button class="popup-write-us__button-close active-el" type="button" aria-label="Закрыть"></button>
+      <h2 class="popup-write-us__title">Заявка успешно отправлена</h2>
+      <p class="popup-write-us__paragraph">Мы ответим в течение дня</p>
+    </div>
+  </div>
   <script type="module" src="scripts/donate.js"></script>
 </body>
 
