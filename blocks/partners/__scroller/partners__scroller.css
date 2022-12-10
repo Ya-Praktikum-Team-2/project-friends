@@ -1,0 +1,19 @@
+.partners__scroller {
+  overflow-x: scroll;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 57px;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.partners__scroller::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .partners__scroller {
+    gap: 32px;
+  }
+}

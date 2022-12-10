@@ -1,4 +1,53 @@
 .card {
-  position: relative;
-  width: 100%;
+  max-width: 367px;
+  min-height: 267px;
+  margin: 0;
+
+  z-index: 1;
+
+  display: grid;
+  grid-template:
+    ". .          .      .      . ." 24px
+    ". number     number number . ." 5px
+    ". number     number number . ."
+    ". .          .      .      . ." 8px
+    ". holder     holder holder . ."
+    ". .          .      .      . ." 16px
+    ". expiration .      amount . ."
+    ". .          .      .      . ." 24px
+    ". .          .      .      . ." 6px
+    / 24px 96px 27px 185px 32px 188px;
+}
+
+.card::before {
+  content: "";
+  grid-row: 1 / 9;
+  grid-column: 1 / 6;
+  background-color: var(--black-90);
+  border-radius: 8px;
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin: 16px auto 0;
+    width: 100%;
+    grid-template:
+      ". .          .      .      ." 16px
+      ". number     number number ."
+      ". .          .      .      ." 8px
+      ". holder     holder holder ."
+      ". .          .      .      ." 24px
+      ". expiration .      cvv    ."
+      ". .          .      .      ." 24px
+      ". amount     .      .      ."
+      ". .          .      .      ." 24px
+      / 16fr 112fr 32fr 135fr 16fr;
+  }
+
+  .card::before {
+    grid-row: 1 / 10;
+    grid-column: 1 / 6;
+    z-index: 0;
+  }
 }

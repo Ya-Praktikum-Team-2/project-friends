@@ -1,4 +1,4 @@
-.donation__amount {
-  color: var(--black-10);
-  font-size: 16px;
+.donation__amount-input:checked + .donation__amount {
+  color: var(--black-100);
+  background-color: var(--purple-70);
 }

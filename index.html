@@ -193,7 +193,7 @@
       </ul>
     </section>
     <section class="values page-block page-block_partial page-block_top-indent">
-      <h2 class="values__title">Наши ценности</h2>
+      <h2 id="values" class="values__title">Наши ценности</h2>
       <ul class="values__cells">
         <li class="value-cell">
           <img class="value-cell__image" src="./images/value-cell/education.svg" alt="Выпускник в академической шапочке">
@@ -244,7 +244,6 @@
           </p>
         </li>
     </ul>
-
     </section>
     <section class="useful-links page-block page-block_partial page-block_top-indent">
       <h2 id="useful" class="useful-links__title">Полезно</h2>
@@ -504,21 +503,34 @@
       </div>
       <a href="#" class="button button_type_gray button_rounded blog__link">Перейти в блог</a>
     </section>
-    <section class="subscription">
-      <div class="subscription__message">
-        <h3 class="subscription__message-heading">Подпишитесь на новостную рассылку программы</h3>
-        <p class="subscription__message-subtitle">и получайте первыми наши новости и приглашения на семинары/вебинары</p>
-      </div>
-      <form action="submit" class="subscription__form">
-        <input type="search" class="subscription__input subscription__input_empty" placeholder="Введите ваш e-mail">
-        <button type="reset" class="reset-button">
-          <img src="/images/icons/reset_input_button.svg" alt="Clear Input" class="reset-button__icon">
-        </button>
-        <button class="subscription__button">Подписаться</button>
+    <section class="subscription page-block page-block_top-indent">
+      <h2 id="subscription" class="subscription__title">Подпишитесь на новостную рассылку программы</h2>
+      <p class="subscription__subtitle">и получайте первыми наши новости и приглашения на семинары/вебинары</p>
+      <form action="#" class="subscription__form">
+        <input type="email" class="input input_white input_round subscription__input" placeholder="&#x100356;  Введите ваш e-mail" required>
+        <button type="reset" class="active-el subscription__reset subscription__reset_hide" aria-label="Сбросить ввод"></button>
+        <button class="button button_rounded button_type_blue subscription__button">Подписаться</button>
       </form>
     </section>
-    <section class="partners" aria-label="удали меня">
-
+    <section class="partners page-block page-block_partial page-block_top-indent">
+      <h2 id="partners" class="partners__title">Нам доверяют</h2>
+      <div class="partners__wrap">
+        <button type="button" class="arrow-button arrow-button_dir_left partners__button partners__button_dir_left" aria-hidden="true"></button>
+        <button type="button" class="arrow-button arrow-button_dir_right partners__button partners__button_dir_right" aria-hidden="true"></button>
+        <div class="partners__scroller">
+          <a href="#" class="partners__link"><img class="partners__logo" src="./images/partners/EY.svg" alt="EY"></a>
+          <a href="#" class="partners__link"><img class="partners__logo" src="./images/partners/roscongress.svg" alt="Росконгресс"></a>
+          <a href="#" class="partners__link"><img class="partners__logo" src="./images/partners/mastercard.svg" alt="Mastercard"></a>
+          <a href="#" class="partners__link"><img class="partners__logo" src="./images/partners/hotel-indigo.svg" alt="Отель Индиго"></a>
+          <a href="#" class="partners__link"><img class="partners__logo" src="./images/partners/BMW.svg" alt="BMW"></a>
+          <a href="#" class="partners__link"><img class="partners__logo" src="./images/partners/kpmg.svg" alt="KPMG"></a>
+          <a href="#" class="partners__link"><img class="partners__logo" src="./images/partners/hse.svg" alt="Высшая школа экономики"></a>
+          <a href="#" class="partners__link"><img class="partners__logo" src="./images/partners/bosco.svg" alt="Bosco"></a>
+          <a href="#" class="partners__link"><img class="partners__logo" src="./images/partners/alfa-private.svg" alt="Альфа Private"></a>
+          <a href="#" class="partners__link"><img class="partners__logo" src="./images/partners/cadillac.svg" alt="Caddilac"></a>
+          <button type="button" class="button button_rounded button_type_gray partners__view-all">Посмотреть все</button>
+        </div>
+      </div>
     </section>
     <section class="feedback" aria-label="удали меня">
 

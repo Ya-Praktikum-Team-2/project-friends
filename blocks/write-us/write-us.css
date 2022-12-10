@@ -1,0 +1,10 @@
+.write-us {
+  max-width: 680px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 679px) {
+  .write-us {
+    padding: 0 24px;
+  }
+}

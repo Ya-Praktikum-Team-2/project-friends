@@ -1,8 +1,24 @@
 .subscription {
   background-color: var(--black-90);
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template:
+    ". title    title . form ."
+    ". subtitle .     . form ."
+    / 125fr 428fr 75fr 28fr 496fr 115fr;
+
   align-items: center;
-  gap: 30px;
-  padding: 43px 125px;
+  padding: 43px 0;
+}
+
+@media (max-width: 1024px) {
+  .subscription {
+    padding: 40.5px 0 52px;
+    grid-template:
+      ". title    ."
+      ". .        ." 16px
+      ". subtitle ."
+      ". .        ." 36.5px
+      ". form     ."
+      / 24fr 327fr 24fr;
+  }
 }

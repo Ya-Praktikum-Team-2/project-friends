@@ -1,0 +1,19 @@
+.write-us__button-submit {
+  width: 100%;
+  margin: 38px 0 0;
+}
+
+.write-us__form:valid > .write-us__button-submit {
+  color: var(--black-100);
+  background-color: var(--blue-70);
+}
+
+.write-us__form:valid > .write-us__button-submit:hover {
+  background-color: var(--blue-60);
+}
+
+@media (max-width: 576px) {
+  .write-us__button-submit {
+    margin: 32px 0 0;
+  }
+}

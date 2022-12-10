@@ -1,0 +1,49 @@
+.card__cvv {
+  grid-row: 3 / 10;
+  grid-column: 1 / 7;
+  margin-left: 183px;
+  display: grid;
+  grid-template:
+    ". .     ." 25px
+    ". .     ." 5px
+    ". label ."
+    ". .     ." 4px
+    ". input ." 17px
+    ". input ."
+    ". .     ." 11px
+    ". text  ."
+    ". .     ." 1fr
+    / 205px 1fr 38px;
+}
+
+.card__cvv::before {
+  content: "";
+  grid-row: 1 / 10;
+  grid-column: 1 / 4;
+  background-color: var(--black-75);
+  border-radius: 8px;
+}
+
+.card__cvv::after {
+  content: "";
+  grid-row: 2 / 6;
+  grid-column: 1 / 4;
+  background-color: var(--black-85);
+  z-index: 0;
+}
+
+@media (max-width: 768px) {
+  .card__cvv {
+    grid-area: cvv;
+    margin-left: 0;
+    z-index: 1;
+    grid-template:
+      "label"
+      "input";
+  }
+
+  .card__cvv::before,
+  .card__cvv::after {
+    display: none;
+  }
+}

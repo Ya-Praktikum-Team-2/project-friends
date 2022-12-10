@@ -1,0 +1,4 @@
+.card__holder {
+  grid-area: holder;
+  z-index: 2;
+}
