@@ -119,6 +119,8 @@ const initDonationSection = (initShowTotal) => {
   buttonPayMonthly.addEventListener('change', handlePayTypeChange);
 
   buttonPayOnce.addEventListener('change', handlePayTypeChange);
+
+  buttons[0].click();
 };
 
 export default initDonationSection;
