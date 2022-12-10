@@ -1,0 +1,20 @@
+.feedback__content {
+  display: flex;
+  max-width: 833px;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .feedback__content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .feedback__content {
+    max-width: 375px;
+  }
+}
