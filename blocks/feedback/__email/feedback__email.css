@@ -1,0 +1,24 @@
+.feedback__email {
+  font-size: 46px;
+  line-height: 60px;
+  font-weight: 400;
+  font-family: var(--font-normal);
+  color: var(--turquoise-60);
+  text-decoration: none;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .feedback__email {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+
+@media (max-width: 768px) {
+  .feedback__email {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
