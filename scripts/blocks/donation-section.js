@@ -17,7 +17,7 @@ const initDonationSection = (initShowTotal) => {
       cardEl.removeAttribute('disabled');
       cardEl.classList.remove('donation__card_hidden');
     } else {
-      cardEl.setAttribute('disabled', null);
+      cardEl.setAttribute('disabled', '');
       cardEl.classList.add('donation__card_hidden');
     }
   };
