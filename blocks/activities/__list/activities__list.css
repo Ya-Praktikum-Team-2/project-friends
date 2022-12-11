@@ -8,11 +8,17 @@
   grid-template-rows: 121fr 42px 69fr 52px 68fr 43px 120fr;
   grid-template-columns: 1fr;
   justify-items: start;
+  background-image: url("../../../images/whatWeDoing.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 768px) {
   .activities__list {
     grid-template-rows: 95fr 9px 86fr 7px 88fr 7px 95fr;
     min-height: 391px;
+    background-image: url("../../../images/whatWeDoingMobil.svg");
+    background-size: cover;
   }
 }
