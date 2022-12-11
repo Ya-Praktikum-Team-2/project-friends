@@ -1,6 +1,5 @@
 .feedback__content {
   display: flex;
-  max-width: 833px;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
