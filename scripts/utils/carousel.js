@@ -90,6 +90,8 @@ export default class Carousel {
     this.itemWrapEl.addEventListener('animationend', ({ target }) => {
       Carousel.removeAnimationClasses(target);
     }, { passive: true });
+
+    this.dotsWrapEl.addEventListener('click', (e) => this.handlerDotClick(e));
   }
 
   /** @private */
@@ -157,6 +159,27 @@ export default class Carousel {
         slideFinished = true;
       }
     }, { passive: true });
+  }
+
+  /**
+   * Switch slide to the index of the clicked dot.
+   * @private
+   */
+  handlerDotClick(e) {
+    const { target } = e;
+    const idx = this.dotEls.indexOf(target.closest('.carousel-dots__dot'));
+    if (idx === -1) {
+      return;
+    }
+    e.preventDefault();
+    let movement = 0;
+    if (this.alwaysSlide) {
+      movement = 1;
+      if (idx < this.currentIdx) {
+        movement = -movement;
+      }
+    }
+    this.showSliderAt(idx, movement);
   }
 
   /**
