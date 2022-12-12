@@ -2,6 +2,9 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/variables.css");
 
+/* page block */
+@import url("../blocks/page/page.css");
+
 /* close-button block */
 @import url("../blocks/close-button/close-button.css");
 
