@@ -13,22 +13,22 @@
 
 /* button block */
 @import url("../blocks/button/button.css");
-@import url("../blocks/button/_rounded/button_rounded.css");
+@import url("../blocks/button/_type/button_type_rounded.css");
 @import url("../blocks/button/_type/button_type_gray.css");
 @import url("../blocks/button/_type/button_type_transparent.css");
 @import url("../blocks/button/_type/button_type_yellow.css");
 @import url("../blocks/button/_type/button_type_blue.css");
-@import url("../blocks/button/_arrow/button_arrow.css");
+@import url("../blocks/button/_type/button_type_arrow.css");
 
 /* input block */
 @import url("../blocks/input/input.css");
-@import url("../blocks/input/_round/input_round.css");
-@import url("../blocks/input/_white/input_white.css");
+@import url("../blocks/input/_type/input_type_round.css");
+@import url("../blocks/input/_type/input_type_white.css");
 
 /* page-block block */
 @import url("../blocks/page-block/page-block.css");
-@import url("../blocks/page-block/_partial/page-block_partial.css");
-@import url("../blocks/page-block/_top-indent/page-block_top-indent.css");
+@import url("../blocks/page-block/_type/page-block_type_partial.css");
+@import url("../blocks/page-block/_type/page-block_type_top-indent.css");
 
 /* checkbox block */
 @import url("../blocks/checkbox/checkbox.css");
@@ -227,7 +227,7 @@
 /* popup-write-us block */
 @import url("../blocks/popup-write-us/popup-write-us.css");
 @import url("../blocks/popup-write-us/_opened/popup-write-us_opened.css");
-@import url("../blocks/popup-write-us/_uninited/popup-write-us_uninited.css");
+@import url("../blocks/popup-write-us/_state/popup-write-us_state_uninited.css");
 @import url("../blocks/popup-write-us/__container/popup-write-us__container.css");
 @import url("../blocks/popup-write-us/__button-close/popup-write-us__button-close.css");
 @import url("../blocks/popup-write-us/__title/popup-write-us__title.css");

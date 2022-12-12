@@ -14,7 +14,7 @@
 }
 
 @media (min-width: 768px) {
-  .blog-item_big .blog-item__date {
+  .blog-item_type_big .blog-item__date {
     color: var(--black-100);
   }
 }

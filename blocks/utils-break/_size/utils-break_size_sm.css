@@ -1,5 +1,5 @@
 @media (max-width: 576px) {
-  .utils-break_sm::before {
+  .utils-break_size_sm::before {
     white-space: normal;
   }
 }

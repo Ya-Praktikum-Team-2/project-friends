@@ -12,7 +12,7 @@
 }
 
 @media (min-width: 768px) {
-  .blog-item_big .blog-item__sticker {
+  .blog-item_type_big .blog-item__sticker {
     grid-area: 1 / 1 / 7 / 5;
   }
 }

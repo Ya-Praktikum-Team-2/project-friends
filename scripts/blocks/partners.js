@@ -1,25 +1,25 @@
 const initPartners = () => {
   const scroller = document.querySelector('.partners__scroller');
-  const buttonNext = document.querySelector('.partners__button_dir_right');
-  const buttonPrev = document.querySelector('.partners__button_dir_left');
+  const buttonNext = document.querySelector('.partners__button_type_next');
+  const buttonPrev = document.querySelector('.partners__button_type_prev');
 
   const checkScroller = () => {
     if (scroller.scrollLeft <= 10) {
-      buttonPrev.classList.add('partners__hidden');
+      buttonPrev.classList.add('partners__button_type_hidden');
     } else {
-      buttonPrev.classList.remove('partners__hidden');
+      buttonPrev.classList.remove('partners__button_type_hidden');
     }
     if (Math.abs(scroller.scrollLeft + scroller.clientWidth - scroller.scrollWidth) <= 10) {
-      buttonNext.classList.add('partners__hidden');
+      buttonNext.classList.add('partners__button_type_hidden');
     } else {
-      buttonNext.classList.remove('partners__hidden');
+      buttonNext.classList.remove('partners__button_type_hidden');
     }
   };
 
   const disableButtons = () => {
     if (scroller.scrollWidth <= scroller.clientWidth) {
-      buttonPrev.classList.add('partners__hidden');
-      buttonNext.classList.add('partners__hidden');
+      buttonPrev.classList.add('partners__button_type_hidden');
+      buttonNext.classList.add('partners__button_type_hidden');
       return;
     }
     checkScroller();

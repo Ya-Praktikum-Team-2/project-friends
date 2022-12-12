@@ -16,7 +16,7 @@ const initWriteUs = () => {
     popupWriteUs.classList.remove('popup-write-us_opened');
   });
 
-  popupWriteUs.classList.remove('popup-write-us_uninited');
+  popupWriteUs.classList.remove('popup-write-us_state_uninited');
 };
 
 export default initWriteUs;

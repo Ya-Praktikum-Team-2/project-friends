@@ -1,8 +1,8 @@
-.button_arrow {
+.button_type_arrow {
   position: relative;
 }
 
-.button_arrow::after {
+.button_type_arrow::after {
   content: "";
   position: absolute;
   top: 50%;
