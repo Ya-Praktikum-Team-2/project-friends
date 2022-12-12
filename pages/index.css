@@ -219,7 +219,7 @@
 @import url("../blocks/blog/__dots/blog__dots.css");
 @import url("../blocks/blog/__item/blog__item.css");
 @import url("../blocks/blog/__item/_type/blog__item_type_big.css");
-@import url("../blocks/blog/__item/_type/blog__item_type_right.css");
+@import url("../blocks/blog/__item/_type/blog__item_type_movable.css");
 @import url("../blocks/blog/__link/blog__link.css");
 @import url("../blocks/blog/__list/blog__list.css");
 @import url("../blocks/blog/__next/blog__next.css");

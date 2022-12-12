@@ -1,5 +1,5 @@
 @media (min-width: 769px) {
-  .blog__item_type_right {
+  .blog__item_type_movable {
     grid-area: right-post;
   }
 }
