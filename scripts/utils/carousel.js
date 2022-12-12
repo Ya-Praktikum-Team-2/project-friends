@@ -91,7 +91,7 @@ export default class Carousel {
       Carousel.removeAnimationClasses(target);
     }, { passive: true });
 
-    this.dotsWrapEl.addEventListener('click', (e) => this.handlerDotClick(e));
+    this.dotsWrapEl.addEventListener('click', (e) => this.handleDotClick(e));
   }
 
   /** @private */
@@ -165,7 +165,7 @@ export default class Carousel {
    * Switch slide to the index of the clicked dot.
    * @private
    */
-  handlerDotClick(e) {
+  handleDotClick(e) {
     const { target } = e;
     const idx = this.dotEls.indexOf(target.closest('.carousel-dots__dot'));
     if (idx === -1) {
