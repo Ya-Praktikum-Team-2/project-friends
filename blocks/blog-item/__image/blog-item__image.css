@@ -12,7 +12,7 @@
 }
 
 @media (min-width: 769px) {
-  .blog-item_big .blog-item__image {
+  .blog-item_type_big .blog-item__image {
     aspect-ratio: unset;
     height: 100%;
     grid-area: row-start / col-start / row-end / col-end;
