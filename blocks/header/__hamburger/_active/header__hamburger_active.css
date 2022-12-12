@@ -1,4 +1,6 @@
 .header__hamburger_active {
   border-radius: 3px;
   background-color: var(--black-100-20p);
+  background-image: url("../../../../images/icons/close_white.svg");
+  background-size: 18px;
 }
